@@ -1,0 +1,42 @@
+{
+  "substance": "sertraline",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "50 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Sertraline Demo 50 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "734ca6b756a8e9fee1d399a405e82f40da074750e4b2dd3ab77a5546a1e86ffa",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "50 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Sertraline Pharmaplus 50 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "2b2cc2d4536a17a9de8a57f397b1e3f02a1a69e6f4471a32d0af6824e23276a3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "25 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Sertraline Sandoz 25 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "312f64c29186b8cb616c265501236fee225c6472ceed2deec7bd87bf3382782f",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

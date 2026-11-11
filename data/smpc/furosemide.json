@@ -1,0 +1,42 @@
+{
+  "substance": "furosemide",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "40 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Furosemide Demo 40 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "5874920130a17560deef04e89238e68eabeec424d4beb4225140183028271b0a",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "40 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Furosemide Pharmaplus 40 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "23b78d1d713bdf84ccc5780843169202f19e05054a9bf3fc8d973f6543aeb7cd",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "20 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Furosemide Sandoz 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "bc63b35c02ec6ee68cf1dbe3c57e8db923e2131ecd71d877d74e26ea42ee2f82",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

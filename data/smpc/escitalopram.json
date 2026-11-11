@@ -1,0 +1,42 @@
+{
+  "substance": "escitalopram",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "10 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Escitalopram Demo 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "1c7ddd922e7d065ad4b9262cdf2337f2a8bbdea72c2c391f3d4f511c301b7526",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "10 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Escitalopram Pharmaplus 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "c37d300fba74d34e532391088033643ea53fa518cad5a24aedfc078fe438ee44",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "20 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Escitalopram Sandoz 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "a48d1be1f7f273e10a345774c28d82f75e8fca960c288d0cfb53c356db8f9bbd",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

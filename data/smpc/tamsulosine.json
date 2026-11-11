@@ -1,0 +1,42 @@
+{
+  "substance": "tamsulosine",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "0,4 mg",
+        "form": "capsule met gereguleerde afgifte",
+        "adult_only": false
+      },
+      "doc": "SmPC Tamsulosine Demo 0,4 mg capsule met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "dd4e697f82596ee2ed8e82e72c5d21a45b0111a9880946b8f8daaa2e10dd189d",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "0,4 mg",
+        "form": "capsule met gereguleerde afgifte",
+        "adult_only": false
+      },
+      "doc": "SmPC Tamsulosine Pharmaplus 0,4 mg capsule met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "062d479cab9120506cfe432667d1279e4d6a820330a8909619bf66ab224ab7d3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "0,4 mg",
+        "form": "tablet met gereguleerde afgifte",
+        "adult_only": false
+      },
+      "doc": "SmPC Tamsulosine Sandoz 0,4 mg tablet met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "c916bcc4e9b199cf57d3f530cba42dd5ec583a405cc89b5836f4602f32822e97",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

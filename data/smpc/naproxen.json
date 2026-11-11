@@ -1,0 +1,42 @@
+{
+  "substance": "naproxen",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Naproxen Demo 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "94a1df8d0cc4d3e89628a2e9edb84be268e637a7b9b1b2c515395fe647c8c356",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Naproxen Pharmaplus 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "f047556b7503ecb16b22125a0929fce96973dee85031e5802e6ab684011f29a5",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Naproxen Sandoz 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "52b0ed216ecc63f07a619a20b5b623f0e677b3272cf7bf9ca0b7f749c17e61d6",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

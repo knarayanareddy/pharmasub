@@ -1,0 +1,54 @@
+{
+  "substance": "atorvastatine",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "20 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Atorvastatine Demo 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "acbc710366b59cfcd38bb5fe9d806354c511e4e2f1c2342d4e407a24b895b2a3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "20 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Atorvastatine Pharmaplus 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "74b255266ce360b10a4580853fb3235f400f5987bfb8966c2f93d6a7a7d99090",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "40 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Atorvastatine Sandoz 40 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "fefac04859c0530bc801cce22ab1c0625efda7a2613fb3896182b94ad3474ed6",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "buitenlandse registratie",
+      "value": {
+        "strength": "20 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Atorvastatine EU 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "36c6590eee0d6b8ccd043334238cad3880fa0306a5d9bbabcca750b2b450fc20",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

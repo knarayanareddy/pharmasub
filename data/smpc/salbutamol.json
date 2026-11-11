@@ -1,0 +1,54 @@
+{
+  "substance": "salbutamol",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "adult_only": false
+      },
+      "doc": "SmPC Salbutamol Demo 100 mcg inhalatiepoeder §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "f26fdfd7cc59421c04309eac2474bffc3d1ee63ccfe9ecc68459061aa6308ccd",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "100 mcg",
+        "form": "aerosol",
+        "adult_only": false
+      },
+      "doc": "SmPC Salbutamol Pharmaplus 100 mcg aerosol §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "15d322dbce81fd26b64bf1f0fb81456ef1d5e7127ab01a04c290b82fcdf5e229",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "2 mg/5 ml",
+        "form": "drank",
+        "adult_only": false
+      },
+      "doc": "SmPC Salbutamol Sandoz 2 mg/5 ml drank §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "70b1048c27a130de3cda547eaffaf6231d4c1b0176e7e75122a1e9e5d71d72c6",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "buitenlandse registratie",
+      "value": {
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "adult_only": false
+      },
+      "doc": "SmPC Salbutamol EU 100 mcg inhalatiepoeder §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "369a23c86b0bfb2544fbd1f7bb9a7c9ad79a3562b2f1842c165ddce097a05ceb",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

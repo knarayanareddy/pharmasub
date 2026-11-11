@@ -1,0 +1,5522 @@
+[
+  {
+    "id": "P-001",
+    "name": "Mila Ait Ali",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 24,
+    "pharmacy_type": "zelfstandig",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7051492938771844,
+      "hops": 0.613614154420793,
+      "payer": 0.6135267887450755,
+      "gp": 0.5335521481186152,
+      "unknown": 0.5843131978996098,
+      "patient": 0.5494689790345729
+    },
+    "behav": {
+      "voice": 0.775467802034691,
+      "susceptibility": 0.48874477117788045,
+      "conviction": 0.5217247526859865
+    }
+  },
+  {
+    "id": "P-002",
+    "name": "Thijs Kaya",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "zelfstandig",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6912097203172742,
+      "hops": 0.5462689487449824,
+      "payer": 0.5795060767792165,
+      "gp": 0.5355009037069977,
+      "unknown": 0.6572090091556311,
+      "patient": 0.5827557986415923
+    },
+    "behav": {
+      "voice": 0.7659437452070414,
+      "susceptibility": 0.5431879438227043,
+      "conviction": 0.5771447733743117
+    }
+  },
+  {
+    "id": "P-003",
+    "name": "Mo Al-Hassan",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 33,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7000126109831035,
+      "hops": 0.5701378473825752,
+      "payer": 0.6219050251506268,
+      "gp": 0.48168402357026935,
+      "unknown": 0.6175424305349588,
+      "patient": 0.5977589902840555
+    },
+    "behav": {
+      "voice": 0.7144718874339014,
+      "susceptibility": 0.45360157983377575,
+      "conviction": 0.562623415584676
+    }
+  },
+  {
+    "id": "P-004",
+    "name": "Eva de Groot",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 2,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7384057804383337,
+      "hops": 0.603546650595963,
+      "payer": 0.6014159988425671,
+      "gp": 0.4967751754820347,
+      "unknown": 0.6370443494059146,
+      "patient": 0.5775416794233025
+    },
+    "behav": {
+      "voice": 0.7723933947598561,
+      "susceptibility": 0.46924733638297766,
+      "conviction": 0.5871996146626771
+    }
+  },
+  {
+    "id": "P-005",
+    "name": "Robin Willems",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 14,
+    "pharmacy_type": "zelfstandig",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6810754942335188,
+      "hops": 0.6147338809259235,
+      "payer": 0.5685724134743213,
+      "gp": 0.4877318749204278,
+      "unknown": 0.5861495901457965,
+      "patient": 0.5984297766350211
+    },
+    "behav": {
+      "voice": 0.7621548974979668,
+      "susceptibility": 0.49682465887162836,
+      "conviction": 0.59448382682167
+    }
+  },
+  {
+    "id": "P-006",
+    "name": "Robin Kowalski",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 30,
+    "pharmacy_type": "zelfstandig",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7264989071339368,
+      "hops": 0.541960331890732,
+      "payer": 0.5603041609562933,
+      "gp": 0.5236689190752805,
+      "unknown": 0.630271077286452,
+      "patient": 0.5444678968749941
+    },
+    "behav": {
+      "voice": 0.7375586740998551,
+      "susceptibility": 0.4941230868687853,
+      "conviction": 0.5301898261997849
+    }
+  },
+  {
+    "id": "P-007",
+    "name": "Sam Ait Ali",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 22,
+    "pharmacy_type": "zelfstandig",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7169346954487263,
+      "hops": 0.5578969352506101,
+      "payer": 0.5697396531142294,
+      "gp": 0.501349330842495,
+      "unknown": 0.6499028673022985,
+      "patient": 0.5373387280665338
+    },
+    "behav": {
+      "voice": 0.784178259302862,
+      "susceptibility": 0.5437840982573107,
+      "conviction": 0.5159413713030517
+    }
+  },
+  {
+    "id": "P-008",
+    "name": "Eva de Boer",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 3,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6788216211274266,
+      "hops": 0.559059062320739,
+      "payer": 0.6235999999567866,
+      "gp": 0.48071205874904993,
+      "unknown": 0.6160727789998054,
+      "patient": 0.5646686493977905
+    },
+    "behav": {
+      "voice": 0.7078851688047871,
+      "susceptibility": 0.5305460250936449,
+      "conviction": 0.525343830534257
+    }
+  },
+  {
+    "id": "P-009",
+    "name": "Sanne van Wijk",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 25,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7314047319069504,
+      "hops": 0.6156420150585472,
+      "payer": 0.5929521685838699,
+      "gp": 0.48058856593444943,
+      "unknown": 0.6159403130225837,
+      "patient": 0.5697832547314465
+    },
+    "behav": {
+      "voice": 0.7437443198263645,
+      "susceptibility": 0.5389586888253689,
+      "conviction": 0.5903044105041773
+    }
+  },
+  {
+    "id": "P-010",
+    "name": "Mila van der Laan",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7082724506407976,
+      "hops": 0.6099391957558691,
+      "payer": 0.6183517091162503,
+      "gp": 0.48110602721571927,
+      "unknown": 0.6491715760901571,
+      "patient": 0.5562031963653863
+    },
+    "behav": {
+      "voice": 0.7080227327626198,
+      "susceptibility": 0.4613138419110328,
+      "conviction": 0.5373886912595481
+    }
+  },
+  {
+    "id": "P-011",
+    "name": "Joris van der Wal",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 2,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6670836560055613,
+      "hops": 0.5882077041454613,
+      "payer": 0.5751432140544057,
+      "gp": 0.48427791900932793,
+      "unknown": 0.6406074272468686,
+      "patient": 0.5420698127709329
+    },
+    "behav": {
+      "voice": 0.7137572833197191,
+      "susceptibility": 0.5325044832658022,
+      "conviction": 0.5399851610651241
+    }
+  },
+  {
+    "id": "P-012",
+    "name": "Eva Visser",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6987339440733193,
+      "hops": 0.6056237709894776,
+      "payer": 0.5846541879512369,
+      "gp": 0.4812130166776478,
+      "unknown": 0.6011022314615547,
+      "patient": 0.5761130776815117
+    },
+    "behav": {
+      "voice": 0.758884138460271,
+      "susceptibility": 0.4704348732018843,
+      "conviction": 0.5956591418245808
+    }
+  },
+  {
+    "id": "P-013",
+    "name": "Noor Bos",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "zelfstandig",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6724060266837477,
+      "hops": 0.5754489728622139,
+      "payer": 0.5707129110023379,
+      "gp": 0.5057229088246823,
+      "unknown": 0.6377065873146057,
+      "patient": 0.5720578864961863
+    },
+    "behav": {
+      "voice": 0.6922731957724317,
+      "susceptibility": 0.4680493694031611,
+      "conviction": 0.5193088133819401
+    }
+  },
+  {
+    "id": "P-014",
+    "name": "Daan Şahin",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 35,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.714425009265542,
+      "hops": 0.5658678551390767,
+      "payer": 0.5601455018669367,
+      "gp": 0.5214281490072609,
+      "unknown": 0.6193302141502499,
+      "patient": 0.5367106910049916
+    },
+    "behav": {
+      "voice": 0.7100887327315286,
+      "susceptibility": 0.4817598767578602,
+      "conviction": 0.5711530329659582
+    }
+  },
+  {
+    "id": "P-015",
+    "name": "Noor Wójcik",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 1,
+    "pharmacy_type": "zelfstandig",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6985036780871451,
+      "hops": 0.5454627366922795,
+      "payer": 0.6103304996713995,
+      "gp": 0.4878888174891472,
+      "unknown": 0.593472700547427,
+      "patient": 0.546454888470471
+    },
+    "behav": {
+      "voice": 0.7399568664934486,
+      "susceptibility": 0.501042919466272,
+      "conviction": 0.5491797726135701
+    }
+  },
+  {
+    "id": "P-016",
+    "name": "Mila Kaur",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "zelfstandig",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7001119130104779,
+      "hops": 0.5826421209797262,
+      "payer": 0.6137526357918978,
+      "gp": 0.5432633300311863,
+      "unknown": 0.5926472216844558,
+      "patient": 0.5544572835043073
+    },
+    "behav": {
+      "voice": 0.7136639513866976,
+      "susceptibility": 0.47044209456071256,
+      "conviction": 0.5459047463024036
+    }
+  },
+  {
+    "id": "P-017",
+    "name": "Kees van der Meer",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "zelfstandig",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6907704951055348,
+      "hops": 0.6124812339432537,
+      "payer": 0.6381182574294507,
+      "gp": 0.5088181684538722,
+      "unknown": 0.5844563069567085,
+      "patient": 0.5467690802179277
+    },
+    "behav": {
+      "voice": 0.7729056846443564,
+      "susceptibility": 0.4740499881329015,
+      "conviction": 0.5517516667488963
+    }
+  },
+  {
+    "id": "P-018",
+    "name": "Noor de Vries",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 28,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.68839998036623,
+      "hops": 0.5799959178641438,
+      "payer": 0.6126452677510679,
+      "gp": 0.4872491407394409,
+      "unknown": 0.6327276961877942,
+      "patient": 0.5334808561578394
+    },
+    "behav": {
+      "voice": 0.7286410597944633,
+      "susceptibility": 0.47585905231535436,
+      "conviction": 0.5207601026864723
+    }
+  },
+  {
+    "id": "P-019",
+    "name": "Sanne Kowalczyk",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 13,
+    "pharmacy_type": "zelfstandig",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7309396316297352,
+      "hops": 0.6078372660465539,
+      "payer": 0.6229306912049651,
+      "gp": 0.48288149416446685,
+      "unknown": 0.6370227964408696,
+      "patient": 0.5439413885958493
+    },
+    "behav": {
+      "voice": 0.7425090088136495,
+      "susceptibility": 0.46069988077506424,
+      "conviction": 0.5144469453953207
+    }
+  },
+  {
+    "id": "P-020",
+    "name": "Sam Smits",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 12,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7099510072544216,
+      "hops": 0.5525916132330894,
+      "payer": 0.5712385374493897,
+      "gp": 0.5052237909473479,
+      "unknown": 0.6225310684554278,
+      "patient": 0.5272888879850507
+    },
+    "behav": {
+      "voice": 0.6933906205324456,
+      "susceptibility": 0.4900568877113983,
+      "conviction": 0.5760427256347612
+    }
+  },
+  {
+    "id": "P-021",
+    "name": "Noor Vermeulen",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6759595713391899,
+      "hops": 0.5890267777629197,
+      "payer": 0.6173168421909213,
+      "gp": 0.5031259210780263,
+      "unknown": 0.5870468686521053,
+      "patient": 0.5327433415874839
+    },
+    "behav": {
+      "voice": 0.7302121320832521,
+      "susceptibility": 0.46708479812368753,
+      "conviction": 0.5361427299445496
+    }
+  },
+  {
+    "id": "P-022",
+    "name": "Daan van den Berg",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 5,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7296558437310159,
+      "hops": 0.544896241389215,
+      "payer": 0.6148157627135515,
+      "gp": 0.5022969307564199,
+      "unknown": 0.657402111813426,
+      "patient": 0.5784085300378502
+    },
+    "behav": {
+      "voice": 0.7149952564015984,
+      "susceptibility": 0.5345880678854883,
+      "conviction": 0.5645284540252761
+    }
+  },
+  {
+    "id": "P-023",
+    "name": "Noor Haddad",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 9,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7396856370009481,
+      "hops": 0.556862478274852,
+      "payer": 0.5764540896192193,
+      "gp": 0.5492388658970595,
+      "unknown": 0.5888345302827657,
+      "patient": 0.5512716768868268
+    },
+    "behav": {
+      "voice": 0.7174741916917264,
+      "susceptibility": 0.4858514177147299,
+      "conviction": 0.5264030770864339
+    }
+  },
+  {
+    "id": "P-024",
+    "name": "Mila Al-Hassan",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "zelfstandig",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.739698662366718,
+      "hops": 0.599164183307439,
+      "payer": 0.6150634318217635,
+      "gp": 0.5450545659102499,
+      "unknown": 0.6401892411150039,
+      "patient": 0.5241008703410626
+    },
+    "behav": {
+      "voice": 0.7470458634523675,
+      "susceptibility": 0.5461721267784014,
+      "conviction": 0.5757055771537125
+    }
+  },
+  {
+    "id": "P-025",
+    "name": "Sanne Çelik",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6902430902048945,
+      "hops": 0.542821414526552,
+      "payer": 0.6035703140869736,
+      "gp": 0.5286029412783683,
+      "unknown": 0.6026247641071677,
+      "patient": 0.5410658106394113
+    },
+    "behav": {
+      "voice": 0.7026681479858234,
+      "susceptibility": 0.4694850829662755,
+      "conviction": 0.555315237143077
+    }
+  },
+  {
+    "id": "P-026",
+    "name": "Daan Benali",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 35,
+    "pharmacy_type": "zelfstandig",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7048950868286192,
+      "hops": 0.5635782685503363,
+      "payer": 0.5635619972646236,
+      "gp": 0.5474497358873487,
+      "unknown": 0.5927769088000059,
+      "patient": 0.5674608411826194
+    },
+    "behav": {
+      "voice": 0.7400737622147426,
+      "susceptibility": 0.5226071072742343,
+      "conviction": 0.549813742400147
+    }
+  },
+  {
+    "id": "P-027",
+    "name": "Sanne Schouten",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 23,
+    "pharmacy_type": "zelfstandig",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7365890002809464,
+      "hops": 0.6075203699618578,
+      "payer": 0.5696667871251702,
+      "gp": 0.4852778957784176,
+      "unknown": 0.6134570539928973,
+      "patient": 0.5400789575092495
+    },
+    "behav": {
+      "voice": 0.7360473155602812,
+      "susceptibility": 0.4790553033584729,
+      "conviction": 0.5990542572457344
+    }
+  },
+  {
+    "id": "P-028",
+    "name": "Anouk Al-Ahmad",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6875257218629122,
+      "hops": 0.573441356960684,
+      "payer": 0.6205283147096634,
+      "gp": 0.5022882812842727,
+      "unknown": 0.6194757759198546,
+      "patient": 0.5641354862600565
+    },
+    "behav": {
+      "voice": 0.7244007104635238,
+      "susceptibility": 0.4501576870912686,
+      "conviction": 0.5373279973864555
+    }
+  },
+  {
+    "id": "P-029",
+    "name": "Meryem van den Heuvel",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 22,
+    "pharmacy_type": "zelfstandig",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.729771773777902,
+      "hops": 0.6071873033605516,
+      "payer": 0.609861649889499,
+      "gp": 0.5041230778954924,
+      "unknown": 0.619704497102648,
+      "patient": 0.5999223280139268
+    },
+    "behav": {
+      "voice": 0.7084198784874752,
+      "susceptibility": 0.5468091329792515,
+      "conviction": 0.5321872281143443
+    }
+  },
+  {
+    "id": "P-030",
+    "name": "Meryem Visser",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "zelfstandig",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6770895565301179,
+      "hops": 0.600401912909001,
+      "payer": 0.5679177753813565,
+      "gp": 0.49725649209693074,
+      "unknown": 0.6381692936643958,
+      "patient": 0.5844680852256716
+    },
+    "behav": {
+      "voice": 0.7309794674720616,
+      "susceptibility": 0.4609632386360317,
+      "conviction": 0.5115315798437223
+    }
+  },
+  {
+    "id": "P-031",
+    "name": "Mila Bos",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6650257203541695,
+      "hops": 0.5696716620959341,
+      "payer": 0.5726352947950363,
+      "gp": 0.4931929363124073,
+      "unknown": 0.6209124934487045,
+      "patient": 0.5498797521553934
+    },
+    "behav": {
+      "voice": 0.7752878836449235,
+      "susceptibility": 0.4794464021688327,
+      "conviction": 0.5793156947940589
+    }
+  },
+  {
+    "id": "P-032",
+    "name": "Kuba Benali",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "zelfstandig",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7215426186658441,
+      "hops": 0.6054787196777761,
+      "payer": 0.6138546665385365,
+      "gp": 0.5375877462141216,
+      "unknown": 0.6296289120428264,
+      "patient": 0.5226961643435062
+    },
+    "behav": {
+      "voice": 0.7130300702620298,
+      "susceptibility": 0.5230634440435097,
+      "conviction": 0.5236476426944137
+    }
+  },
+  {
+    "id": "P-033",
+    "name": "Daan Al-Hassan",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7279446290060877,
+      "hops": 0.5527595704607665,
+      "payer": 0.6142967287823557,
+      "gp": 0.5373837613314391,
+      "unknown": 0.6036364336684347,
+      "patient": 0.5871742444112897
+    },
+    "behav": {
+      "voice": 0.7475828329427168,
+      "susceptibility": 0.4532786453375593,
+      "conviction": 0.5952788131078706
+    }
+  },
+  {
+    "id": "P-034",
+    "name": "Fatima Koster",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7162756387144327,
+      "hops": 0.5604844543151557,
+      "payer": 0.5992279088869691,
+      "gp": 0.4942653170786798,
+      "unknown": 0.6333429694548249,
+      "patient": 0.5920971121266485
+    },
+    "behav": {
+      "voice": 0.6969599748589098,
+      "susceptibility": 0.5445577635196969,
+      "conviction": 0.5502098226221279
+    }
+  },
+  {
+    "id": "P-035",
+    "name": "Kees Kaya",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.721437822189182,
+      "hops": 0.5920486721955239,
+      "payer": 0.5801594420522451,
+      "gp": 0.5205504686385394,
+      "unknown": 0.62955999430269,
+      "patient": 0.5349854912236334
+    },
+    "behav": {
+      "voice": 0.7074545441986992,
+      "susceptibility": 0.4628372106701136,
+      "conviction": 0.5116198948118836
+    }
+  },
+  {
+    "id": "P-036",
+    "name": "Mila Kaur",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 22,
+    "pharmacy_type": "zelfstandig",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7232821010239422,
+      "hops": 0.6015244856849312,
+      "payer": 0.58822175366804,
+      "gp": 0.500759130306542,
+      "unknown": 0.649813286010176,
+      "patient": 0.5324997888132931
+    },
+    "behav": {
+      "voice": 0.7170386958727613,
+      "susceptibility": 0.47052322819363324,
+      "conviction": 0.5534853887744249
+    }
+  },
+  {
+    "id": "P-037",
+    "name": "Lina van Dam",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 14,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6824894447624683,
+      "hops": 0.590333180911839,
+      "payer": 0.6164839544333517,
+      "gp": 0.5096409453824162,
+      "unknown": 0.5967673331871629,
+      "patient": 0.5954258301854134
+    },
+    "behav": {
+      "voice": 0.7638745368318632,
+      "susceptibility": 0.5335659893229604,
+      "conviction": 0.574997104308568
+    }
+  },
+  {
+    "id": "P-038",
+    "name": "Sam Kaya",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 6,
+    "pharmacy_type": "zelfstandig",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.687480964064598,
+      "hops": 0.5880627276562154,
+      "payer": 0.5677618200331926,
+      "gp": 0.5472047255560756,
+      "unknown": 0.6287919621728361,
+      "patient": 0.5518556849472225
+    },
+    "behav": {
+      "voice": 0.7634811854315922,
+      "susceptibility": 0.49162890121806413,
+      "conviction": 0.5970897177234292
+    }
+  },
+  {
+    "id": "P-039",
+    "name": "Mila van der Wal",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 4,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7061320474743843,
+      "hops": 0.5404320074990392,
+      "payer": 0.6022967038676142,
+      "gp": 0.5113944865949452,
+      "unknown": 0.6154759728722274,
+      "patient": 0.5995551272481681
+    },
+    "behav": {
+      "voice": 0.7349765689205379,
+      "susceptibility": 0.45712832449935376,
+      "conviction": 0.5375705922022462
+    }
+  },
+  {
+    "id": "P-040",
+    "name": "Thijs de Vries",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 21,
+    "pharmacy_type": "zelfstandig",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6978203145973384,
+      "hops": 0.6114972838945687,
+      "payer": 0.5951010949537158,
+      "gp": 0.4995589868165553,
+      "unknown": 0.595873904991895,
+      "patient": 0.5833789904043079
+    },
+    "behav": {
+      "voice": 0.7228815288608894,
+      "susceptibility": 0.5429051209008321,
+      "conviction": 0.5665724032325671
+    }
+  },
+  {
+    "id": "P-041",
+    "name": "Lina Vos",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "zelfstandig",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6984894476644694,
+      "hops": 0.6133692603558302,
+      "payer": 0.5874440455809236,
+      "gp": 0.4804890892840922,
+      "unknown": 0.6206792576611042,
+      "patient": 0.5909400026127697
+    },
+    "behav": {
+      "voice": 0.7472103884071112,
+      "susceptibility": 0.5000892936484889,
+      "conviction": 0.5637614898150787
+    }
+  },
+  {
+    "id": "P-042",
+    "name": "Kuba Wiśniewski",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7099914002045988,
+      "hops": 0.5561392144486308,
+      "payer": 0.5843082909472287,
+      "gp": 0.504125343374908,
+      "unknown": 0.638238257933408,
+      "patient": 0.5646638488024474
+    },
+    "behav": {
+      "voice": 0.7825339789129794,
+      "susceptibility": 0.4979145312448964,
+      "conviction": 0.5615736930631101
+    }
+  },
+  {
+    "id": "P-043",
+    "name": "Mila Haddad",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 20,
+    "pharmacy_type": "zelfstandig",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6752882826700806,
+      "hops": 0.572335874736309,
+      "payer": 0.5814307457208633,
+      "gp": 0.5388138427957893,
+      "unknown": 0.620982439108193,
+      "patient": 0.578741815686226
+    },
+    "behav": {
+      "voice": 0.7092980629391968,
+      "susceptibility": 0.5216168613405898,
+      "conviction": 0.5761584045598284
+    }
+  },
+  {
+    "id": "P-044",
+    "name": "Meryem Hendriks",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "zelfstandig",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6728896918520331,
+      "hops": 0.6176661407388746,
+      "payer": 0.6166970862075686,
+      "gp": 0.5025519734248519,
+      "unknown": 0.6157047397829593,
+      "patient": 0.5496497945301235
+    },
+    "behav": {
+      "voice": 0.7352594698872417,
+      "susceptibility": 0.46116803572513165,
+      "conviction": 0.546979472739622
+    }
+  },
+  {
+    "id": "P-045",
+    "name": "Joris Meijer",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "zelfstandig",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6751037596724927,
+      "hops": 0.5498368023335933,
+      "payer": 0.6065290694870055,
+      "gp": 0.5578162477724254,
+      "unknown": 0.6088835950940847,
+      "patient": 0.5598604081757367
+    },
+    "behav": {
+      "voice": 0.7200321190617979,
+      "susceptibility": 0.548929744050838,
+      "conviction": 0.527920597488992
+    }
+  },
+  {
+    "id": "P-046",
+    "name": "Mo van den Berg",
+    "archetype": "pharm_ind",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "zelfstandig",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6702382071875035,
+      "hops": 0.5756808742694556,
+      "payer": 0.6200314236991107,
+      "gp": 0.5246043656952679,
+      "unknown": 0.6589180470257997,
+      "patient": 0.5822773801535368
+    },
+    "behav": {
+      "voice": 0.7744452710123733,
+      "susceptibility": 0.5272012368775905,
+      "conviction": 0.5846363097196445
+    }
+  },
+  {
+    "id": "P-047",
+    "name": "Robin Kaur",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5516778734326362,
+      "hops": 0.4894640813209117,
+      "payer": 0.4336294829286635,
+      "gp": 0.5336968371085823,
+      "unknown": 0.5174460733681918,
+      "patient": 0.6024245434813201
+    },
+    "behav": {
+      "voice": 0.5375290027167648,
+      "susceptibility": 0.6589067391678691,
+      "conviction": 0.46503342501819134
+    }
+  },
+  {
+    "id": "P-048",
+    "name": "Fatima Kowalski",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5530573424138129,
+      "hops": 0.49614814328029755,
+      "payer": 0.4564485515095294,
+      "gp": 0.5865952549874783,
+      "unknown": 0.5142614602111281,
+      "patient": 0.5478890425898134
+    },
+    "behav": {
+      "voice": 0.5011361258383841,
+      "susceptibility": 0.5960269489651546,
+      "conviction": 0.4041880003642291
+    }
+  },
+  {
+    "id": "P-049",
+    "name": "Sam de Wit",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5825770585238933,
+      "hops": 0.5564764810167253,
+      "payer": 0.44997631439939145,
+      "gp": 0.5210460543446244,
+      "unknown": 0.5392632739059627,
+      "patient": 0.5627167185954749
+    },
+    "behav": {
+      "voice": 0.5451557810464874,
+      "susceptibility": 0.6329627693491057,
+      "conviction": 0.4014664149377495
+    }
+  },
+  {
+    "id": "P-050",
+    "name": "Mila Jacobs",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5945027446001768,
+      "hops": 0.5307635648734867,
+      "payer": 0.49834846811369066,
+      "gp": 0.5331100838072599,
+      "unknown": 0.5654186561517418,
+      "patient": 0.5512703676708042
+    },
+    "behav": {
+      "voice": 0.5241051517706364,
+      "susceptibility": 0.6264385622320697,
+      "conviction": 0.4308544145198539
+    }
+  },
+  {
+    "id": "P-051",
+    "name": "Thijs Mulder",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 2,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5842645125836133,
+      "hops": 0.5576962281949819,
+      "payer": 0.4376937312446535,
+      "gp": 0.5549790568463505,
+      "unknown": 0.5612827406078578,
+      "patient": 0.5501292501389979
+    },
+    "behav": {
+      "voice": 0.558122700760141,
+      "susceptibility": 0.6342443233216182,
+      "conviction": 0.4337334272451699
+    }
+  },
+  {
+    "id": "P-052",
+    "name": "Mo Haddad",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.606579860523343,
+      "hops": 0.502332893870771,
+      "payer": 0.49134103283286096,
+      "gp": 0.5704693831689657,
+      "unknown": 0.5419459571875632,
+      "patient": 0.6052697266638278
+    },
+    "behav": {
+      "voice": 0.4737888443330303,
+      "susceptibility": 0.6190298680309206,
+      "conviction": 0.42852137179579586
+    }
+  },
+  {
+    "id": "P-053",
+    "name": "Eva van der Wal",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 14,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5408215818367899,
+      "hops": 0.5296742094494402,
+      "payer": 0.4672033582814038,
+      "gp": 0.5321057901903987,
+      "unknown": 0.5383943803608418,
+      "patient": 0.6080436848662794
+    },
+    "behav": {
+      "voice": 0.5430926850112155,
+      "susceptibility": 0.6448037544591353,
+      "conviction": 0.45810155014041815
+    }
+  },
+  {
+    "id": "P-054",
+    "name": "Meryem Bouzidi",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.555496273022145,
+      "hops": 0.506747894845903,
+      "payer": 0.476936309337616,
+      "gp": 0.5576347004994751,
+      "unknown": 0.531671576090157,
+      "patient": 0.5491363121941685
+    },
+    "behav": {
+      "voice": 0.5228883393388242,
+      "susceptibility": 0.6444161868980155,
+      "conviction": 0.49329396730754527
+    }
+  },
+  {
+    "id": "P-055",
+    "name": "Thijs Bakker",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 24,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6095468644239008,
+      "hops": 0.5039682502858341,
+      "payer": 0.451310226675123,
+      "gp": 0.565071916654706,
+      "unknown": 0.5515142068825662,
+      "patient": 0.5595701431296766
+    },
+    "behav": {
+      "voice": 0.5596934858057648,
+      "susceptibility": 0.6252922905469314,
+      "conviction": 0.4930937342345715
+    }
+  },
+  {
+    "id": "P-056",
+    "name": "Eva de Wit",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 4,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5792140603251755,
+      "hops": 0.4958633807487786,
+      "payer": 0.4603843545727432,
+      "gp": 0.5694706371612848,
+      "unknown": 0.5665101752988995,
+      "patient": 0.5816628539562225
+    },
+    "behav": {
+      "voice": 0.5517486337618902,
+      "susceptibility": 0.6529100309684873,
+      "conviction": 0.4507821584586054
+    }
+  },
+  {
+    "id": "P-057",
+    "name": "Fatima van Beek",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 4,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.562941210437566,
+      "hops": 0.5230181046761573,
+      "payer": 0.4946659692935646,
+      "gp": 0.5699825616925955,
+      "unknown": 0.5463232148066164,
+      "patient": 0.578543544113636
+    },
+    "behav": {
+      "voice": 0.5144099044892937,
+      "susceptibility": 0.6133367770211772,
+      "conviction": 0.46434629091527313
+    }
+  },
+  {
+    "id": "P-058",
+    "name": "Thijs Nguyen",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5477510107494891,
+      "hops": 0.5568239995650948,
+      "payer": 0.42640205746516585,
+      "gp": 0.5277433195710183,
+      "unknown": 0.5263052544184029,
+      "patient": 0.5842371617816389
+    },
+    "behav": {
+      "voice": 0.5022703145677224,
+      "susceptibility": 0.6452992516895756,
+      "conviction": 0.4544529633363709
+    }
+  },
+  {
+    "id": "P-059",
+    "name": "Noor van Vliet",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 30,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5415528951771557,
+      "hops": 0.48686771366745235,
+      "payer": 0.43205586325377227,
+      "gp": 0.5872605174593628,
+      "unknown": 0.5526954961940647,
+      "patient": 0.5902911374531686
+    },
+    "behav": {
+      "voice": 0.5630442255688831,
+      "susceptibility": 0.5979508278751746,
+      "conviction": 0.4655428508296609
+    }
+  },
+  {
+    "id": "P-060",
+    "name": "Kuba Demir",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 3,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5538272677920758,
+      "hops": 0.5541685800813139,
+      "payer": 0.4965214216150344,
+      "gp": 0.5224435091391206,
+      "unknown": 0.5299504044279456,
+      "patient": 0.5762429998070001
+    },
+    "behav": {
+      "voice": 0.4781373228225857,
+      "susceptibility": 0.6099444471625611,
+      "conviction": 0.46319532536435876
+    }
+  },
+  {
+    "id": "P-061",
+    "name": "Eva Prins",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 29,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6157503201067447,
+      "hops": 0.5258396306075156,
+      "payer": 0.4284321994706989,
+      "gp": 0.5829845642484726,
+      "unknown": 0.5883220586180687,
+      "patient": 0.5946963232941925
+    },
+    "behav": {
+      "voice": 0.5664157500769943,
+      "susceptibility": 0.6583080811519176,
+      "conviction": 0.4576389213325456
+    }
+  },
+  {
+    "id": "P-062",
+    "name": "Sanne Hermans",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 7,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.542477281615138,
+      "hops": 0.5064052414521575,
+      "payer": 0.44012113658711316,
+      "gp": 0.5234498727321625,
+      "unknown": 0.5657822218164802,
+      "patient": 0.5645474046841263
+    },
+    "behav": {
+      "voice": 0.5118724240036682,
+      "susceptibility": 0.5954343746509403,
+      "conviction": 0.48899912054184824
+    }
+  },
+  {
+    "id": "P-063",
+    "name": "Sam Çelik",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 32,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5428755536302924,
+      "hops": 0.5088580935634672,
+      "payer": 0.45513059420511126,
+      "gp": 0.5580641059949994,
+      "unknown": 0.5777137708477676,
+      "patient": 0.5547577811963855
+    },
+    "behav": {
+      "voice": 0.5114956072578207,
+      "susceptibility": 0.6763377467961982,
+      "conviction": 0.43699452916625886
+    }
+  },
+  {
+    "id": "P-064",
+    "name": "Sanne Smits",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 28,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5547436782345175,
+      "hops": 0.48746315866708756,
+      "payer": 0.4506340876780451,
+      "gp": 0.5446150249801577,
+      "unknown": 0.5850441710464657,
+      "patient": 0.5565367832966148
+    },
+    "behav": {
+      "voice": 0.47719519993290305,
+      "susceptibility": 0.6765620433352888,
+      "conviction": 0.422470038337633
+    }
+  },
+  {
+    "id": "P-065",
+    "name": "Mila Dijkstra",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5827877044677734,
+      "hops": 0.5453011889941991,
+      "payer": 0.4548735680244863,
+      "gp": 0.5662807446904481,
+      "unknown": 0.5513482345826924,
+      "patient": 0.5595405359566211
+    },
+    "behav": {
+      "voice": 0.555977723216638,
+      "susceptibility": 0.6178895881259814,
+      "conviction": 0.46046714489348234
+    }
+  },
+  {
+    "id": "P-066",
+    "name": "Sam El Idrissi",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 21,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5850846790894866,
+      "hops": 0.5337622153013944,
+      "payer": 0.4287998901121319,
+      "gp": 0.56995856102556,
+      "unknown": 0.5695966945774854,
+      "patient": 0.5583880508318543
+    },
+    "behav": {
+      "voice": 0.4703087975783274,
+      "susceptibility": 0.6072745320713148,
+      "conviction": 0.419883809867315
+    }
+  },
+  {
+    "id": "P-067",
+    "name": "Meryem de Bruin",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.588220567908138,
+      "hops": 0.5011925509572029,
+      "payer": 0.47054761700332165,
+      "gp": 0.5476755483634771,
+      "unknown": 0.5203046687692404,
+      "patient": 0.6138630063831806
+    },
+    "behav": {
+      "voice": 0.5393047974258661,
+      "susceptibility": 0.6160679242899642,
+      "conviction": 0.4500638687051833
+    }
+  },
+  {
+    "id": "P-068",
+    "name": "Meryem Benali",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 32,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5949971367418766,
+      "hops": 0.549354817532003,
+      "payer": 0.47208616167306905,
+      "gp": 0.5394108328223229,
+      "unknown": 0.5561788861081005,
+      "patient": 0.5859794218465686
+    },
+    "behav": {
+      "voice": 0.5073942676233127,
+      "susceptibility": 0.6583977551059798,
+      "conviction": 0.42944361933041364
+    }
+  },
+  {
+    "id": "P-069",
+    "name": "Noor El Idrissi",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 15,
+    "pharmacy_type": "anders",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5887550771422684,
+      "hops": 0.5455694422870875,
+      "payer": 0.44559425029903654,
+      "gp": 0.5741427110880614,
+      "unknown": 0.5402705634571612,
+      "patient": 0.5518587190285325
+    },
+    "behav": {
+      "voice": 0.5052388851810247,
+      "susceptibility": 0.676725849704817,
+      "conviction": 0.41825609090738
+    }
+  },
+  {
+    "id": "P-070",
+    "name": "Noor Haddad",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5936351938173174,
+      "hops": 0.5330660308338702,
+      "payer": 0.498714643586427,
+      "gp": 0.5776460722833873,
+      "unknown": 0.5629323833063246,
+      "patient": 0.59007916636765
+    },
+    "behav": {
+      "voice": 0.5135110443504527,
+      "susceptibility": 0.6109379943320528,
+      "conviction": 0.41796091811265795
+    }
+  },
+  {
+    "id": "P-071",
+    "name": "Daan Peters",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 9,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6175697311200201,
+      "hops": 0.5367999480478466,
+      "payer": 0.45379965541884304,
+      "gp": 0.5654730473458768,
+      "unknown": 0.5748536996543407,
+      "patient": 0.5500972889922559
+    },
+    "behav": {
+      "voice": 0.5412515452178195,
+      "susceptibility": 0.6572465620329604,
+      "conviction": 0.4525308954995126
+    }
+  },
+  {
+    "id": "P-072",
+    "name": "Noor de Groot",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5569259567186235,
+      "hops": 0.5038600258901715,
+      "payer": 0.4599541945382953,
+      "gp": 0.5892376179620624,
+      "unknown": 0.5496542896516622,
+      "patient": 0.5562867263145744
+    },
+    "behav": {
+      "voice": 0.5168241700902582,
+      "susceptibility": 0.6735679733194411,
+      "conviction": 0.4321245226310566
+    }
+  },
+  {
+    "id": "P-073",
+    "name": "Mila Haddad",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6126022187247872,
+      "hops": 0.5092993009649217,
+      "payer": 0.483482514731586,
+      "gp": 0.5908782633766533,
+      "unknown": 0.5256111952662469,
+      "patient": 0.5663923798128963
+    },
+    "behav": {
+      "voice": 0.5380177854374051,
+      "susceptibility": 0.6327141304826364,
+      "conviction": 0.4809467594604939
+    }
+  },
+  {
+    "id": "P-074",
+    "name": "Sanne van der Meer",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6065547272749244,
+      "hops": 0.496793667152524,
+      "payer": 0.4786438125744462,
+      "gp": 0.581703755222261,
+      "unknown": 0.5220096363686025,
+      "patient": 0.5986462734267115
+    },
+    "behav": {
+      "voice": 0.5039803556213156,
+      "susceptibility": 0.6556511661130935,
+      "conviction": 0.414111329917796
+    }
+  },
+  {
+    "id": "P-075",
+    "name": "Noor Nguyen",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 25,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5877901781164109,
+      "hops": 0.5069432845152915,
+      "payer": 0.4339766890369356,
+      "gp": 0.5281744399294258,
+      "unknown": 0.545339158307761,
+      "patient": 0.588817924465984
+    },
+    "behav": {
+      "voice": 0.535481082093902,
+      "susceptibility": 0.6878184319101274,
+      "conviction": 0.4263347618049011
+    }
+  },
+  {
+    "id": "P-076",
+    "name": "Mo van den Berg",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 31,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5681892462447286,
+      "hops": 0.5104195237532259,
+      "payer": 0.49475707521662116,
+      "gp": 0.539846742041409,
+      "unknown": 0.5449377457424999,
+      "patient": 0.5835323441587388
+    },
+    "behav": {
+      "voice": 0.5280235455418005,
+      "susceptibility": 0.6348776460485533,
+      "conviction": 0.48824465633369984
+    }
+  },
+  {
+    "id": "P-077",
+    "name": "Fatima de Bruin",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 33,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5921076625399291,
+      "hops": 0.5210712909884752,
+      "payer": 0.48170208757743244,
+      "gp": 0.5323692387901247,
+      "unknown": 0.5459845701046289,
+      "patient": 0.5515795255638658
+    },
+    "behav": {
+      "voice": 0.5147294057579711,
+      "susceptibility": 0.6158953775046393,
+      "conviction": 0.47169192556757483
+    }
+  },
+  {
+    "id": "P-078",
+    "name": "Meryem van der Meer",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 28,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5854706978984177,
+      "hops": 0.5024292460642755,
+      "payer": 0.4400175455026329,
+      "gp": 0.5768352979235352,
+      "unknown": 0.5718662663362921,
+      "patient": 0.5706892801448702
+    },
+    "behav": {
+      "voice": 0.48321611211169513,
+      "susceptibility": 0.6412608223361894,
+      "conviction": 0.46715762049425397
+    }
+  },
+  {
+    "id": "P-079",
+    "name": "Thijs de Boer",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 33,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5988794280961155,
+      "hops": 0.531847417652607,
+      "payer": 0.4935851846635342,
+      "gp": 0.5555098206922412,
+      "unknown": 0.5686295961402357,
+      "patient": 0.5457447392307222
+    },
+    "behav": {
+      "voice": 0.4949838150804863,
+      "susceptibility": 0.6391860126378015,
+      "conviction": 0.4109910714905709
+    }
+  },
+  {
+    "id": "P-080",
+    "name": "Meryem de Jong",
+    "archetype": "pharm_tech",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5922092627361416,
+      "hops": 0.4900927566178143,
+      "payer": 0.4857631887122989,
+      "gp": 0.5783591263741256,
+      "unknown": 0.5897624780237675,
+      "patient": 0.5774726784043014
+    },
+    "behav": {
+      "voice": 0.5107964206533506,
+      "susceptibility": 0.6501522797252983,
+      "conviction": 0.40577771712560207
+    }
+  },
+  {
+    "id": "P-081",
+    "name": "Mila Meijer",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 25,
+    "pharmacy_type": "keten",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6226976046524942,
+      "hops": 0.6678480358049274,
+      "payer": 0.549511459376663,
+      "gp": 0.5299663389101624,
+      "unknown": 0.5896850749291479,
+      "patient": 0.517066080402583
+    },
+    "behav": {
+      "voice": 0.6491327443160116,
+      "susceptibility": 0.3966397883463651,
+      "conviction": 0.6204143702983856
+    }
+  },
+  {
+    "id": "P-082",
+    "name": "Robin Demir",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 20,
+    "pharmacy_type": "keten",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6589550506137312,
+      "hops": 0.7390904669649898,
+      "payer": 0.5745827814005315,
+      "gp": 0.5265171346999705,
+      "unknown": 0.6017856829799711,
+      "patient": 0.5302513187937439
+    },
+    "behav": {
+      "voice": 0.5615034370683133,
+      "susceptibility": 0.4769534173514694,
+      "conviction": 0.6050507462583482
+    }
+  },
+  {
+    "id": "P-083",
+    "name": "Thijs van Vliet",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "keten",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.673706588279456,
+      "hops": 0.7229493232071399,
+      "payer": 0.5382011767290533,
+      "gp": 0.47316448714584114,
+      "unknown": 0.5426316133327782,
+      "patient": 0.4992355353571475
+    },
+    "behav": {
+      "voice": 0.6256262959213927,
+      "susceptibility": 0.4246596702933311,
+      "conviction": 0.6212019788101315
+    }
+  },
+  {
+    "id": "P-084",
+    "name": "Eva Tran",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "keten",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6236623084917665,
+      "hops": 0.7047135776095091,
+      "payer": 0.5539074493944646,
+      "gp": 0.46049004210159183,
+      "unknown": 0.5908913426287472,
+      "patient": 0.4920419470407069
+    },
+    "behav": {
+      "voice": 0.5731288505718112,
+      "susceptibility": 0.48941652109846473,
+      "conviction": 0.6090135163394734
+    }
+  },
+  {
+    "id": "P-085",
+    "name": "Anouk Jacobs",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "keten",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6062580765224993,
+      "hops": 0.6674438167549669,
+      "payer": 0.5699460267834365,
+      "gp": 0.48741915294900534,
+      "unknown": 0.6054858423210681,
+      "patient": 0.5324200079031289
+    },
+    "behav": {
+      "voice": 0.569741434045136,
+      "susceptibility": 0.4213086991198361,
+      "conviction": 0.6298650220036507
+    }
+  },
+  {
+    "id": "P-086",
+    "name": "Sanne Kaur",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 3,
+    "pharmacy_type": "keten",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6687365380302072,
+      "hops": 0.6801198501326143,
+      "payer": 0.5137209773249924,
+      "gp": 0.5008361891098321,
+      "unknown": 0.5412471929565071,
+      "patient": 0.5204446632601321
+    },
+    "behav": {
+      "voice": 0.5603920000372454,
+      "susceptibility": 0.4850720836641267,
+      "conviction": 0.5949812131933868
+    }
+  },
+  {
+    "id": "P-087",
+    "name": "Anouk Wójcik",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 14,
+    "pharmacy_type": "keten",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6554930020868779,
+      "hops": 0.682770060505718,
+      "payer": 0.5386354522965848,
+      "gp": 0.4846525878459215,
+      "unknown": 0.5975823293253779,
+      "patient": 0.4899964502453804
+    },
+    "behav": {
+      "voice": 0.6341747203376144,
+      "susceptibility": 0.423037005411461,
+      "conviction": 0.601625236030668
+    }
+  },
+  {
+    "id": "P-088",
+    "name": "Anouk Demir",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 4,
+    "pharmacy_type": "keten",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6531759311258793,
+      "hops": 0.6823661815933882,
+      "payer": 0.5399968238547445,
+      "gp": 0.4877767279371619,
+      "unknown": 0.5457409465871751,
+      "patient": 0.5408852929063142
+    },
+    "behav": {
+      "voice": 0.626340554188937,
+      "susceptibility": 0.47488675206899644,
+      "conviction": 0.5959100539796054
+    }
+  },
+  {
+    "id": "P-089",
+    "name": "Thijs Şahin",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 13,
+    "pharmacy_type": "keten",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6607416805438697,
+      "hops": 0.7209781063906848,
+      "payer": 0.5640985595434904,
+      "gp": 0.46265462845563887,
+      "unknown": 0.5597570833005011,
+      "patient": 0.5302695727534592
+    },
+    "behav": {
+      "voice": 0.6342299702810124,
+      "susceptibility": 0.4577766599925235,
+      "conviction": 0.6209429188631475
+    }
+  },
+  {
+    "id": "P-090",
+    "name": "Kees Kaya",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 25,
+    "pharmacy_type": "keten",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6342977335304022,
+      "hops": 0.6601453750580549,
+      "payer": 0.5442045993171633,
+      "gp": 0.46714170495048163,
+      "unknown": 0.6198581776209175,
+      "patient": 0.5466158253885806
+    },
+    "behav": {
+      "voice": 0.6278573776129633,
+      "susceptibility": 0.48688614872284236,
+      "conviction": 0.5602714125532656
+    }
+  },
+  {
+    "id": "P-091",
+    "name": "Sanne El Idrissi",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 22,
+    "pharmacy_type": "keten",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6434340153075755,
+      "hops": 0.674351060707122,
+      "payer": 0.500703735779971,
+      "gp": 0.5140741789340972,
+      "unknown": 0.5730028850398957,
+      "patient": 0.5541139434091747
+    },
+    "behav": {
+      "voice": 0.5652704166481272,
+      "susceptibility": 0.4368945390312001,
+      "conviction": 0.6288102507824078
+    }
+  },
+  {
+    "id": "P-092",
+    "name": "Meryem de Jong",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "keten",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6470078897103667,
+      "hops": 0.7230075545795261,
+      "payer": 0.5657226955145598,
+      "gp": 0.48725585244596004,
+      "unknown": 0.5711141480505466,
+      "patient": 0.5067097508534789
+    },
+    "behav": {
+      "voice": 0.6355303081450984,
+      "susceptibility": 0.39178161389194427,
+      "conviction": 0.574805067316629
+    }
+  },
+  {
+    "id": "P-093",
+    "name": "Robin Wójcik",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 13,
+    "pharmacy_type": "keten",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.624703377224505,
+      "hops": 0.7129059147462249,
+      "payer": 0.5173217004165054,
+      "gp": 0.5275807890109718,
+      "unknown": 0.6139485728740692,
+      "patient": 0.4862127814255655
+    },
+    "behav": {
+      "voice": 0.6442756210686639,
+      "susceptibility": 0.4877797803236172,
+      "conviction": 0.6216714122565463
+    }
+  },
+  {
+    "id": "P-094",
+    "name": "Sanne Prins",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "keten",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6328449860401452,
+      "hops": 0.6637723961099982,
+      "payer": 0.5193434457667172,
+      "gp": 0.4928021795488894,
+      "unknown": 0.5623225725069642,
+      "patient": 0.4959318084269762
+    },
+    "behav": {
+      "voice": 0.621755753736943,
+      "susceptibility": 0.4667163577955216,
+      "conviction": 0.6323104383889585
+    }
+  },
+  {
+    "id": "P-095",
+    "name": "Daan Wójcik",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 13,
+    "pharmacy_type": "keten",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6528452134877444,
+      "hops": 0.6668789000436663,
+      "payer": 0.5761950440518558,
+      "gp": 0.5154263672046363,
+      "unknown": 0.5879258540272713,
+      "patient": 0.5222851296141744
+    },
+    "behav": {
+      "voice": 0.6173607055097818,
+      "susceptibility": 0.43974167158361527,
+      "conviction": 0.6170217628823593
+    }
+  },
+  {
+    "id": "P-096",
+    "name": "Daan Visser",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 35,
+    "pharmacy_type": "keten",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6596063799411058,
+      "hops": 0.686784990299493,
+      "payer": 0.5580329313129186,
+      "gp": 0.531849546637386,
+      "unknown": 0.5604052243940532,
+      "patient": 0.49222021970897917
+    },
+    "behav": {
+      "voice": 0.5547608260298148,
+      "susceptibility": 0.4260015161568299,
+      "conviction": 0.5701060462510213
+    }
+  },
+  {
+    "id": "P-097",
+    "name": "Noor de Boer",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 23,
+    "pharmacy_type": "keten",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6283503594808281,
+      "hops": 0.6670633308775723,
+      "payer": 0.5294928900711239,
+      "gp": 0.49986938467249276,
+      "unknown": 0.5674637144058943,
+      "patient": 0.5556824244000018
+    },
+    "behav": {
+      "voice": 0.5692863601492718,
+      "susceptibility": 0.4310812410991639,
+      "conviction": 0.5726753538707271
+    }
+  },
+  {
+    "id": "P-098",
+    "name": "Mo Haddad",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "keten",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6798252452909946,
+      "hops": 0.7281327723711729,
+      "payer": 0.5171578897535801,
+      "gp": 0.4722032227739692,
+      "unknown": 0.55810133472085,
+      "patient": 0.5536392768472433
+    },
+    "behav": {
+      "voice": 0.5758610845776274,
+      "susceptibility": 0.44426678054500374,
+      "conviction": 0.564905924280174
+    }
+  },
+  {
+    "id": "P-099",
+    "name": "Robin Kaya",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 22,
+    "pharmacy_type": "keten",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.627358498480171,
+      "hops": 0.6806405117735266,
+      "payer": 0.5615234014205635,
+      "gp": 0.5025421586073935,
+      "unknown": 0.5754066227190197,
+      "patient": 0.4861445075459778
+    },
+    "behav": {
+      "voice": 0.6045126792741939,
+      "susceptibility": 0.4294037589197978,
+      "conviction": 0.5994585501728579
+    }
+  },
+  {
+    "id": "P-100",
+    "name": "Thijs de Haan",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 15,
+    "pharmacy_type": "keten",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6309364852495492,
+      "hops": 0.68276016773656,
+      "payer": 0.5250552565790714,
+      "gp": 0.47830645108595493,
+      "unknown": 0.6129940148070454,
+      "patient": 0.48127703689038753
+    },
+    "behav": {
+      "voice": 0.5582114454358816,
+      "susceptibility": 0.45450536185875534,
+      "conviction": 0.610994293098338
+    }
+  },
+  {
+    "id": "P-101",
+    "name": "Anouk van Leeuwen",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 5,
+    "pharmacy_type": "keten",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6366331365518272,
+      "hops": 0.7025502128340303,
+      "payer": 0.5509270291589201,
+      "gp": 0.47503929207101464,
+      "unknown": 0.5409828896075487,
+      "patient": 0.5262748596817255
+    },
+    "behav": {
+      "voice": 0.5892783441813663,
+      "susceptibility": 0.39449093014467507,
+      "conviction": 0.5908739334437996
+    }
+  },
+  {
+    "id": "P-102",
+    "name": "Thijs Maas",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 20,
+    "pharmacy_type": "keten",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6663700833171606,
+      "hops": 0.7094773219153284,
+      "payer": 0.5068765575252474,
+      "gp": 0.4883349189721048,
+      "unknown": 0.616198066715151,
+      "patient": 0.5088246341049671
+    },
+    "behav": {
+      "voice": 0.6354021675884723,
+      "susceptibility": 0.4769470990495756,
+      "conviction": 0.5789714668411762
+    }
+  },
+  {
+    "id": "P-103",
+    "name": "Noor Vermeulen",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 15,
+    "pharmacy_type": "keten",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6378589350543916,
+      "hops": 0.6815948778949678,
+      "payer": 0.5590625395812094,
+      "gp": 0.48096964171156287,
+      "unknown": 0.543465078137815,
+      "patient": 0.5587520037963987
+    },
+    "behav": {
+      "voice": 0.6076532861450686,
+      "susceptibility": 0.450580015135929,
+      "conviction": 0.5590135415317491
+    }
+  },
+  {
+    "id": "P-104",
+    "name": "Sanne Peters",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 23,
+    "pharmacy_type": "keten",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6191262025572359,
+      "hops": 0.7387806955166161,
+      "payer": 0.5311526823230088,
+      "gp": 0.5145513270236551,
+      "unknown": 0.5729974045231938,
+      "patient": 0.5456003608740866
+    },
+    "behav": {
+      "voice": 0.5934340168023482,
+      "susceptibility": 0.48472769086714834,
+      "conviction": 0.5633683152962475
+    }
+  },
+  {
+    "id": "P-105",
+    "name": "Mila de Boer",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "keten",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.618766053467989,
+      "hops": 0.662180631943047,
+      "payer": 0.5554172275587916,
+      "gp": 0.4849883415736258,
+      "unknown": 0.6008049598708748,
+      "patient": 0.5422083645500243
+    },
+    "behav": {
+      "voice": 0.6178096202900633,
+      "susceptibility": 0.4373563196370378,
+      "conviction": 0.6293336835224181
+    }
+  },
+  {
+    "id": "P-106",
+    "name": "Kees El Idrissi",
+    "archetype": "pharm_chain",
+    "synthetic": true,
+    "years_experience": 33,
+    "pharmacy_type": "keten",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.6001720546372235,
+      "hops": 0.7035104539990424,
+      "payer": 0.5374736639857293,
+      "gp": 0.47822404593229295,
+      "unknown": 0.5454235978610813,
+      "patient": 0.48330841748043896
+    },
+    "behav": {
+      "voice": 0.6409551287768408,
+      "susceptibility": 0.4185731760086492,
+      "conviction": 0.6248534088488668
+    }
+  },
+  {
+    "id": "P-107",
+    "name": "Eva Schouten",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7485190521739423,
+      "hops": 0.7600792196020484,
+      "payer": 0.5199654040671885,
+      "gp": 0.44805321134626863,
+      "unknown": 0.7014291536062955,
+      "patient": 0.46722157280892135
+    },
+    "behav": {
+      "voice": 0.6910646719066427,
+      "susceptibility": 0.3869627161417157,
+      "conviction": 0.6851122166635469
+    }
+  },
+  {
+    "id": "P-108",
+    "name": "Daan Timmermans",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 15,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7788519053161145,
+      "hops": 0.7343868137896061,
+      "payer": 0.5571439791284502,
+      "gp": 0.47002106660977006,
+      "unknown": 0.6614912058785557,
+      "patient": 0.5222792086936533
+    },
+    "behav": {
+      "voice": 0.6769297890039161,
+      "susceptibility": 0.37117319284006955,
+      "conviction": 0.6248174992762506
+    }
+  },
+  {
+    "id": "P-109",
+    "name": "Eva Hendriks",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7581724952720106,
+      "hops": 0.7733078894764185,
+      "payer": 0.5547564223222434,
+      "gp": 0.49827144863083955,
+      "unknown": 0.7100192820094525,
+      "patient": 0.5388228133320808
+    },
+    "behav": {
+      "voice": 0.6742656999407336,
+      "susceptibility": 0.4493530318606645,
+      "conviction": 0.6719676183676347
+    }
+  },
+  {
+    "id": "P-110",
+    "name": "Mo Dijkstra",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7525548839010299,
+      "hops": 0.7638566620461643,
+      "payer": 0.52687516650185,
+      "gp": 0.4561082831583917,
+      "unknown": 0.7297289124876261,
+      "patient": 0.5085654519312084
+    },
+    "behav": {
+      "voice": 0.6741483392566443,
+      "susceptibility": 0.3589040057966486,
+      "conviction": 0.6107861175108701
+    }
+  },
+  {
+    "id": "P-111",
+    "name": "Fatima Kaur",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 7,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7709442633204162,
+      "hops": 0.7710514154843986,
+      "payer": 0.5099601694196463,
+      "gp": 0.4805430010892451,
+      "unknown": 0.7310321473516523,
+      "patient": 0.5141666464135051
+    },
+    "behav": {
+      "voice": 0.6528461049217731,
+      "susceptibility": 0.43949293794576083,
+      "conviction": 0.6717251885822043
+    }
+  },
+  {
+    "id": "P-112",
+    "name": "Kuba Brouwer",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 7,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7986106245033443,
+      "hops": 0.7235582358576357,
+      "payer": 0.48444759141653776,
+      "gp": 0.48228494795039295,
+      "unknown": 0.705319878757,
+      "patient": 0.53324677079916
+    },
+    "behav": {
+      "voice": 0.6420318548474461,
+      "susceptibility": 0.35682066236622634,
+      "conviction": 0.6132775742467493
+    }
+  },
+  {
+    "id": "P-113",
+    "name": "Meryem Brouwer",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8079609875008464,
+      "hops": 0.7747329548932612,
+      "payer": 0.5341149061731995,
+      "gp": 0.4559074245393276,
+      "unknown": 0.7170130161382258,
+      "patient": 0.46282297307625414
+    },
+    "behav": {
+      "voice": 0.7090955153945834,
+      "susceptibility": 0.4358551554614678,
+      "conviction": 0.617069894601591
+    }
+  },
+  {
+    "id": "P-114",
+    "name": "Anouk de Bruin",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8100969062373042,
+      "hops": 0.7078337791189552,
+      "payer": 0.5596426374278963,
+      "gp": 0.49126250516623254,
+      "unknown": 0.6628334002941847,
+      "patient": 0.47393726345151665
+    },
+    "behav": {
+      "voice": 0.6899422004492953,
+      "susceptibility": 0.40399907405953855,
+      "conviction": 0.6835060206381605
+    }
+  },
+  {
+    "id": "P-115",
+    "name": "Noor Demir",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8054776980355383,
+      "hops": 0.7347355389408767,
+      "payer": 0.5392453182116151,
+      "gp": 0.5170785937458277,
+      "unknown": 0.6846071049012243,
+      "patient": 0.49468759413808583
+    },
+    "behav": {
+      "voice": 0.6881774047063663,
+      "susceptibility": 0.3879845467861742,
+      "conviction": 0.7021268709935248
+    }
+  },
+  {
+    "id": "P-116",
+    "name": "Joris van der Laan",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 23,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8034567498788238,
+      "hops": 0.7309034871682525,
+      "payer": 0.5220465440116823,
+      "gp": 0.48276786189526316,
+      "unknown": 0.7035726786777377,
+      "patient": 0.4958278129063547
+    },
+    "behav": {
+      "voice": 0.6759292800351978,
+      "susceptibility": 0.4356845633359626,
+      "conviction": 0.6899847068963573
+    }
+  },
+  {
+    "id": "P-117",
+    "name": "Robin Smits",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 1,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8075839981622994,
+      "hops": 0.7647809298709035,
+      "payer": 0.5334215092286467,
+      "gp": 0.503962428867817,
+      "unknown": 0.7196034311689437,
+      "patient": 0.5243590785190463
+    },
+    "behav": {
+      "voice": 0.6454360408615322,
+      "susceptibility": 0.3502821469446644,
+      "conviction": 0.6294809898734093
+    }
+  },
+  {
+    "id": "P-118",
+    "name": "Fatima Kowalski",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 5,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7630193301849068,
+      "hops": 0.7742729509808123,
+      "payer": 0.5247192092239857,
+      "gp": 0.5108699335344136,
+      "unknown": 0.6726009314134717,
+      "patient": 0.48025754997506737
+    },
+    "behav": {
+      "voice": 0.6510107159754261,
+      "susceptibility": 0.39847641915548593,
+      "conviction": 0.6855107434466482
+    }
+  },
+  {
+    "id": "P-119",
+    "name": "Anouk van den Heuvel",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 33,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7455684325657785,
+      "hops": 0.7407427514158189,
+      "payer": 0.5251404799334705,
+      "gp": 0.4777035799250007,
+      "unknown": 0.717544495370239,
+      "patient": 0.5049979265220463
+    },
+    "behav": {
+      "voice": 0.698136231363751,
+      "susceptibility": 0.3975573490606621,
+      "conviction": 0.6581262070126832
+    }
+  },
+  {
+    "id": "P-120",
+    "name": "Anouk Tran",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8022124908305704,
+      "hops": 0.7626111973635852,
+      "payer": 0.499262615814805,
+      "gp": 0.44882800115272403,
+      "unknown": 0.6873936604708433,
+      "patient": 0.4698159429058433
+    },
+    "behav": {
+      "voice": 0.6584782891813666,
+      "susceptibility": 0.44495945719536395,
+      "conviction": 0.6389925924502313
+    }
+  },
+  {
+    "id": "P-121",
+    "name": "Eva de Bruin",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7999969549849629,
+      "hops": 0.7218038015440106,
+      "payer": 0.5059352082945406,
+      "gp": 0.45534114560112354,
+      "unknown": 0.670927530452609,
+      "patient": 0.5257164795883
+    },
+    "behav": {
+      "voice": 0.6879452800983563,
+      "susceptibility": 0.4157922277227044,
+      "conviction": 0.6719540851796046
+    }
+  },
+  {
+    "id": "P-122",
+    "name": "Noor Mulder",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 25,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7868494859896601,
+      "hops": 0.747588690686971,
+      "payer": 0.5093480838835239,
+      "gp": 0.470876128077507,
+      "unknown": 0.6865456993691623,
+      "patient": 0.5175447749346495
+    },
+    "behav": {
+      "voice": 0.6548939355090261,
+      "susceptibility": 0.40200374540872874,
+      "conviction": 0.6430561355687678
+    }
+  },
+  {
+    "id": "P-123",
+    "name": "Daan Al-Ahmad",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 24,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7511993598192931,
+      "hops": 0.7770555929280818,
+      "payer": 0.5253562851063908,
+      "gp": 0.457083391956985,
+      "unknown": 0.7288661851733923,
+      "patient": 0.47810140147805213
+    },
+    "behav": {
+      "voice": 0.6758886372344569,
+      "susceptibility": 0.3843024481087923,
+      "conviction": 0.6211005744896829
+    }
+  },
+  {
+    "id": "P-124",
+    "name": "Robin Hendriks",
+    "archetype": "pharm_hosp",
+    "synthetic": true,
+    "years_experience": 6,
+    "pharmacy_type": "ziekenhuis",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.7932427773997188,
+      "hops": 0.7681784291751683,
+      "payer": 0.5589815299585462,
+      "gp": 0.4604042348079383,
+      "unknown": 0.6964735647663474,
+      "patient": 0.47638159852474926
+    },
+    "behav": {
+      "voice": 0.7015671458700672,
+      "susceptibility": 0.41603006424847994,
+      "conviction": 0.6302601099852473
+    }
+  },
+  {
+    "id": "P-125",
+    "name": "Kees Maas",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 4,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5453495422005653,
+      "hops": 0.4602805392816663,
+      "payer": 0.36446040822193027,
+      "gp": 0.4140260802954436,
+      "unknown": 0.46317397121340037,
+      "patient": 0.5100804130733013
+    },
+    "behav": {
+      "voice": 0.6370914264861495,
+      "susceptibility": 0.445480080191046,
+      "conviction": 0.6608761104568839
+    }
+  },
+  {
+    "id": "P-126",
+    "name": "Thijs Kaya",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.49736183656379584,
+      "hops": 0.4330116296932101,
+      "payer": 0.3960324851423502,
+      "gp": 0.3730649578385055,
+      "unknown": 0.4753115952387452,
+      "patient": 0.49379266222938895
+    },
+    "behav": {
+      "voice": 0.6207552198600024,
+      "susceptibility": 0.39371870913077145,
+      "conviction": 0.6235204542567954
+    }
+  },
+  {
+    "id": "P-127",
+    "name": "Joris Smit",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.510799125880003,
+      "hops": 0.46236634807661176,
+      "payer": 0.3688605948537588,
+      "gp": 0.3843720700591803,
+      "unknown": 0.4726405367441476,
+      "patient": 0.5065846097096801
+    },
+    "behav": {
+      "voice": 0.6561465982627124,
+      "susceptibility": 0.4774594209017232,
+      "conviction": 0.6275977687723935
+    }
+  },
+  {
+    "id": "P-128",
+    "name": "Fatima Khoury",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 7,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5478174455277622,
+      "hops": 0.4418298113718629,
+      "payer": 0.37860749416053296,
+      "gp": 0.37491687897592785,
+      "unknown": 0.45399296384304766,
+      "patient": 0.5156115190126002
+    },
+    "behav": {
+      "voice": 0.6198745464487001,
+      "susceptibility": 0.42564273430965843,
+      "conviction": 0.6042684440780431
+    }
+  },
+  {
+    "id": "P-129",
+    "name": "Kees Al-Hassan",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4865643306821585,
+      "hops": 0.46614759573712944,
+      "payer": 0.3587724734656513,
+      "gp": 0.36900701140984893,
+      "unknown": 0.4287682806886733,
+      "patient": 0.5128171623870731
+    },
+    "behav": {
+      "voice": 0.6298157825879752,
+      "susceptibility": 0.46659197815228254,
+      "conviction": 0.6479660542029887
+    }
+  },
+  {
+    "id": "P-130",
+    "name": "Sam Şahin",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5130228353664279,
+      "hops": 0.4355357204005122,
+      "payer": 0.35234017664566636,
+      "gp": 0.37766461124643685,
+      "unknown": 0.43927101055160167,
+      "patient": 0.5095266997627914
+    },
+    "behav": {
+      "voice": 0.6697555232373997,
+      "susceptibility": 0.44310667739249765,
+      "conviction": 0.6582366915699095
+    }
+  },
+  {
+    "id": "P-131",
+    "name": "Daan Tran",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 3,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5567990475706757,
+      "hops": 0.43144984589889646,
+      "payer": 0.35634193519130347,
+      "gp": 0.3907181409560144,
+      "unknown": 0.4360346841439605,
+      "patient": 0.4868272426351905
+    },
+    "behav": {
+      "voice": 0.576850817729719,
+      "susceptibility": 0.47733708430081606,
+      "conviction": 0.6213061854755506
+    }
+  },
+  {
+    "id": "P-132",
+    "name": "Sam Jansen",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4892596290819347,
+      "hops": 0.44476702988147737,
+      "payer": 0.3961825871281326,
+      "gp": 0.42673885051161053,
+      "unknown": 0.4706043677031994,
+      "patient": 0.48422042191028597
+    },
+    "behav": {
+      "voice": 0.6045050922362134,
+      "susceptibility": 0.45691508581861856,
+      "conviction": 0.6628658929653466
+    }
+  },
+  {
+    "id": "P-133",
+    "name": "Anouk van der Velden",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 6,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5353427192009985,
+      "hops": 0.4639331922121346,
+      "payer": 0.39424428848549725,
+      "gp": 0.3956138704717159,
+      "unknown": 0.4605669384077192,
+      "patient": 0.48216595401987433
+    },
+    "behav": {
+      "voice": 0.6645369156775996,
+      "susceptibility": 0.39399245291482654,
+      "conviction": 0.593408158053644
+    }
+  },
+  {
+    "id": "P-134",
+    "name": "Noor van Dijk",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 15,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5571745062433183,
+      "hops": 0.4323187704756856,
+      "payer": 0.3800563653372228,
+      "gp": 0.4073899040184915,
+      "unknown": 0.4443907108716667,
+      "patient": 0.5095832001045346
+    },
+    "behav": {
+      "voice": 0.5939920523017644,
+      "susceptibility": 0.4147720244107768,
+      "conviction": 0.6233289907500148
+    }
+  },
+  {
+    "id": "P-135",
+    "name": "Kees de Groot",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 12,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.49771244745701554,
+      "hops": 0.47049793949350716,
+      "payer": 0.3678321512229741,
+      "gp": 0.43504451315850023,
+      "unknown": 0.459668324906379,
+      "patient": 0.49355042751878503
+    },
+    "behav": {
+      "voice": 0.5898201818857342,
+      "susceptibility": 0.4251411649957299,
+      "conviction": 0.6163442360516638
+    }
+  },
+  {
+    "id": "P-136",
+    "name": "Robin Bos",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5407537197507918,
+      "hops": 0.4139080413803458,
+      "payer": 0.39280333505943416,
+      "gp": 0.4074926961027086,
+      "unknown": 0.43946982439607385,
+      "patient": 0.544027756638825
+    },
+    "behav": {
+      "voice": 0.6627463606698438,
+      "susceptibility": 0.39515102811623365,
+      "conviction": 0.650988197750412
+    }
+  },
+  {
+    "id": "P-137",
+    "name": "Meryem Blom",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 12,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5239618152566254,
+      "hops": 0.451911686938256,
+      "payer": 0.3629377685673535,
+      "gp": 0.41457162277773024,
+      "unknown": 0.45503058277070524,
+      "patient": 0.5267113124206663
+    },
+    "behav": {
+      "voice": 0.5746118616359308,
+      "susceptibility": 0.44194822694174946,
+      "conviction": 0.6161467523127794
+    }
+  },
+  {
+    "id": "P-138",
+    "name": "Mo Vermeulen",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 28,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5114118972606957,
+      "hops": 0.4174366441741586,
+      "payer": 0.40378529507666827,
+      "gp": 0.37319772832095627,
+      "unknown": 0.49071726597845555,
+      "patient": 0.544798595327884
+    },
+    "behav": {
+      "voice": 0.6454908149130643,
+      "susceptibility": 0.45052120020613073,
+      "conviction": 0.6258139130240307
+    }
+  },
+  {
+    "id": "P-139",
+    "name": "Sanne de Vries",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5209697137214243,
+      "hops": 0.4175982591509819,
+      "payer": 0.37473814042285086,
+      "gp": 0.36839748872444034,
+      "unknown": 0.4826357104070485,
+      "patient": 0.5298764687590302
+    },
+    "behav": {
+      "voice": 0.591504369773902,
+      "susceptibility": 0.4667853181343526,
+      "conviction": 0.6054554411722347
+    }
+  },
+  {
+    "id": "P-140",
+    "name": "Sam Demir",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5248202467150986,
+      "hops": 0.4165733474679291,
+      "payer": 0.36758823186159134,
+      "gp": 0.4193884846754372,
+      "unknown": 0.46333392241969706,
+      "patient": 0.5044609238021076
+    },
+    "behav": {
+      "voice": 0.5925355755304917,
+      "susceptibility": 0.4504331461247057,
+      "conviction": 0.5913956621708348
+    }
+  },
+  {
+    "id": "P-141",
+    "name": "Mo Hendriks",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5569370195642114,
+      "hops": 0.47139253715053203,
+      "payer": 0.35593865925446155,
+      "gp": 0.3643881222419441,
+      "unknown": 0.4941628722473979,
+      "patient": 0.5152931944094599
+    },
+    "behav": {
+      "voice": 0.6455273575661704,
+      "susceptibility": 0.39707825501449406,
+      "conviction": 0.6443642293848098
+    }
+  },
+  {
+    "id": "P-142",
+    "name": "Robin Jacobs",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 5,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5577248381450772,
+      "hops": 0.40228296246379613,
+      "payer": 0.35156606717035177,
+      "gp": 0.4183114053495228,
+      "unknown": 0.47358469091355804,
+      "patient": 0.518385677356273
+    },
+    "behav": {
+      "voice": 0.6414271238306537,
+      "susceptibility": 0.42344357484020295,
+      "conviction": 0.6475611707940697
+    }
+  },
+  {
+    "id": "P-143",
+    "name": "Mo van der Linden",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5114822141639889,
+      "hops": 0.44366212261840704,
+      "payer": 0.3786378039047122,
+      "gp": 0.41575140705332164,
+      "unknown": 0.4920152262039483,
+      "patient": 0.48221490398049355
+    },
+    "behav": {
+      "voice": 0.6481881872331724,
+      "susceptibility": 0.460409807888791,
+      "conviction": 0.5786279988056049
+    }
+  },
+  {
+    "id": "P-144",
+    "name": "Sanne Bos",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 33,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5261149448901415,
+      "hops": 0.4206897957623005,
+      "payer": 0.3730221357382834,
+      "gp": 0.43289012877270583,
+      "unknown": 0.429282562378794,
+      "patient": 0.5520701399445533
+    },
+    "behav": {
+      "voice": 0.6509785944409668,
+      "susceptibility": 0.47352390765212476,
+      "conviction": 0.6452232004655525
+    }
+  },
+  {
+    "id": "P-145",
+    "name": "Sanne Bouzidi",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.49054704643785957,
+      "hops": 0.4254744481295347,
+      "payer": 0.35917747132480143,
+      "gp": 0.4025587967783213,
+      "unknown": 0.493484141137451,
+      "patient": 0.5034120901487767
+    },
+    "behav": {
+      "voice": 0.605981957684271,
+      "susceptibility": 0.45877785339020194,
+      "conviction": 0.6396942904265598
+    }
+  },
+  {
+    "id": "P-146",
+    "name": "Mila Mulder",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4998925092443824,
+      "hops": 0.433370705191046,
+      "payer": 0.4150201525166631,
+      "gp": 0.41236602984368803,
+      "unknown": 0.47306722160428766,
+      "patient": 0.4965275899320841
+    },
+    "behav": {
+      "voice": 0.6164416424976662,
+      "susceptibility": 0.4805935499118641,
+      "conviction": 0.5771037067333237
+    }
+  },
+  {
+    "id": "P-147",
+    "name": "Thijs Kowalski",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 6,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5206537209451199,
+      "hops": 0.4703372360952199,
+      "payer": 0.3561640308238566,
+      "gp": 0.4314998817816377,
+      "unknown": 0.4823521438986063,
+      "patient": 0.5261040216498077
+    },
+    "behav": {
+      "voice": 0.6128568632807583,
+      "susceptibility": 0.41848271965049205,
+      "conviction": 0.6310047523165122
+    }
+  },
+  {
+    "id": "P-148",
+    "name": "Robin Nasser",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.515705322586,
+      "hops": 0.4044592739269137,
+      "payer": 0.3885684088431299,
+      "gp": 0.37557517103850846,
+      "unknown": 0.4535532538592816,
+      "patient": 0.5261688896268606
+    },
+    "behav": {
+      "voice": 0.6241895820060744,
+      "susceptibility": 0.44211112254764884,
+      "conviction": 0.6388447893597186
+    }
+  },
+  {
+    "id": "P-149",
+    "name": "Mila Kowalski",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.49571691108867527,
+      "hops": 0.4574488762021065,
+      "payer": 0.3930454086512327,
+      "gp": 0.40618841610848905,
+      "unknown": 0.4281574333645404,
+      "patient": 0.5304445947147906
+    },
+    "behav": {
+      "voice": 0.5895347666507587,
+      "susceptibility": 0.4463695235410705,
+      "conviction": 0.6433193133492022
+    }
+  },
+  {
+    "id": "P-150",
+    "name": "Meryem Dijkstra",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 14,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.515467685237527,
+      "hops": 0.4510422728024423,
+      "payer": 0.34294350186362865,
+      "gp": 0.3768712677434087,
+      "unknown": 0.4301605870760977,
+      "patient": 0.5414290009811521
+    },
+    "behav": {
+      "voice": 0.6449829588690773,
+      "susceptibility": 0.4329126391420141,
+      "conviction": 0.6526903435401619
+    }
+  },
+  {
+    "id": "P-151",
+    "name": "Eva van Leeuwen",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 29,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5059163419157267,
+      "hops": 0.4560953773185611,
+      "payer": 0.40744442569091915,
+      "gp": 0.4001723691634834,
+      "unknown": 0.4793205879069865,
+      "patient": 0.5004378398135305
+    },
+    "behav": {
+      "voice": 0.6323651481466368,
+      "susceptibility": 0.450895787877962,
+      "conviction": 0.629731529513374
+    }
+  },
+  {
+    "id": "P-152",
+    "name": "Noor El Idrissi",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 25,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5297428953647614,
+      "hops": 0.4191378378495574,
+      "payer": 0.41058814017102124,
+      "gp": 0.3693160352110863,
+      "unknown": 0.48500093324109916,
+      "patient": 0.55093646151945
+    },
+    "behav": {
+      "voice": 0.6012386005185545,
+      "susceptibility": 0.4392970341583714,
+      "conviction": 0.6323653365531936
+    }
+  },
+  {
+    "id": "P-153",
+    "name": "Sam Bouzidi",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 32,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5013430400192738,
+      "hops": 0.46623132115229965,
+      "payer": 0.39058645877987147,
+      "gp": 0.38694925140589476,
+      "unknown": 0.47887764597311616,
+      "patient": 0.5407810397818684
+    },
+    "behav": {
+      "voice": 0.6483264629309997,
+      "susceptibility": 0.4207340489700437,
+      "conviction": 0.6356568474834785
+    }
+  },
+  {
+    "id": "P-154",
+    "name": "Lina Smit",
+    "archetype": "gp",
+    "synthetic": true,
+    "years_experience": 7,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5265575147047639,
+      "hops": 0.41325101679190995,
+      "payer": 0.37457035478204487,
+      "gp": 0.43918592808768153,
+      "unknown": 0.467354598492384,
+      "patient": 0.49804091969504954
+    },
+    "behav": {
+      "voice": 0.6025279459590093,
+      "susceptibility": 0.47065305163618176,
+      "conviction": 0.6579418709781021
+    }
+  },
+  {
+    "id": "P-155",
+    "name": "Joris Smit",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Friesland",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.41747106678783896,
+      "hops": 0.3820413373038173,
+      "payer": 0.3297149286046624,
+      "gp": 0.4434405431710184,
+      "unknown": 0.2823022110573947,
+      "patient": 0.6629096211865545
+    },
+    "behav": {
+      "voice": 0.49370848742779344,
+      "susceptibility": 0.6554254814749583,
+      "conviction": 0.4430946441087872
+    }
+  },
+  {
+    "id": "P-156",
+    "name": "Fatima Brouwer",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Groningen",
+    "patient_condition": "ouder_van_kind",
+    "priors": {
+      "refuse": 0.4361344691365957,
+      "hops": 0.3752999261021614,
+      "payer": 0.2925111410208046,
+      "gp": 0.4028103848733008,
+      "unknown": 0.30436627473682165,
+      "patient": 0.6943344565667212
+    },
+    "behav": {
+      "voice": 0.463271581674926,
+      "susceptibility": 0.7066772133577615,
+      "conviction": 0.47661175871733574
+    }
+  },
+  {
+    "id": "P-157",
+    "name": "Fatima Schouten",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Limburg",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.41468363877385855,
+      "hops": 0.3878038625046611,
+      "payer": 0.319822322204709,
+      "gp": 0.46924023700878026,
+      "unknown": 0.2901308534666896,
+      "patient": 0.6924534112028777
+    },
+    "behav": {
+      "voice": 0.41167177000548694,
+      "susceptibility": 0.6978372695157304,
+      "conviction": 0.46577358936890956
+    }
+  },
+  {
+    "id": "P-158",
+    "name": "Fatima van Dam",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Noord-Holland",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.4739780599437654,
+      "hops": 0.38643137553706763,
+      "payer": 0.29075270574539896,
+      "gp": 0.4023300985619426,
+      "unknown": 0.273583720754832,
+      "patient": 0.6760383204557002
+    },
+    "behav": {
+      "voice": 0.4534284788090736,
+      "susceptibility": 0.7004712002119049,
+      "conviction": 0.4818062184099108
+    }
+  },
+  {
+    "id": "P-159",
+    "name": "Noor El Amrani",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Zeeland",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.44973870616406203,
+      "hops": 0.3227516233548522,
+      "payer": 0.29333043633028866,
+      "gp": 0.45712103655561803,
+      "unknown": 0.2891653513908386,
+      "patient": 0.689771281387657
+    },
+    "behav": {
+      "voice": 0.42346960079390555,
+      "susceptibility": 0.7124414945021271,
+      "conviction": 0.46882546233944594
+    }
+  },
+  {
+    "id": "P-160",
+    "name": "Mila van Vliet",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Utrecht",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4043802329711616,
+      "hops": 0.3388173370249569,
+      "payer": 0.28207036867737767,
+      "gp": 0.41561387354508045,
+      "unknown": 0.3210180216282606,
+      "patient": 0.6691014623641968
+    },
+    "behav": {
+      "voice": 0.4156623118929565,
+      "susceptibility": 0.6909394879126921,
+      "conviction": 0.46254042256157846
+    }
+  },
+  {
+    "id": "P-161",
+    "name": "Kuba Benali",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Zeeland",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.4238463675789535,
+      "hops": 0.3951679762266576,
+      "payer": 0.2713961696438491,
+      "gp": 0.4089354881085455,
+      "unknown": 0.31021129319444296,
+      "patient": 0.6886750871874392
+    },
+    "behav": {
+      "voice": 0.4113182442635298,
+      "susceptibility": 0.7149506667163222,
+      "conviction": 0.47069503911305216
+    }
+  },
+  {
+    "id": "P-162",
+    "name": "Kees van Leeuwen",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Friesland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.41236360182985665,
+      "hops": 0.35417595837265253,
+      "payer": 0.27798046745359895,
+      "gp": 0.46771378008648756,
+      "unknown": 0.26369642674922944,
+      "patient": 0.6467252386547625
+    },
+    "behav": {
+      "voice": 0.4375117446901277,
+      "susceptibility": 0.7166829779045656,
+      "conviction": 0.44057565074879673
+    }
+  },
+  {
+    "id": "P-163",
+    "name": "Daan Wójcik",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Noord-Brabant",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.44631808387115596,
+      "hops": 0.39754318377003073,
+      "payer": 0.3236853358335793,
+      "gp": 0.4083289676345885,
+      "unknown": 0.2931841976381838,
+      "patient": 0.6808418624848128
+    },
+    "behav": {
+      "voice": 0.41926591022871434,
+      "susceptibility": 0.7162618659436703,
+      "conviction": 0.5062626220937818
+    }
+  },
+  {
+    "id": "P-164",
+    "name": "Sam Willems",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Groningen",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.401562072429806,
+      "hops": 0.326344361230731,
+      "payer": 0.33771436216309664,
+      "gp": 0.4106417938135564,
+      "unknown": 0.2695525690726936,
+      "patient": 0.6722610697336495
+    },
+    "behav": {
+      "voice": 0.4122405635332689,
+      "susceptibility": 0.6665802563074976,
+      "conviction": 0.4511666759336367
+    }
+  },
+  {
+    "id": "P-165",
+    "name": "Thijs Kowalczyk",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Flevoland",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.47600422663614156,
+      "hops": 0.36487696947529913,
+      "payer": 0.30084588602185247,
+      "gp": 0.4596473678201437,
+      "unknown": 0.2850376064889133,
+      "patient": 0.651206878926605
+    },
+    "behav": {
+      "voice": 0.5088537766272202,
+      "susceptibility": 0.7045929081505165,
+      "conviction": 0.4657425508322194
+    }
+  },
+  {
+    "id": "P-166",
+    "name": "Eva Dijkstra",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Noord-Brabant",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.44875997574999926,
+      "hops": 0.35541158381849525,
+      "payer": 0.3229443940334022,
+      "gp": 0.44008107714354994,
+      "unknown": 0.2771676933579147,
+      "patient": 0.6970409052073956
+    },
+    "behav": {
+      "voice": 0.43279491245280954,
+      "susceptibility": 0.6651759624714031,
+      "conviction": 0.4473209829488769
+    }
+  },
+  {
+    "id": "P-167",
+    "name": "Noor de Groot",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Zeeland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4241354900971055,
+      "hops": 0.3847748386859894,
+      "payer": 0.27466751443222165,
+      "gp": 0.4269458309188485,
+      "unknown": 0.2933247472718358,
+      "patient": 0.6660264216177166
+    },
+    "behav": {
+      "voice": 0.5040338645596057,
+      "susceptibility": 0.6688944661989807,
+      "conviction": 0.4406125818332657
+    }
+  },
+  {
+    "id": "P-168",
+    "name": "Noor van den Heuvel",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Overijssel",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.4729103262722492,
+      "hops": 0.3760550005733967,
+      "payer": 0.29463020749390123,
+      "gp": 0.4792315865494311,
+      "unknown": 0.3044535205326974,
+      "patient": 0.6557407121360302
+    },
+    "behav": {
+      "voice": 0.4154158533224836,
+      "susceptibility": 0.6737408743472769,
+      "conviction": 0.4987428485834971
+    }
+  },
+  {
+    "id": "P-169",
+    "name": "Sam Blom",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Zuid-Holland",
+    "patient_condition": "ouder_van_kind",
+    "priors": {
+      "refuse": 0.4346144240535796,
+      "hops": 0.38961637515574693,
+      "payer": 0.26528262900188565,
+      "gp": 0.45996782545000314,
+      "unknown": 0.283948911819607,
+      "patient": 0.6207228602282703
+    },
+    "behav": {
+      "voice": 0.4723812776291743,
+      "susceptibility": 0.6567281989846379,
+      "conviction": 0.5279763448936865
+    }
+  },
+  {
+    "id": "P-170",
+    "name": "Lina Smits",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Overijssel",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.47151253182440994,
+      "hops": 0.38357030132785436,
+      "payer": 0.3002654160186648,
+      "gp": 0.47622770769521594,
+      "unknown": 0.32707764264196154,
+      "patient": 0.6381829351745546
+    },
+    "behav": {
+      "voice": 0.46195353829767555,
+      "susceptibility": 0.6518358130240812,
+      "conviction": 0.5218230018112808
+    }
+  },
+  {
+    "id": "P-171",
+    "name": "Kuba Ait Ali",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Friesland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4167764854244888,
+      "hops": 0.3969878383539617,
+      "payer": 0.2859533652663231,
+      "gp": 0.4229205418750644,
+      "unknown": 0.2956369016878307,
+      "patient": 0.6954708991758526
+    },
+    "behav": {
+      "voice": 0.4419959102198482,
+      "susceptibility": 0.6800257036695256,
+      "conviction": 0.43969557841308415
+    }
+  },
+  {
+    "id": "P-172",
+    "name": "Fatima Visser",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Groningen",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.40966288585215804,
+      "hops": 0.3609354424290359,
+      "payer": 0.28415421521291134,
+      "gp": 0.40838256565853953,
+      "unknown": 0.28044772369787097,
+      "patient": 0.6985627846606076
+    },
+    "behav": {
+      "voice": 0.4688152760174126,
+      "susceptibility": 0.7168939549708738,
+      "conviction": 0.4444310508156195
+    }
+  },
+  {
+    "id": "P-173",
+    "name": "Noor Tran",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Utrecht",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.4304682623408735,
+      "hops": 0.35140992591157555,
+      "payer": 0.3372827368788421,
+      "gp": 0.4700067548826337,
+      "unknown": 0.33027868540957567,
+      "patient": 0.695106815379113
+    },
+    "behav": {
+      "voice": 0.4467233128286898,
+      "susceptibility": 0.6625914850505068,
+      "conviction": 0.5211933975759894
+    }
+  },
+  {
+    "id": "P-174",
+    "name": "Robin de Jong",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Gelderland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4340144604258239,
+      "hops": 0.3634328860417008,
+      "payer": 0.28504882507026197,
+      "gp": 0.46795225789770484,
+      "unknown": 0.2615958404354751,
+      "patient": 0.6575117960013449
+    },
+    "behav": {
+      "voice": 0.45178005252033476,
+      "susceptibility": 0.6986468944931402,
+      "conviction": 0.5272641460364684
+    }
+  },
+  {
+    "id": "P-175",
+    "name": "Anouk Prins",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Drenthe",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.4512417707778513,
+      "hops": 0.3272105659358203,
+      "payer": 0.3326474796980619,
+      "gp": 0.40892850555479526,
+      "unknown": 0.31102963676676154,
+      "patient": 0.684497815836221
+    },
+    "behav": {
+      "voice": 0.48641135745216163,
+      "susceptibility": 0.7229517098283395,
+      "conviction": 0.4476494549959898
+    }
+  },
+  {
+    "id": "P-176",
+    "name": "Mo Mulder",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Utrecht",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.46108111187815665,
+      "hops": 0.35567649275064467,
+      "payer": 0.30314545597881076,
+      "gp": 0.4334720697626471,
+      "unknown": 0.3317205744422972,
+      "patient": 0.6568527025170624
+    },
+    "behav": {
+      "voice": 0.4104992891103029,
+      "susceptibility": 0.7314190802630036,
+      "conviction": 0.517605803902261
+    }
+  },
+  {
+    "id": "P-177",
+    "name": "Thijs Timmermans",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Limburg",
+    "patient_condition": "ouder_van_kind",
+    "priors": {
+      "refuse": 0.472730310652405,
+      "hops": 0.39670354349538683,
+      "payer": 0.3396690189279616,
+      "gp": 0.4037297890521586,
+      "unknown": 0.28256707651540636,
+      "patient": 0.6571676051802934
+    },
+    "behav": {
+      "voice": 0.45658017498441045,
+      "susceptibility": 0.6659551674965769,
+      "conviction": 0.5209067546250299
+    }
+  },
+  {
+    "id": "P-178",
+    "name": "Kuba Koster",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Gelderland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4260905733704567,
+      "hops": 0.3867556186392903,
+      "payer": 0.3100429256819188,
+      "gp": 0.42763727247714994,
+      "unknown": 0.3001040360331535,
+      "patient": 0.6543647335842252
+    },
+    "behav": {
+      "voice": 0.47139599350281064,
+      "susceptibility": 0.7014086946379393,
+      "conviction": 0.5046808985713869
+    }
+  },
+  {
+    "id": "P-179",
+    "name": "Mila van der Velden",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Noord-Brabant",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4263335435092449,
+      "hops": 0.3998999312892556,
+      "payer": 0.30229924170300365,
+      "gp": 0.45337685402482747,
+      "unknown": 0.32521497681736944,
+      "patient": 0.6422241823002697
+    },
+    "behav": {
+      "voice": 0.44775504250079395,
+      "susceptibility": 0.6909842932596802,
+      "conviction": 0.451590544260107
+    }
+  },
+  {
+    "id": "P-180",
+    "name": "Kees Bouzidi",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Noord-Holland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4413846362568438,
+      "hops": 0.38040000637993215,
+      "payer": 0.26911315178498624,
+      "gp": 0.4462085554935038,
+      "unknown": 0.3045500562340021,
+      "patient": 0.6502811017632485
+    },
+    "behav": {
+      "voice": 0.49163161252159626,
+      "susceptibility": 0.7233199226437136,
+      "conviction": 0.5145026408554986
+    }
+  },
+  {
+    "id": "P-181",
+    "name": "Noor van den Heuvel",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Groningen",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.44118191257119177,
+      "hops": 0.3554693245887756,
+      "payer": 0.2905795910954475,
+      "gp": 0.44956436233595015,
+      "unknown": 0.3090137008205056,
+      "patient": 0.6447865227423608
+    },
+    "behav": {
+      "voice": 0.4733291537407786,
+      "susceptibility": 0.7371349740773439,
+      "conviction": 0.47497555759735405
+    }
+  },
+  {
+    "id": "P-182",
+    "name": "Lina Khoury",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Zuid-Holland",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.41321264691650866,
+      "hops": 0.3378125189244747,
+      "payer": 0.3008605367131531,
+      "gp": 0.40198077922686937,
+      "unknown": 0.30373465303331615,
+      "patient": 0.6462239504046738
+    },
+    "behav": {
+      "voice": 0.4817281867284328,
+      "susceptibility": 0.7458820851286873,
+      "conviction": 0.4604669018136337
+    }
+  },
+  {
+    "id": "P-183",
+    "name": "Sanne van der Wal",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Limburg",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.4334828862547874,
+      "hops": 0.39167135568335654,
+      "payer": 0.31335648480802775,
+      "gp": 0.4331779921799898,
+      "unknown": 0.2715373791754246,
+      "patient": 0.6760167009569705
+    },
+    "behav": {
+      "voice": 0.41358343021944166,
+      "susceptibility": 0.6635335150873288,
+      "conviction": 0.446607743082568
+    }
+  },
+  {
+    "id": "P-184",
+    "name": "Noor Brouwer",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Gelderland",
+    "patient_condition": "chronisch",
+    "priors": {
+      "refuse": 0.4178235168196261,
+      "hops": 0.3406164700910449,
+      "payer": 0.2955751906521618,
+      "gp": 0.4205625770241022,
+      "unknown": 0.29480907132849093,
+      "patient": 0.6757602850720287
+    },
+    "behav": {
+      "voice": 0.4816402363032103,
+      "susceptibility": 0.6778345050057396,
+      "conviction": 0.44534545072354376
+    }
+  },
+  {
+    "id": "P-185",
+    "name": "Mila van den Berg",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Groningen",
+    "patient_condition": "ouder_van_kind",
+    "priors": {
+      "refuse": 0.46557748584076764,
+      "hops": 0.36150063555687667,
+      "payer": 0.3297777706198394,
+      "gp": 0.47858028108254075,
+      "unknown": 0.2901460836827755,
+      "patient": 0.6401547607406974
+    },
+    "behav": {
+      "voice": 0.4736190113378689,
+      "susceptibility": 0.7070033717434853,
+      "conviction": 0.5053627396188676
+    }
+  },
+  {
+    "id": "P-186",
+    "name": "Sam Jansen",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Overijssel",
+    "patient_condition": "zwanger",
+    "priors": {
+      "refuse": 0.4508830827102065,
+      "hops": 0.3302742749638855,
+      "payer": 0.2664801393821835,
+      "gp": 0.4264231689460576,
+      "unknown": 0.3268246713653207,
+      "patient": 0.6878544889576733
+    },
+    "behav": {
+      "voice": 0.4125300625478849,
+      "susceptibility": 0.7230917192064226,
+      "conviction": 0.5130203403253109
+    }
+  },
+  {
+    "id": "P-187",
+    "name": "Kees Bakker",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Zuid-Holland",
+    "patient_condition": "ouderen",
+    "priors": {
+      "refuse": 0.43180176803842185,
+      "hops": 0.37946790011599657,
+      "payer": 0.2666477329283953,
+      "gp": 0.42596126336604356,
+      "unknown": 0.26159048145636915,
+      "patient": 0.6671122033707798
+    },
+    "behav": {
+      "voice": 0.46942306774668396,
+      "susceptibility": 0.6950353241059929,
+      "conviction": 0.4515763741871342
+    }
+  },
+  {
+    "id": "P-188",
+    "name": "Mila Dijkstra",
+    "archetype": "patient",
+    "synthetic": true,
+    "years_experience": null,
+    "pharmacy_type": null,
+    "region": "Friesland",
+    "patient_condition": "ouder_van_kind",
+    "priors": {
+      "refuse": 0.4386614987626672,
+      "hops": 0.39240193450823424,
+      "payer": 0.3214721066877246,
+      "gp": 0.4374721780233085,
+      "unknown": 0.2985853892564773,
+      "patient": 0.642604094222188
+    },
+    "behav": {
+      "voice": 0.41236682081595066,
+      "susceptibility": 0.7199414832284674,
+      "conviction": 0.47179598663467914
+    }
+  },
+  {
+    "id": "P-189",
+    "name": "Kuba van der Wal",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5934726028516889,
+      "hops": 0.5968063076026737,
+      "payer": 0.8458771948330104,
+      "gp": 0.4533422425948084,
+      "unknown": 0.5445737995579839,
+      "patient": 0.48458504568785427
+    },
+    "behav": {
+      "voice": 0.61711776251439,
+      "susceptibility": 0.2505893010413274,
+      "conviction": 0.743179649496451
+    }
+  },
+  {
+    "id": "P-190",
+    "name": "Sanne Bouzidi",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.527159367967397,
+      "hops": 0.6341354596242309,
+      "payer": 0.7808158689737319,
+      "gp": 0.43745008658617734,
+      "unknown": 0.48964152464643124,
+      "patient": 0.4807985678873956
+    },
+    "behav": {
+      "voice": 0.5623349891230464,
+      "susceptibility": 0.3307267895201221,
+      "conviction": 0.7032769667776302
+    }
+  },
+  {
+    "id": "P-191",
+    "name": "Sam Vos",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "anders",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5867752584442497,
+      "hops": 0.6028740463405847,
+      "payer": 0.8001785760186612,
+      "gp": 0.4493839715234936,
+      "unknown": 0.5421652930974961,
+      "patient": 0.47416249088943
+    },
+    "behav": {
+      "voice": 0.6096687656547873,
+      "susceptibility": 0.30073197979945687,
+      "conviction": 0.7630647314805538
+    }
+  },
+  {
+    "id": "P-192",
+    "name": "Thijs Dekker",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 12,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5318463849835098,
+      "hops": 0.6275951425917446,
+      "payer": 0.8229078902304172,
+      "gp": 0.4235936120338738,
+      "unknown": 0.5584239028021694,
+      "patient": 0.44200256079435346
+    },
+    "behav": {
+      "voice": 0.6294170814985409,
+      "susceptibility": 0.3020333569031209,
+      "conviction": 0.7202146639442071
+    }
+  },
+  {
+    "id": "P-193",
+    "name": "Sam El Idrissi",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 9,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5392441828362644,
+      "hops": 0.5839857101254166,
+      "payer": 0.7923348962329327,
+      "gp": 0.4595622416585684,
+      "unknown": 0.5036798889189958,
+      "patient": 0.475978922303766
+    },
+    "behav": {
+      "voice": 0.6223851597355678,
+      "susceptibility": 0.2789343409473076,
+      "conviction": 0.7013540491089225
+    }
+  },
+  {
+    "id": "P-194",
+    "name": "Fatima Yılmaz",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 3,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5290909301862121,
+      "hops": 0.6165630321018398,
+      "payer": 0.8015731246396899,
+      "gp": 0.44594956478104,
+      "unknown": 0.539035760499537,
+      "patient": 0.4799074459262192
+    },
+    "behav": {
+      "voice": 0.5645266506308689,
+      "susceptibility": 0.32330625117756423,
+      "conviction": 0.7523862497042865
+    }
+  },
+  {
+    "id": "P-195",
+    "name": "Eva Çelik",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.575777774527669,
+      "hops": 0.6193940655514598,
+      "payer": 0.845610228497535,
+      "gp": 0.4232555442489684,
+      "unknown": 0.5495764452591538,
+      "patient": 0.4589520909264684
+    },
+    "behav": {
+      "voice": 0.6281163587188348,
+      "susceptibility": 0.2772155928891152,
+      "conviction": 0.7864252948993817
+    }
+  },
+  {
+    "id": "P-196",
+    "name": "Sanne Çelik",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 2,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5984840332530439,
+      "hops": 0.6171040712110698,
+      "payer": 0.8252656708098948,
+      "gp": 0.43177992410957816,
+      "unknown": 0.4839466739818454,
+      "patient": 0.4805874209292233
+    },
+    "behav": {
+      "voice": 0.5724003260210156,
+      "susceptibility": 0.2938108100555837,
+      "conviction": 0.7565982523467392
+    }
+  },
+  {
+    "id": "P-197",
+    "name": "Mo de Wit",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5366952776536346,
+      "hops": 0.645667444523424,
+      "payer": 0.7817917365394532,
+      "gp": 0.4541760613024235,
+      "unknown": 0.4905873028188944,
+      "patient": 0.5119331791251898
+    },
+    "behav": {
+      "voice": 0.6002075600624084,
+      "susceptibility": 0.3061288585653528,
+      "conviction": 0.698870863635093
+    }
+  },
+  {
+    "id": "P-198",
+    "name": "Joris de Haan",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 9,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.530449148491025,
+      "hops": 0.5924054520763457,
+      "payer": 0.846839377619326,
+      "gp": 0.42386859662830834,
+      "unknown": 0.5561144470795989,
+      "patient": 0.44158176198601723
+    },
+    "behav": {
+      "voice": 0.6296179056353867,
+      "susceptibility": 0.26371047052089125,
+      "conviction": 0.7676223171502352
+    }
+  },
+  {
+    "id": "P-199",
+    "name": "Sam Vermeulen",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 2,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5889512586966158,
+      "hops": 0.6501205148920417,
+      "payer": 0.822518354114145,
+      "gp": 0.4460786411166191,
+      "unknown": 0.5531142180599272,
+      "patient": 0.47817200718447567
+    },
+    "behav": {
+      "voice": 0.5425821141060442,
+      "susceptibility": 0.28694720622152087,
+      "conviction": 0.7346556715993211
+    }
+  },
+  {
+    "id": "P-200",
+    "name": "Kees Blom",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5632900608144701,
+      "hops": 0.6538690998218953,
+      "payer": 0.835134825631976,
+      "gp": 0.4567928848043084,
+      "unknown": 0.5230261451192201,
+      "patient": 0.49412889450788494
+    },
+    "behav": {
+      "voice": 0.6175104995211586,
+      "susceptibility": 0.28295148159377276,
+      "conviction": 0.7285978112230077
+    }
+  },
+  {
+    "id": "P-201",
+    "name": "Joris de Boer",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 23,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5449687696062029,
+      "hops": 0.6464197709225118,
+      "payer": 0.7849169431254267,
+      "gp": 0.47381424607709055,
+      "unknown": 0.5145653628185392,
+      "patient": 0.5059600552730262
+    },
+    "behav": {
+      "voice": 0.5816334678046405,
+      "susceptibility": 0.31573762802872807,
+      "conviction": 0.732357601900585
+    }
+  },
+  {
+    "id": "P-202",
+    "name": "Mo Kowalczyk",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5809117065928877,
+      "hops": 0.6038609101995825,
+      "payer": 0.8357502440549432,
+      "gp": 0.4623309510014951,
+      "unknown": 0.5520402941480279,
+      "patient": 0.489939074460417
+    },
+    "behav": {
+      "voice": 0.6034023906290531,
+      "susceptibility": 0.28031707738991823,
+      "conviction": 0.7590682788845151
+    }
+  },
+  {
+    "id": "P-203",
+    "name": "Joris van der Linden",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 31,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5961830551363528,
+      "hops": 0.6361601025424898,
+      "payer": 0.8243425666540861,
+      "gp": 0.4636955303885043,
+      "unknown": 0.5015571961738169,
+      "patient": 0.48198646932840344
+    },
+    "behav": {
+      "voice": 0.5599559712642803,
+      "susceptibility": 0.267469833465293,
+      "conviction": 0.7854659115290269
+    }
+  },
+  {
+    "id": "P-204",
+    "name": "Robin Hoekstra",
+    "archetype": "insurer",
+    "synthetic": true,
+    "years_experience": 9,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.538906686641276,
+      "hops": 0.612904047779739,
+      "payer": 0.7922656047157943,
+      "gp": 0.4529566140845418,
+      "unknown": 0.5597641656547785,
+      "patient": 0.4965613246709108
+    },
+    "behav": {
+      "voice": 0.6259889682941139,
+      "susceptibility": 0.27063845058437436,
+      "conviction": 0.786334381494671
+    }
+  },
+  {
+    "id": "P-205",
+    "name": "Noor de Vries",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.3094838847592473,
+      "hops": 0.8525198196992279,
+      "payer": 0.237836201377213,
+      "gp": 0.476180467531085,
+      "unknown": 0.36043702930212024,
+      "patient": 0.4253658397495747
+    },
+    "behav": {
+      "voice": 0.6647042449424043,
+      "susceptibility": 0.3516592908743769,
+      "conviction": 0.6829815119737759
+    }
+  },
+  {
+    "id": "P-206",
+    "name": "Meryem van der Linden",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 5,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.33567953964695335,
+      "hops": 0.9103779377788306,
+      "payer": 0.24684430722147227,
+      "gp": 0.4996461670100689,
+      "unknown": 0.33102529224008326,
+      "patient": 0.42827981343492866
+    },
+    "behav": {
+      "voice": 0.6778856552997604,
+      "susceptibility": 0.3665204430324957,
+      "conviction": 0.6882043658290058
+    }
+  },
+  {
+    "id": "P-207",
+    "name": "Meryem de Bruin",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 34,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.34651461640372877,
+      "hops": 0.8920827354490757,
+      "payer": 0.24430047016590833,
+      "gp": 0.4246352606266737,
+      "unknown": 0.3047635774500668,
+      "patient": 0.4782194990478456
+    },
+    "behav": {
+      "voice": 0.6468503016140312,
+      "susceptibility": 0.33890581611543896,
+      "conviction": 0.6799039300531149
+    }
+  },
+  {
+    "id": "P-208",
+    "name": "Fatima Peters",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.335930155441165,
+      "hops": 0.8732840597629548,
+      "payer": 0.24929151447489858,
+      "gp": 0.4882211433909834,
+      "unknown": 0.3487999735400081,
+      "patient": 0.4786102947779
+    },
+    "behav": {
+      "voice": 0.6175696480413899,
+      "susceptibility": 0.34559040317311884,
+      "conviction": 0.7119404893834144
+    }
+  },
+  {
+    "id": "P-209",
+    "name": "Sam Timmermans",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 26,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.30220926184207203,
+      "hops": 0.8513731658086181,
+      "payer": 0.22495230680331588,
+      "gp": 0.4465035782940686,
+      "unknown": 0.3751565633155406,
+      "patient": 0.4681715774908662
+    },
+    "behav": {
+      "voice": 0.607515654861927,
+      "susceptibility": 0.349878437477164,
+      "conviction": 0.6661864130990579
+    }
+  },
+  {
+    "id": "P-210",
+    "name": "Eva Maas",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "anders",
+    "region": "Zuid-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.34636883107945327,
+      "hops": 0.8729334428161383,
+      "payer": 0.25601605311036113,
+      "gp": 0.47253886610269547,
+      "unknown": 0.3316153791174293,
+      "patient": 0.46508860491216186
+    },
+    "behav": {
+      "voice": 0.6145204958831891,
+      "susceptibility": 0.32806402070913465,
+      "conviction": 0.6844546611886471
+    }
+  },
+  {
+    "id": "P-211",
+    "name": "Joris Koster",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 1,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.3416212541237474,
+      "hops": 0.8819404627755284,
+      "payer": 0.20594093576073647,
+      "gp": 0.461091445889324,
+      "unknown": 0.36101057479158044,
+      "patient": 0.42006388181820514
+    },
+    "behav": {
+      "voice": 0.6319891914585606,
+      "susceptibility": 0.3898603782849387,
+      "conviction": 0.667860257672146
+    }
+  },
+  {
+    "id": "P-212",
+    "name": "Fatima Mulder",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.314002382978797,
+      "hops": 0.8498838274553419,
+      "payer": 0.2023895264044404,
+      "gp": 0.48431535203009846,
+      "unknown": 0.3761757997237146,
+      "patient": 0.44447821944952015
+    },
+    "behav": {
+      "voice": 0.6890114791085944,
+      "susceptibility": 0.38889954372774815,
+      "conviction": 0.7317545453086495
+    }
+  },
+  {
+    "id": "P-213",
+    "name": "Lina van den Heuvel",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.30787611262872816,
+      "hops": 0.8914471190050245,
+      "payer": 0.22576823871582746,
+      "gp": 0.46910284912213684,
+      "unknown": 0.3432086407206953,
+      "patient": 0.46902016429230575
+    },
+    "behav": {
+      "voice": 0.650286784102209,
+      "susceptibility": 0.3104572303919122,
+      "conviction": 0.7104381088633089
+    }
+  },
+  {
+    "id": "P-214",
+    "name": "Thijs Şahin",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 6,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.3778757562115789,
+      "hops": 0.897717018686235,
+      "payer": 0.21063943253830075,
+      "gp": 0.45860921368002894,
+      "unknown": 0.33663734527304773,
+      "patient": 0.4543942510522902
+    },
+    "behav": {
+      "voice": 0.6058998401835561,
+      "susceptibility": 0.313143571917899,
+      "conviction": 0.6762988932896405
+    }
+  },
+  {
+    "id": "P-215",
+    "name": "Thijs Willems",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 18,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.30046973697841173,
+      "hops": 0.883437016569078,
+      "payer": 0.22326617171987892,
+      "gp": 0.4575041145272553,
+      "unknown": 0.30028515974059705,
+      "patient": 0.49351142847910523
+    },
+    "behav": {
+      "voice": 0.6462448287615553,
+      "susceptibility": 0.32925409324001526,
+      "conviction": 0.6609811911359429
+    }
+  },
+  {
+    "id": "P-216",
+    "name": "Joris Hendriks",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.32080757770687346,
+      "hops": 0.8634923281148076,
+      "payer": 0.2581932882033289,
+      "gp": 0.47706734435632825,
+      "unknown": 0.3168747792579234,
+      "patient": 0.47497481828555466
+    },
+    "behav": {
+      "voice": 0.6803015036368742,
+      "susceptibility": 0.3803952808585018,
+      "conviction": 0.678510561119765
+    }
+  },
+  {
+    "id": "P-217",
+    "name": "Noor Al-Ahmad",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 16,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.3761642964743078,
+      "hops": 0.8789002084173262,
+      "payer": 0.2163047580420971,
+      "gp": 0.48082746790722014,
+      "unknown": 0.3218794709444046,
+      "patient": 0.46335544895380737
+    },
+    "behav": {
+      "voice": 0.6447572815325111,
+      "susceptibility": 0.3857505728350953,
+      "conviction": 0.7278727884404361
+    }
+  },
+  {
+    "id": "P-218",
+    "name": "Kees van Vliet",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 31,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.30110678894445303,
+      "hops": 0.8898009910620749,
+      "payer": 0.22480211636051536,
+      "gp": 0.43355308149009947,
+      "unknown": 0.3677670277655125,
+      "patient": 0.49733960786834364
+    },
+    "behav": {
+      "voice": 0.6350975997839123,
+      "susceptibility": 0.36081919822376224,
+      "conviction": 0.7280781359178945
+    }
+  },
+  {
+    "id": "P-219",
+    "name": "Lina Hendriks",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 14,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.3218880708701909,
+      "hops": 0.8967844820953905,
+      "payer": 0.2569581102393568,
+      "gp": 0.45388883993029594,
+      "unknown": 0.3124569700099528,
+      "patient": 0.4734718654677272
+    },
+    "behav": {
+      "voice": 0.6452736042300239,
+      "susceptibility": 0.3355338171916083,
+      "conviction": 0.7084021259564905
+    }
+  },
+  {
+    "id": "P-220",
+    "name": "Fatima Hoekstra",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 30,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.34162156470119953,
+      "hops": 0.9190003257617354,
+      "payer": 0.24710938856005668,
+      "gp": 0.45356499606743456,
+      "unknown": 0.3731689897924662,
+      "patient": 0.4535770041309297
+    },
+    "behav": {
+      "voice": 0.6871075218170881,
+      "susceptibility": 0.314801890575327,
+      "conviction": 0.6880376068875194
+    }
+  },
+  {
+    "id": "P-221",
+    "name": "Noor de Wit",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 2,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.33370992030948404,
+      "hops": 0.84974957132712,
+      "payer": 0.18230861032381654,
+      "gp": 0.4255275502614677,
+      "unknown": 0.36101249074563385,
+      "patient": 0.43768484719097617
+    },
+    "behav": {
+      "voice": 0.6192494787834585,
+      "susceptibility": 0.3396845503104851,
+      "conviction": 0.6669543544063344
+    }
+  },
+  {
+    "id": "P-222",
+    "name": "Kuba de Groot",
+    "archetype": "wholesaler",
+    "synthetic": true,
+    "years_experience": 7,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.3475716818869114,
+      "hops": 0.9110267170146108,
+      "payer": 0.2020547098852694,
+      "gp": 0.4878058143332601,
+      "unknown": 0.34589472446590663,
+      "patient": 0.4999005448445678
+    },
+    "behav": {
+      "voice": 0.602275328533724,
+      "susceptibility": 0.38528116856236017,
+      "conviction": 0.7461499364348128
+    }
+  },
+  {
+    "id": "P-223",
+    "name": "Mo Hermans",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 28,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.9076894506625831,
+      "hops": 0.6966154222376645,
+      "payer": 0.4053579322434962,
+      "gp": 0.5053553887829185,
+      "unknown": 0.7986614228785038,
+      "patient": 0.5314667749777436
+    },
+    "behav": {
+      "voice": 0.6916463463567197,
+      "susceptibility": 0.26367364924401043,
+      "conviction": 0.8758739387243986
+    }
+  },
+  {
+    "id": "P-224",
+    "name": "Daan Nowak",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8846495927311481,
+      "hops": 0.6376340037398041,
+      "payer": 0.4039573850296438,
+      "gp": 0.5392773747071624,
+      "unknown": 0.8190875582955778,
+      "patient": 0.5246097205206752
+    },
+    "behav": {
+      "voice": 0.7463980714092031,
+      "susceptibility": 0.22424644532613455,
+      "conviction": 0.8532863857783377
+    }
+  },
+  {
+    "id": "P-225",
+    "name": "Eva de Wit",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 8,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8846512377820909,
+      "hops": 0.6776859039999545,
+      "payer": 0.37707218538969756,
+      "gp": 0.5036043492518365,
+      "unknown": 0.758555438220501,
+      "patient": 0.5524014819785953
+    },
+    "behav": {
+      "voice": 0.7455368576804176,
+      "susceptibility": 0.21544976758770645,
+      "conviction": 0.8387754736794159
+    }
+  },
+  {
+    "id": "P-226",
+    "name": "Mila Kowalczyk",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "anders",
+    "region": "Utrecht",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8831367730535568,
+      "hops": 0.6238655990548432,
+      "payer": 0.38127971755340695,
+      "gp": 0.4839982432872057,
+      "unknown": 0.8162495616637171,
+      "patient": 0.5362631936557591
+    },
+    "behav": {
+      "voice": 0.6876521529164165,
+      "susceptibility": 0.23254580451641232,
+      "conviction": 0.8871603085519746
+    }
+  },
+  {
+    "id": "P-227",
+    "name": "Robin Tran",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 15,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.885537568256259,
+      "hops": 0.621773120071739,
+      "payer": 0.37534156451001766,
+      "gp": 0.48186703028157357,
+      "unknown": 0.7630154956877232,
+      "patient": 0.539693221077323
+    },
+    "behav": {
+      "voice": 0.6501298160525039,
+      "susceptibility": 0.2573145862016827,
+      "conviction": 0.8692509026592597
+    }
+  },
+  {
+    "id": "P-228",
+    "name": "Fatima Al-Ahmad",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 32,
+    "pharmacy_type": "anders",
+    "region": "Zeeland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8917788227833807,
+      "hops": 0.6371278638206422,
+      "payer": 0.4357570639997721,
+      "gp": 0.5206399302743375,
+      "unknown": 0.764642005506903,
+      "patient": 0.5398741828463972
+    },
+    "behav": {
+      "voice": 0.7155803466681391,
+      "susceptibility": 0.25602349448483436,
+      "conviction": 0.8642527034366503
+    }
+  },
+  {
+    "id": "P-229",
+    "name": "Kuba El Amrani",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 12,
+    "pharmacy_type": "anders",
+    "region": "Noord-Holland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.90604298427701,
+      "hops": 0.6579339519701899,
+      "payer": 0.40475750079378486,
+      "gp": 0.5508659662678838,
+      "unknown": 0.7836111429333688,
+      "patient": 0.5491439810208977
+    },
+    "behav": {
+      "voice": 0.6971165546448901,
+      "susceptibility": 0.20101099911145864,
+      "conviction": 0.8765412827581167
+    }
+  },
+  {
+    "id": "P-230",
+    "name": "Meryem Bouzidi",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 28,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8909907680936158,
+      "hops": 0.6222984369844199,
+      "payer": 0.4385274627059698,
+      "gp": 0.5436104108765721,
+      "unknown": 0.7688773731514812,
+      "patient": 0.5038148651085794
+    },
+    "behav": {
+      "voice": 0.7115162962581962,
+      "susceptibility": 0.19763267804402856,
+      "conviction": 0.8562599166855216
+    }
+  },
+  {
+    "id": "P-231",
+    "name": "Mila Koster",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "anders",
+    "region": "Friesland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.9333840269967913,
+      "hops": 0.6741758582182229,
+      "payer": 0.41444972379133105,
+      "gp": 0.4986761217005551,
+      "unknown": 0.7993802960962058,
+      "patient": 0.5036222406290471
+    },
+    "behav": {
+      "voice": 0.66367366053164,
+      "susceptibility": 0.18379603559616953,
+      "conviction": 0.801928815767169
+    }
+  },
+  {
+    "id": "P-232",
+    "name": "Anouk van Wijk",
+    "archetype": "regulator",
+    "synthetic": true,
+    "years_experience": 11,
+    "pharmacy_type": "anders",
+    "region": "Gelderland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.8623987479694188,
+      "hops": 0.6632050440646708,
+      "payer": 0.3839283236116171,
+      "gp": 0.5355531235784292,
+      "unknown": 0.7605025571770966,
+      "patient": 0.5409088838100433
+    },
+    "behav": {
+      "voice": 0.6680431884014979,
+      "susceptibility": 0.2625434096716344,
+      "conviction": 0.8875849844282493
+    }
+  },
+  {
+    "id": "P-233",
+    "name": "Fatima Hermans",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 30,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5137074317224324,
+      "hops": 0.8890121823549271,
+      "payer": 0.4503708527237177,
+      "gp": 0.4655409936606884,
+      "unknown": 0.5390458650700748,
+      "patient": 0.49392737966030836
+    },
+    "behav": {
+      "voice": 0.5260902203759179,
+      "susceptibility": 0.37456629540771247,
+      "conviction": 0.61913810655009
+    }
+  },
+  {
+    "id": "P-234",
+    "name": "Sanne van der Velden",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 27,
+    "pharmacy_type": "anders",
+    "region": "Overijssel",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4829909908957779,
+      "hops": 0.9392337186820805,
+      "payer": 0.4739414454810321,
+      "gp": 0.5359846079722047,
+      "unknown": 0.5196809768863022,
+      "patient": 0.5328854091279208
+    },
+    "behav": {
+      "voice": 0.5112802782934159,
+      "susceptibility": 0.32377901937812564,
+      "conviction": 0.6521879658661783
+    }
+  },
+  {
+    "id": "P-235",
+    "name": "Robin Nowak",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 0,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4442752856388688,
+      "hops": 0.8853443802706897,
+      "payer": 0.45537213569507,
+      "gp": 0.5165321117639542,
+      "unknown": 0.47447025852277874,
+      "patient": 0.463363712541759
+    },
+    "behav": {
+      "voice": 0.5691488099191339,
+      "susceptibility": 0.34705301124136895,
+      "conviction": 0.6849529346078634
+    }
+  },
+  {
+    "id": "P-236",
+    "name": "Thijs van den Berg",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 6,
+    "pharmacy_type": "anders",
+    "region": "Flevoland",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5116687457635999,
+      "hops": 0.8997181028313935,
+      "payer": 0.4139916645362973,
+      "gp": 0.4863181060180068,
+      "unknown": 0.513295190166682,
+      "patient": 0.5258989675529301
+    },
+    "behav": {
+      "voice": 0.5268402881827206,
+      "susceptibility": 0.33667032494209703,
+      "conviction": 0.5940869208518416
+    }
+  },
+  {
+    "id": "P-237",
+    "name": "Meryem Al-Ahmad",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 19,
+    "pharmacy_type": "anders",
+    "region": "Noord-Brabant",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4628136762604117,
+      "hops": 0.9122135356068611,
+      "payer": 0.43809299482032654,
+      "gp": 0.48985908975824716,
+      "unknown": 0.5036938311904668,
+      "patient": 0.49002137636765836
+    },
+    "behav": {
+      "voice": 0.5979937978228554,
+      "susceptibility": 0.32112096216529606,
+      "conviction": 0.6132631305931137
+    }
+  },
+  {
+    "id": "P-238",
+    "name": "Mila Hermans",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 10,
+    "pharmacy_type": "anders",
+    "region": "Limburg",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4935928187519312,
+      "hops": 0.9282887977175415,
+      "payer": 0.43761948524042965,
+      "gp": 0.5215729970857501,
+      "unknown": 0.4930877657979727,
+      "patient": 0.5103970048949122
+    },
+    "behav": {
+      "voice": 0.5627959404978902,
+      "susceptibility": 0.35474219770636406,
+      "conviction": 0.6506449178885668
+    }
+  },
+  {
+    "id": "P-239",
+    "name": "Kuba Hoekstra",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 1,
+    "pharmacy_type": "anders",
+    "region": "Drenthe",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.4672906533628702,
+      "hops": 0.9374252761341632,
+      "payer": 0.43813957018777727,
+      "gp": 0.5338820035010576,
+      "unknown": 0.5231854257546366,
+      "patient": 0.5267832944728434
+    },
+    "behav": {
+      "voice": 0.5161276119202376,
+      "susceptibility": 0.40730130366515366,
+      "conviction": 0.6374186979467049
+    }
+  },
+  {
+    "id": "P-240",
+    "name": "Robin van Leeuwen",
+    "archetype": "import",
+    "synthetic": true,
+    "years_experience": 17,
+    "pharmacy_type": "anders",
+    "region": "Groningen",
+    "patient_condition": null,
+    "priors": {
+      "refuse": 0.5070458449423313,
+      "hops": 0.935012294240296,
+      "payer": 0.40953894779086114,
+      "gp": 0.5253281005471945,
+      "unknown": 0.5013950903713703,
+      "patient": 0.5041877195239067
+    },
+    "behav": {
+      "voice": 0.6002578222798184,
+      "susceptibility": 0.3250314873550087,
+      "conviction": 0.6115358320390806
+    }
+  }
+]

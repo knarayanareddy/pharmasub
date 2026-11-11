@@ -1,0 +1,42 @@
+{
+  "substance": "prednison",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "5 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Prednison Demo 5 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "cb1543eb02dd541c2a4fb8f671c3185a7b19d2bec7c15156f8eff609e6115307",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "5 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Prednison Pharmaplus 5 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "a8893ead04ef59d014818be4701e087eeee1176f2144e19eee337c90ce98e675",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "1 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Prednison Sandoz 1 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "eacef336e3c8802a0fcf5685858d30ba4083511800dd642d45b4850709d5de4b",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}
