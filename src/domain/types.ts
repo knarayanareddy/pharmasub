@@ -85,11 +85,15 @@ export interface ChainVerdict {
   rules_passed: string[];
   reject_rule: string | null;
   reject_reason_nl: string | null;
+  // English gloss of the Dutch refusal sentence (UI aid only; the Dutch
+  // sentence remains the authoritative clinical document).
+  reject_reason_en?: string | null;
   secondary_rules: string[];
   reimbursement: Reimbursement;
   reimbursement_source: { insurer: string; list: string; peildatum: string } | null;
   sources: SourceRef[];
   equivalence_note_nl?: string;
+  equivalence_note_en?: string;
 }
 
 export interface Edit {
@@ -122,6 +126,10 @@ export interface SubstitutionAdvice {
   refusals: ChainVerdict[];
   gp_message_nl: string;
   patient_text_nl: string;
+  // English glosses of the Dutch letters (UI reading aid only; cleared if the
+  // pharmacist edits the Dutch text).
+  gp_message_en?: string;
+  patient_text_en?: string;
   needs_pharmacist: true;
   approved: { chain_id: string; by: string; at: string; edits: Edit[] } | null;
 }

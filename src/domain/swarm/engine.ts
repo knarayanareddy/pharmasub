@@ -12,6 +12,7 @@ export interface RoundSnapshot {
   camps: Record<Dimension, { left: number; swing: number; right: number }>;
   support: Record<Dimension, number>;
   event: string | null;
+  event_en: string | null;
 }
 export interface SwarmRun {
   seed: number;
@@ -61,7 +62,7 @@ function buildGraph(personas: Persona[], mixing: number, rnd: () => number): { e
   return { edges, neighbours };
 }
 
-function snapshot(round: number, opinions: Opinions[], event: string | null): RoundSnapshot {
+function snapshot(round: number, opinions: Opinions[], event: string | null, event_en: string | null): RoundSnapshot {
   const means = {} as Record<Dimension, number>;
   const camps = {} as RoundSnapshot["camps"];
   const support = {} as Record<Dimension, number>;
@@ -73,7 +74,7 @@ function snapshot(round: number, opinions: Opinions[], event: string | null): Ro
     camps[dim.id] = { left, swing: values.length - left - right, right };
     support[dim.id] = right / values.length;
   }
-  return { round, opinions: opinions.map((opinion) => ({ ...opinion })), means, camps, support, event };
+  return { round, opinions: opinions.map((opinion) => ({ ...opinion })), means, camps, support, event, event_en };
 }
 
 export function runSwarm(personas: Persona[], options: SwarmOptions): SwarmRun {
@@ -94,7 +95,7 @@ export function runSwarm(personas: Persona[], options: SwarmOptions): SwarmRun {
   const initial = personas.map((persona) => Object.fromEntries(DIMENSIONS.map((dim) => [dim.id, clamp(persona.priors[dim.id] + (rnd() - .5) * .18)])) as Opinions);
   const opinions = initial.map((opinion) => ({ ...opinion }));
   const lastNeighbour = personas.map((_, index) => neighbours[index].values().next().value ?? index);
-  const snapshots = [snapshot(0, opinions, null)];
+  const snapshots = [snapshot(0, opinions, null, null)];
   const fired: { round: number; event: StoryEvent }[] = [];
 
   for (let round = 1; round <= rounds; round++) {
@@ -127,7 +128,7 @@ export function runSwarm(personas: Persona[], options: SwarmOptions): SwarmRun {
       }
       fired.push({ round, event: story });
     }
-    snapshots.push(snapshot(round, opinions, story?.label || null));
+    snapshots.push(snapshot(round, opinions, story?.label || null, story?.label_en || null));
   }
   return {
     seed, rounds, personas, edges, snapshots, initial, final: opinions.map((opinion) => ({ ...opinion })),

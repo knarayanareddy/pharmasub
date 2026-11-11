@@ -1,15 +1,39 @@
 import { preferences } from "./data";
-import { notReimbursedSentence, refusalSentence } from "./refusals";
+import {
+  EQUIVALENCE_NOTE_EN_GENERIC,
+  notReimbursedSentence,
+  notReimbursedSentenceEn,
+  refusalSentence,
+  refusalSentenceEn,
+} from "./refusals";
 import type { Case, ChainLink, ChainVerdict, Reimbursement, SubstanceTable } from "./types";
 import type { RuleId, RuleId as RuleName } from "./rules";
 
 const DEMO_DATE = new Date("2026-11-11T00:00:00Z");
 
-function rejected(id: string, chain: ChainLink[], rule: RuleName, c: Case, passed: string[], sources: ChainVerdict["sources"], reimbursement: Reimbursement = "onbekend", reimbursement_source: ChainVerdict["reimbursement_source"] = null, flag?: Parameters<typeof refusalSentence>[3]): ChainVerdict {
+function rejected(
+  id: string,
+  chain: ChainLink[],
+  rule: RuleName,
+  c: Case,
+  passed: string[],
+  sources: ChainVerdict["sources"],
+  reimbursement: Reimbursement = "onbekend",
+  reimbursement_source: ChainVerdict["reimbursement_source"] = null,
+  flag?: Parameters<typeof refusalSentence>[3],
+): ChainVerdict {
   return {
-    chain_id: id, chain, status: rule === "P-REIMB-01" && reimbursement === "onbekend" || rule === "P-SOURCE-01" ? "onbekend" : "afgewezen",
-    rules_passed: passed, reject_rule: rule, reject_reason_nl: refusalSentence(rule, c, chain[0], flag),
-    secondary_rules: [], reimbursement, reimbursement_source, sources,
+    chain_id: id,
+    chain,
+    status: rule === "P-REIMB-01" && reimbursement === "onbekend" || rule === "P-SOURCE-01" ? "onbekend" : "afgewezen",
+    rules_passed: passed,
+    reject_rule: rule,
+    reject_reason_nl: refusalSentence(rule, c, chain[0], flag),
+    reject_reason_en: refusalSentenceEn(rule, c, chain[0], flag),
+    secondary_rules: [],
+    reimbursement,
+    reimbursement_source,
+    sources,
   };
 }
 
@@ -34,14 +58,18 @@ export function evaluate(chain: ChainLink[], c: Case, table: SubstanceTable, id:
   passed.push("P-STR-02");
 
   let equivalenceNote: string | undefined;
+  let equivalenceNoteEn: string | undefined;
   if (link.strength !== c.strength || link.form !== c.form) {
     const equivalence = substance?.dose_interval_equivalence[`${c.form}|${link.form}`];
     if (!equivalence) return rejected(id, chain, "P-SOURCE-01", c, passed, sources);
     equivalenceNote = equivalence.note_nl;
+    equivalenceNoteEn = EQUIVALENCE_NOTE_EN_GENERIC;
     if (!equivalence.equivalent) {
       const verdict = rejected(id, chain, "P-STR-01", c, passed, sources);
       verdict.reject_reason_nl = equivalence.note_nl;
+      verdict.reject_reason_en = refusalSentenceEn("P-STR-01", c, link);
       verdict.equivalence_note_nl = equivalenceNote;
+      verdict.equivalence_note_en = equivalenceNoteEn;
       return verdict;
     }
   }
@@ -62,6 +90,7 @@ export function evaluate(chain: ChainLink[], c: Case, table: SubstanceTable, id:
     if (reimbursement === "niet_vergoed") {
       const verdict = rejected(id, chain, "P-REIMB-01", c, passed, sources, reimbursement, reimbursementSource);
       verdict.reject_reason_nl = notReimbursedSentence(link.product, c.insurer);
+      verdict.reject_reason_en = notReimbursedSentenceEn(link.product, c.insurer);
       return verdict;
     }
     if (reimbursement === "onbekend") return rejected(id, chain, "P-REIMB-01", c, passed, sources, reimbursement, reimbursementSource);
@@ -72,16 +101,34 @@ export function evaluate(chain: ChainLink[], c: Case, table: SubstanceTable, id:
   if (!link.source?.doc || !link.source.date || !link.source.sha256) return rejected(id, chain, "P-SOURCE-01", c, passed, sources, reimbursement, reimbursementSource);
   passed.push("P-SOURCE-01");
   return {
-    chain_id: id, chain, status: "geldig", rules_passed: passed, reject_rule: null,
-    reject_reason_nl: null, secondary_rules: [], reimbursement, reimbursement_source: reimbursementSource,
-    sources, equivalence_note_nl: equivalenceNote,
+    chain_id: id,
+    chain,
+    status: "geldig",
+    rules_passed: passed,
+    reject_rule: null,
+    reject_reason_nl: null,
+    reject_reason_en: null,
+    secondary_rules: [],
+    reimbursement,
+    reimbursement_source: reimbursementSource,
+    sources,
+    equivalence_note_nl: equivalenceNote,
+    equivalence_note_en: equivalenceNoteEn,
   };
 }
 
 export function unknownSubstance(c: Case, id = `${c.case_id}-UNKNOWN`): ChainVerdict {
   return {
-    chain_id: id, chain: [], status: "onbekend", rules_passed: [], reject_rule: "P-UNKNOWN-01" satisfies RuleId,
-    reject_reason_nl: refusalSentence("P-UNKNOWN-01", c), secondary_rules: [], reimbursement: "onbekend",
-    reimbursement_source: null, sources: [],
+    chain_id: id,
+    chain: [],
+    status: "onbekend",
+    rules_passed: [],
+    reject_rule: "P-UNKNOWN-01" satisfies RuleId,
+    reject_reason_nl: refusalSentence("P-UNKNOWN-01", c),
+    reject_reason_en: refusalSentenceEn("P-UNKNOWN-01", c),
+    secondary_rules: [],
+    reimbursement: "onbekend",
+    reimbursement_source: null,
+    sources: [],
   };
 }

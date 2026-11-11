@@ -1,2 +1,9 @@
 import Link from "next/link";
-export default function NotFound() { return <div className="page"><div className="panel panel-body"><div className="eyebrow">E-CASE-01</div><h1 className="page-title">Deze casus staat niet in de bibliotheek.</h1><p className="page-intro">De regel-engine raadt nooit een ontbrekende casus of stof.</p><Link className="btn primary" href="/">Terug naar casussen</Link></div></div>; }
+import { getDictionary } from "@/i18n/dictionary";
+import { getLang } from "@/i18n/server";
+
+export default async function NotFound() {
+  const lang = await getLang();
+  const d = getDictionary(lang);
+  return <div className="page"><div className="panel panel-body"><div className="eyebrow">{d.notfound_eyebrow}</div><h1 className="page-title">{d.notfound_h1}</h1><p className="page-intro">{d.notfound_p}</p><Link className="btn primary" href="/">{d.notfound_btn}</Link></div></div>;
+}

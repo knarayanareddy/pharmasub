@@ -25,3 +25,22 @@ export function patientText(chains: ChainVerdict[], approval: Approved): string 
 export function wordCount(value: string): number {
   return value.trim().split(/\s+/).length;
 }
+
+// English glosses of the Dutch letters. The Dutch originals remain the
+// documents; these are reading aids for an English-speaking audience.
+
+export function gpMessageEn(c: Case, chains: ChainVerdict[], approval: Approved): string {
+  const link = selectedChain(approval, chains).chain[0];
+  return [
+    "Dear colleague,",
+    `For shortage case ${c.case_id}, after review by pharmacist ${approval.by}, a product with the same active substance was selected: ${link.product}, ${link.package}.`,
+    `The proposal concerns ${c.substance} (${c.atc}). The form is ${link.form}. Reimbursement was checked against the stated synthetic preference snapshot; this is no guarantee.`,
+    "The rule identifiers, sources and any refusals are recorded in the audit trail. Nothing was sent or dispensed automatically.",
+    "Kind regards,\nThe pharmacist",
+  ].join("\n\n");
+}
+
+export function patientTextEn(chains: ChainVerdict[], approval: Approved): string {
+  selectedChain(approval, chains);
+  return "Your pharmacy has chosen a different product with the same active substance. The prescribed product was not available. The pharmacist checked the rules, the reimbursement and your details. The medicine may look different or be used differently. Ask your pharmacist if you would like an explanation. This letter does not replace a conversation with your pharmacist.";
+}
