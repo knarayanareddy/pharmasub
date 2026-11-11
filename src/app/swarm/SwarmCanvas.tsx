@@ -3,6 +3,8 @@
 import { useEffect, useRef } from "react";
 import { ARCH, type ArchetypeKey, type Dimension } from "@/domain/swarm/archetypes";
 import type { SwarmRun } from "@/domain/swarm/engine";
+import type { Lang } from "@/i18n/dictionary";
+import { useLang } from "@/i18n/LanguageProvider";
 
 interface NodePoint { x: number; y: number; vx: number; vy: number; archetype: ArchetypeKey; index: number }
 interface Props {
@@ -17,11 +19,25 @@ interface Props {
 
 const archetypeKeys = Object.keys(ARCH) as ArchetypeKey[];
 const shortLabels: Record<ArchetypeKey, string> = { pharm_ind: "APOTHEKER", pharm_tech: "ASSISTENT", pharm_chain: "KETEN", pharm_hosp: "ZIEKENHUIS", gp: "HUISARTS", patient: "PATIËNT", insurer: "VERZEKERAAR", wholesaler: "GROOTHANDEL", regulator: "INSPECTIE", import: "IMPORT" };
+const shortLabelsEn: Record<ArchetypeKey, string> = { pharm_ind: "PHARMACIST", pharm_tech: "ASSISTANT", pharm_chain: "CHAIN", pharm_hosp: "HOSPITAL", gp: "GP", patient: "PATIENT", insurer: "INSURER", wholesaler: "WHOLESALE", regulator: "INSPECTORATE", import: "IMPORT" };
 
 export default function SwarmCanvas({ run, round, dimension, decisionLine, ghost, onSelect, onFps }: Props) {
+  const { lang, t } = useLang();
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const stateRef = useRef({ round, dimension, decisionLine, ghost, onSelect, onFps });
-  stateRef.current = { round, dimension, decisionLine, ghost, onSelect, onFps };
+  const ghostText = t("canvas_ghost");
+  const roundText = t("canvas_round", { round, rounds: run.rounds, edges: run.edges.length });
+  const stateRef = useRef<{
+    round: number;
+    dimension: Dimension;
+    decisionLine: number;
+    ghost: { left: number; swing: number; right: number } | null;
+    onSelect: (index: number) => void;
+    onFps: (fps: number) => void;
+    lang: Lang;
+    ghostText: string;
+    roundText: string;
+  }>({ round, dimension, decisionLine, ghost, onSelect, onFps, lang, ghostText, roundText });
+  stateRef.current = { round, dimension, decisionLine, ghost, onSelect, onFps, lang, ghostText, roundText };
 
   useEffect(() => {
     const canvas = canvasRef.current!;
@@ -96,6 +112,7 @@ export default function SwarmCanvas({ run, round, dimension, decisionLine, ghost
     function draw(time: number) {
       const current = stateRef.current;
       const snapshot = run.snapshots[current.round];
+      const labels = current.lang === "en" ? shortLabelsEn : shortLabels;
       context.fillStyle = "#14202b"; context.fillRect(0, 0, width, height);
       context.strokeStyle = "rgba(255,255,255,.025)"; context.lineWidth = 1;
       for (let x = 0; x < width; x += 48) { context.beginPath(); context.moveTo(x, 0); context.lineTo(x, height); context.stroke(); }
@@ -137,11 +154,11 @@ export default function SwarmCanvas({ run, round, dimension, decisionLine, ghost
       for (const [key, centre] of centres) {
         const members = nodes.filter((node) => node.archetype === key);
         const maxY = Math.max(...members.map((node) => node.y));
-        context.fillStyle = "rgba(220,230,235,.62)"; context.fillText(`${shortLabels[key]} · ${ARCH[key].n}`, centre.x, Math.min(height - 7, maxY + 14));
+        context.fillStyle = "rgba(220,230,235,.62)"; context.fillText(`${labels[key]} · ${ARCH[key].n}`, centre.x, Math.min(height - 7, maxY + 14));
       }
       context.textAlign = "left"; context.fillStyle = "rgba(255,255,255,.55)"; context.font = "8px Inter, sans-serif";
-      context.fillText(`RONDE ${current.round}/${run.rounds}  ·  ${run.edges.length} VERBINDINGEN`, 12, 17);
-      context.textAlign = "right"; context.fillStyle = "rgba(255,255,255,.35)"; context.fillText("gestippeld = vorige eindstand", width - 12, 17);
+      context.fillText(current.roundText, 12, 17);
+      context.textAlign = "right"; context.fillStyle = "rgba(255,255,255,.35)"; context.fillText(current.ghostText, width - 12, 17);
     }
 
     function animate(time: number) {
@@ -163,5 +180,5 @@ export default function SwarmCanvas({ run, round, dimension, decisionLine, ghost
     return () => { cancelAnimationFrame(raf); observer.disconnect(); canvas.removeEventListener("pointermove", move); canvas.removeEventListener("pointerdown", click); };
   }, [run]);
 
-  return <canvas ref={canvasRef} className="swarm-canvas" aria-label={`Krachtennetwerk van 240 synthetische agenten, ronde ${round}`} />;
+  return <canvas ref={canvasRef} className="swarm-canvas" aria-label={t("canvas_aria", { round })} />;
 }

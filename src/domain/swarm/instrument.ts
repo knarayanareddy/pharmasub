@@ -15,6 +15,34 @@ export const COVERAGE = [
   ["N10", "Wat veroorzaakt churn?", "✗", "q_stop"],
 ];
 
+export const COVERAGE_EN = [
+  ["N1", "Is refusal acceptable?", "✗", "refuse, q_refuse"],
+  ["N2", "Is one hop the right limit?", "✗", "hops, q_hops"],
+  ["N3", "Who pays?", "partial", "payer"],
+  ["N4", "Will a GP accept a message?", "✗", "gp"],
+  ["N5", "Is ‘unknown’ sustainable?", "✗", "unknown, q_unknown"],
+  ["N6", "How long does a case take?", "partial", "q_minutes"],
+  ["N7", "What is the first frustration?", "✗", "q_first"],
+  ["N8", "Do people trust rules or the supplier?", "✗", "q_trust"],
+  ["N9", "Does a B1 explanation work?", "✗", "patient"],
+  ["N10", "What causes churn?", "✗", "q_stop"],
+];
+
+export const ITEMS_EN = [
+  ["role", "Role", "choice"], ["setting", "Work setting", "choice"], ["years", "Years of experience", "choice"],
+  ["q_minutes", "How much time does one shortage case take you on average?", "<5 · 5–15 · 15–30 · 30–60 · >60 · don’t know"],
+  ["q_first", "What is your first problem in a shortage?", "availability · rules · reimbursement · GP · explanation · admin"],
+  ["q_refuse", "When in doubt, should a system refuse or make its best guess?", "scale 1–5"],
+  ["q_unknown", "What should a system do when reimbursement is unknown?", "show unknown · assume reimbursed · show nothing · other"],
+  ["usefulness", "Which parts are useful?", "matrix: chains · refusals · letters · import"],
+  ["q_hops", "How many changes may a proposal make?", "1 · 2 · 3 · doesn’t matter"],
+  ["q_trust", "What makes a proposal trustworthy?", "pharmacist · source · supplier · inspectorate"],
+  ["q_gp", "How does the GP want to hear about a substitution?", "by phone · in the GP system · email · not at all"],
+  ["intent", "How likely are you to use this next month?", "scale 0–10"],
+  ["patient", "How important is a B1 explanation in a substitution?", "scale 1–5"],
+  ["q_stop", "What would put you off?", "trust in rules · workload · integration · cost · nothing"],
+];
+
 export const ITEMS = [
   ["role", "Rol", "keuze"], ["setting", "Werksetting", "keuze"], ["years", "Jaren ervaring", "keuze"],
   ["q_minutes", "Hoeveel tijd kost één tekortgeval u gemiddeld?", "<5 · 5–15 · 15–30 · 30–60 · >60 · weet niet"],

@@ -27,6 +27,15 @@ const questions = {
   QFOUT: "Overleeft de één-hopmeerderheid het nieuws over een afleverfout?",
 };
 
+export const QUESTIONS_EN: Record<keyof typeof questions, string> = {
+  QREFUSE: "Do a majority of pharmacists accept refusing rather than guessing?",
+  QHOPS: "Do a majority of pharmacists accept the one-hop limit?",
+  QPAYER: "Does a majority of the population say the pharmacy pays?",
+  QGP: "Do a majority of GPs accept a message instead of a call?",
+  QUNKNOWN: "Do a majority of pharmacists tolerate ‘unknown’?",
+  QFOUT: "Does the one-hop majority survive the dispensing-error story?",
+};
+
 export function formatFrequency(frequency: Frequency): string {
   return `${frequency.x} / ${frequency.n} runs (p = ${frequency.p.toFixed(3)}, 95% CI ${frequency.lo.toFixed(3)}–${frequency.hi.toFixed(3)})`;
 }
