@@ -1,0 +1,54 @@
+{
+  "substance": "metformine",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Metformine Demo 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "8e58103b2d97d71ff00bd2a1a50218550c9ee0ffd782185816f8fa5e8cb0e30e",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Metformine Pharmaplus 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "966af598c83f2db9c955328179d4fcd387576df34de4403c3c45a6010df206bf",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "850 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Metformine Sandoz 850 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "f6da3b0deb5732d1f939a72c5e0ccbafdb47d64baca024180d16b9729f4ed8e1",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "buitenlandse registratie",
+      "value": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Metformine EU 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "3b98868ffc6b4c86acfe97bc84746bdc1e8a6b1e9fb649cea36fe1fa5aa83da4",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

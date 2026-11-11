@@ -1,0 +1,42 @@
+{
+  "substance": "amoxicilline/clavulaanzuur",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500/125 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Amoxicilline/clavulaanzuur Demo 500/125 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "eac610b3b033f132f3d35027317ba9a97df0865e1b903ea114ee7049585a131c",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500/125 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Amoxicilline/clavulaanzuur Pharmaplus 500/125 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "6162517e8ed298f3e04378e62600ca167eb5cb1e14a9bb108e9acee48dbd7403",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "875/125 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Amoxicilline/clavulaanzuur Sandoz 875/125 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "bfdc7452b85cd4eedc1d522910409aca00f1a97a7fd310ca135dc634fb1b1d38",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

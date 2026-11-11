@@ -1,0 +1,42 @@
+{
+  "substance": "insuline glargine",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "100 E/ml",
+        "form": "injectievloeistof",
+        "adult_only": false
+      },
+      "doc": "SmPC Insuline glargine Demo 100 E/ml injectievloeistof §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "b7cb3e7fc33f02d30864973b1087e4f748ba530d7de937a438c1225b58006658",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "100 E/ml",
+        "form": "injectievloeistof",
+        "adult_only": false
+      },
+      "doc": "SmPC Insuline glargine Pharmaplus 100 E/ml injectievloeistof §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "81e33240cc69663430ea9303db2ed469f00fe42dac8a37417b78275722c74b19",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "300 E/ml",
+        "form": "injectievloeistof",
+        "adult_only": false
+      },
+      "doc": "SmPC Insuline glargine Sandoz 300 E/ml injectievloeistof §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "2b44816a32140af2c088ab60f688070d115b71eeb9b53acfb657ddcbd76dcf64",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

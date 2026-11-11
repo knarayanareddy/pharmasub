@@ -1,0 +1,42 @@
+{
+  "substance": "levothyroxine",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "50 mcg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Levothyroxine Demo 50 mcg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "540a7c4d1eacd06077cefde953c489fbc56cb44fe68795b7d6a9016e98b13ed0",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "50 mcg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Levothyroxine Pharmaplus 50 mcg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "2eaccf563ac2d60d9b22007fee1c12aaf3c886fb52374972adc774178cb8d697",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "25 mcg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Levothyroxine Sandoz 25 mcg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "3a10b9af70ed30d8815e49c0d71b91f1dc753b1919bc5521c0191463806b267e",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "case_id": "C-001",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-002",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-003",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-004",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-005",
+    "age_band": "65+",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-006",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-007",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-008",
+    "age_band": "18-64",
+    "flags": [
+      "renaal"
+    ],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-009",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-010",
+    "age_band": "65+",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-011",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-012",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-013",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-014",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-015",
+    "age_band": "65+",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-016",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-017",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-018",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-019",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-020",
+    "age_band": "65+",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-021",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-022",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-023",
+    "age_band": "18-64",
+    "flags": [
+      "allergie_penicilline"
+    ],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-024",
+    "age_band": "18-64",
+    "flags": [
+      "allergie_nsaid"
+    ],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-025",
+    "age_band": "0-11",
+    "flags": [
+      "pediatrisch"
+    ],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-026",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-027",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-028",
+    "age_band": "18-64",
+    "flags": [],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-029",
+    "age_band": "18-64",
+    "flags": [
+      "allergie_penicilline"
+    ],
+    "synthetic": true
+  },
+  {
+    "case_id": "C-030",
+    "age_band": "65+",
+    "flags": [],
+    "synthetic": true
+  }
+]

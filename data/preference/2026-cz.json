@@ -1,0 +1,455 @@
+{
+  "insurer": "CZ",
+  "list": "Preferentiebeleid CZ 2026 · voorbeelddata — geen officiële lijst",
+  "peildatum": "2026-10-01",
+  "entries": [
+    {
+      "product": "Salbutamol Demo 100 mcg inhalatiepoeder",
+      "substance": "salbutamol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Salbutamol Pharmaplus 100 mcg aerosol",
+      "substance": "salbutamol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Salbutamol Sandoz 2 mg/5 ml drank",
+      "substance": "salbutamol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Metformine Demo 500 mg tablet",
+      "substance": "metformine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Metformine Pharmaplus 500 mg tablet",
+      "substance": "metformine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Metformine Sandoz 850 mg tablet",
+      "substance": "metformine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Metformine EU 500 mg tablet",
+      "substance": "metformine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Atorvastatine Demo 20 mg tablet",
+      "substance": "atorvastatine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Atorvastatine Pharmaplus 20 mg tablet",
+      "substance": "atorvastatine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Atorvastatine Sandoz 40 mg tablet",
+      "substance": "atorvastatine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Atorvastatine EU 20 mg tablet",
+      "substance": "atorvastatine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Omeprazol Demo 20 mg maagsapresistente capsule",
+      "substance": "omeprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Omeprazol Pharmaplus 20 mg maagsapresistente capsule",
+      "substance": "omeprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Omeprazol Sandoz 40 mg maagsapresistente capsule",
+      "substance": "omeprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Omeprazol EU 20 mg maagsapresistente capsule",
+      "substance": "omeprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Amoxicilline Demo 500 mg capsule",
+      "substance": "amoxicilline",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Amoxicilline Pharmaplus 500 mg capsule",
+      "substance": "amoxicilline",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Amoxicilline Sandoz 250 mg/5 ml drank",
+      "substance": "amoxicilline",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Levothyroxine Demo 50 mcg tablet",
+      "substance": "levothyroxine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Levothyroxine Pharmaplus 50 mcg tablet",
+      "substance": "levothyroxine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Levothyroxine Sandoz 25 mcg tablet",
+      "substance": "levothyroxine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Sertraline Demo 50 mg tablet",
+      "substance": "sertraline",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Sertraline Pharmaplus 50 mg tablet",
+      "substance": "sertraline",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Sertraline Sandoz 25 mg tablet",
+      "substance": "sertraline",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Oxycodon Demo 5 mg capsule",
+      "substance": "oxycodon",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Oxycodon Pharmaplus 5 mg capsule",
+      "substance": "oxycodon",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Oxycodon Sandoz 10 mg capsule",
+      "substance": "oxycodon",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Furosemide Demo 40 mg tablet",
+      "substance": "furosemide",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Furosemide Pharmaplus 40 mg tablet",
+      "substance": "furosemide",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Furosemide Sandoz 20 mg tablet",
+      "substance": "furosemide",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Prednison Demo 5 mg tablet",
+      "substance": "prednison",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Prednison Pharmaplus 5 mg tablet",
+      "substance": "prednison",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Prednison Sandoz 1 mg tablet",
+      "substance": "prednison",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Insuline glargine Demo 100 E/ml injectievloeistof",
+      "substance": "insuline glargine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Insuline glargine Pharmaplus 100 E/ml injectievloeistof",
+      "substance": "insuline glargine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Insuline glargine Sandoz 300 E/ml injectievloeistof",
+      "substance": "insuline glargine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Methylfenidaat Demo 10 mg tablet",
+      "substance": "methylfenidaat",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Methylfenidaat Pharmaplus 10 mg tablet",
+      "substance": "methylfenidaat",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Methylfenidaat Sandoz 18 mg tablet met gereguleerde afgifte",
+      "substance": "methylfenidaat",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Tamsulosine Demo 0,4 mg capsule met gereguleerde afgifte",
+      "substance": "tamsulosine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Tamsulosine Pharmaplus 0,4 mg capsule met gereguleerde afgifte",
+      "substance": "tamsulosine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Tamsulosine Sandoz 0,4 mg tablet met gereguleerde afgifte",
+      "substance": "tamsulosine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Escitalopram Demo 10 mg tablet",
+      "substance": "escitalopram",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Escitalopram Pharmaplus 10 mg tablet",
+      "substance": "escitalopram",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Escitalopram Sandoz 20 mg tablet",
+      "substance": "escitalopram",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Naproxen Demo 250 mg tablet",
+      "substance": "naproxen",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Naproxen Pharmaplus 250 mg tablet",
+      "substance": "naproxen",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Naproxen Sandoz 500 mg tablet",
+      "substance": "naproxen",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Paracetamol Demo 500 mg zetpil",
+      "substance": "paracetamol (zetpil)",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Paracetamol Pharmaplus 500 mg zetpil",
+      "substance": "paracetamol (zetpil)",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Paracetamol Sandoz 1000 mg zetpil",
+      "substance": "paracetamol (zetpil)",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Amoxicilline/clavulaanzuur Demo 500/125 mg tablet",
+      "substance": "amoxicilline/clavulaanzuur",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Amoxicilline/clavulaanzuur Pharmaplus 500/125 mg tablet",
+      "substance": "amoxicilline/clavulaanzuur",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Amoxicilline/clavulaanzuur Sandoz 875/125 mg tablet",
+      "substance": "amoxicilline/clavulaanzuur",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Hydrochloorthiazide Demo 25 mg tablet",
+      "substance": "hydrochloorthiazide",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Hydrochloorthiazide Pharmaplus 25 mg tablet",
+      "substance": "hydrochloorthiazide",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Hydrochloorthiazide Sandoz 12,5 mg tablet",
+      "substance": "hydrochloorthiazide",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Pantoprazol Demo 20 mg maagsapresistente tablet",
+      "substance": "pantoprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Pantoprazol Pharmaplus 20 mg maagsapresistente tablet",
+      "substance": "pantoprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Pantoprazol Sandoz 40 mg maagsapresistente tablet",
+      "substance": "pantoprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Pantoprazol EU 20 mg maagsapresistente tablet",
+      "substance": "pantoprazol",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Azitromycine Demo 250 mg tablet",
+      "substance": "azitromycine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Azitromycine Pharmaplus 250 mg tablet",
+      "substance": "azitromycine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    },
+    {
+      "product": "Azitromycine Sandoz 500 mg tablet",
+      "substance": "azitromycine",
+      "status": "vergoed",
+      "peildatum": "2026-10-01",
+      "source": "Preferentielijst CZ 2026 · voorbeelddata — geen officiële lijst"
+    }
+  ]
+}

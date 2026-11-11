@@ -1,0 +1,42 @@
+{
+  "substance": "methylfenidaat",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "10 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Methylfenidaat Demo 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "941cc5ce0797d6a40a9511046f2900797b90ecd4c7c26965c7a1cacfb3666f08",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "10 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Methylfenidaat Pharmaplus 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "ea871a8e7e3fa215257fd2880452224c331409b43fd062a94bbe5e778d3f556d",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "18 mg",
+        "form": "tablet met gereguleerde afgifte",
+        "adult_only": false
+      },
+      "doc": "SmPC Methylfenidaat Sandoz 18 mg tablet met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "5c0bf978d2b55d1fb0cbb4abc50701b356c7c5a92871ed25f2d91e54c06ecc6c",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

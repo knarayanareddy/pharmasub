@@ -1,0 +1,42 @@
+{
+  "substance": "amoxicilline",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "adult_only": false
+      },
+      "doc": "SmPC Amoxicilline Demo 500 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "1c3cc8cc26c668875948d5c726e0d85dbb32a2c7d8a74d5a77d3cc98651e43c3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "adult_only": false
+      },
+      "doc": "SmPC Amoxicilline Pharmaplus 500 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "f941c3873abe44f96e39e094d40e8c037d30f6ebca64d4d3108aded22ec36453",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "250 mg/5 ml",
+        "form": "drank",
+        "adult_only": false
+      },
+      "doc": "SmPC Amoxicilline Sandoz 250 mg/5 ml drank §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "74136b9b5212637edbac4904318db46e32393d779d4ce5916dae56a4b7721f6e",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <div className="page"><div className="panel panel-body"><div className="eyebrow">E-CASE-01</div><h1 className="page-title">Deze casus staat niet in de bibliotheek.</h1><p className="page-intro">De regel-engine raadt nooit een ontbrekende casus of stof.</p><Link className="btn primary" href="/">Terug naar casussen</Link></div></div>; }
