@@ -9,7 +9,7 @@ import { LanguageToggle } from "./LanguageToggle";
 
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  const { lang, t } = useLang();
+  const { t } = useLang();
   const navigation = [
     { href: "/", label: t("nav_cases"), icon: BookOpenCheck },
     { href: "/intake", label: t("nav_intake"), icon: FileInput },
@@ -37,8 +37,8 @@ export function AppShell({ children }: { children: ReactNode }) {
       </header>
       <main id="main">{children}</main>
       <footer className="site-footer">
-        <span>Demo — synthetische casussen. Geen echte patiëntgegevens. Geen medisch advies.{lang === "en" ? ` ${t("footer_en_gloss")}` : ""}</span>
-        <span className="mono">P-NOSEND-01 · niets wordt verzonden</span>
+        <span>{t("footer_text")}</span>
+        <span className="mono">{t("footer_nosend")}</span>
       </footer>
     </div>
   );

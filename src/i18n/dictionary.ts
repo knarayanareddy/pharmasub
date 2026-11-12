@@ -35,13 +35,10 @@ const nl = {
   nav_instrument: "Instrument",
   badge_title: "Apotheker",
   badge_sub: "beslisser in elke casus",
-  footer_en_gloss: "Demo — synthetic cases. No real patient data. No medical advice.",
+  footer_text: "Demo — synthetische casussen. Geen echte patiëntgegevens. Geen medisch advies.",
+  footer_nosend: "P-NOSEND-01 · niets wordt verzonden",
   lang_label: "Taal / Language",
-  doc_lang_note: "Document in het Nederlands (origineel) — Engelse uitleg op het scherm.",
-  notice_lang_note: "Originele Nederlandstalige tekortmelding.",
-  gloss_label: "English gloss",
-  gloss_edited: "Tekst bewerkt door de apotheker — geen Engelse uitleg beschikbaar.",
-  gloss_original: "Nederlands origineel hierboven.",
+  gloss_edited: "Tekst bewerkt door de apotheker.",
 
   home_eyebrow: "Substitutie, met de reden erbij",
   home_h1a: "Beschikbaarheid is opgelost.",
@@ -355,11 +352,26 @@ const nl = {
   submit_title: "Daarna blijft de menselijke controle identiek.",
   submit_text: "Geen automatische goedkeuring of verzending. De melding wordt niet opgeslagen.",
   submit_btn: "Genereer en beoordeel ketens",
-  example_note: "Voorbeeld in het Nederlands (bronformaat).",
+  intake_example: "Leveranciersmelding 04-11-2026\nSalbutamol CF 100 mcg inhalatiepoeder, 200 doses\nTijdelijk niet leverbaar. Inschrijver: CZ. Verzoek om een product met dezelfde stof te beoordelen.",
 
   print_back: "Terug naar casus",
   print_note: "De A4-weergave bevat uitsluitend de goedgekeurde teksten.",
   print_btn: "Print A4 / bewaren als PDF",
+  print_header_sub: "AFLEVERADVIES · DEMONSTRATIE",
+  print_approved_by: "Beoordeeld en goedgekeurd door {by}",
+  print_approved_sub: "Keten {chainId} · de apotheker is de beslisser",
+  print_patient_label: "VOOR DE PATIËNT · B1",
+  print_patient_h1: "Een ander product, dezelfde werkzame stof",
+  print_no_dose: "Vraag uw apotheker om uitleg over het gebruik. Dit document bevat geen doseeradvies.",
+  print_prof_label: "VOOR DE PROFESSIONAL",
+  print_active_substance: "Werkzame stof",
+  print_chosen_product: "Gekozen product",
+  print_strength_form: "Sterkte en vorm",
+  print_pkg_route: "Verpakking / route",
+  print_source_prefix: "Bron",
+  print_snapshot_date: "peildatum",
+  print_gp_label: "BERICHT AAN DE HUISARTS · NIET VERZONDEN",
+  print_footer_nosend: "P-NOSEND-01 · geen automatische verzending of aflevering",
   gate_h1: "Een afleveradvies vereist goedkeuring.",
   gate_p: "Er is geen geldige goedkeuring door een apotheker gevonden voor {id}.",
   gate_back: "Terug naar beoordeling",
@@ -388,13 +400,10 @@ const en = {
   nav_instrument: "Instrument",
   badge_title: "Pharmacist",
   badge_sub: "decision-maker in every case",
-  footer_en_gloss: "Demo — synthetic cases. No real patient data. No medical advice.",
+  footer_text: "Demo — synthetic cases. No real patient data. No medical advice.",
+  footer_nosend: "P-NOSEND-01 · nothing is sent",
   lang_label: "Language / Taal",
-  doc_lang_note: "Document in Dutch (original) — English explanation on screen.",
-  notice_lang_note: "Original Dutch shortage notice.",
-  gloss_label: "English gloss",
-  gloss_edited: "Text edited by the pharmacist — no English gloss available.",
-  gloss_original: "Dutch original above.",
+  gloss_edited: "Text edited by the pharmacist.",
 
   home_eyebrow: "Substitution, with the reason included",
   home_h1a: "Availability is solved.",
@@ -708,11 +717,26 @@ const en = {
   submit_title: "After that, human review stays identical.",
   submit_text: "No automatic approval or sending. The notice is not stored.",
   submit_btn: "Generate and assess chains",
-  example_note: "Example in Dutch (source format).",
+  intake_example: "Supplier notice 04-11-2026\nSalbutamol CF 100 mcg inhalation powder, 200 doses\nTemporarily unavailable. Insurer: CZ. Request to assess a product with the same active substance.",
 
   print_back: "Back to case",
   print_note: "The A4 view contains only the approved texts.",
   print_btn: "Print A4 / save as PDF",
+  print_header_sub: "DISPENSING ADVICE · DEMONSTRATION",
+  print_approved_by: "Reviewed and approved by {by}",
+  print_approved_sub: "Chain {chainId} · the pharmacist is the decision-maker",
+  print_patient_label: "FOR THE PATIENT · B1",
+  print_patient_h1: "A different product, the same active substance",
+  print_no_dose: "Ask your pharmacist for instructions on how to use this medicine. This document contains no dosing advice.",
+  print_prof_label: "FOR THE PROFESSIONAL",
+  print_active_substance: "Active substance",
+  print_chosen_product: "Selected product",
+  print_strength_form: "Strength and form",
+  print_pkg_route: "Package / route",
+  print_source_prefix: "Source",
+  print_snapshot_date: "snapshot date",
+  print_gp_label: "MESSAGE TO THE GP · NOT SENT",
+  print_footer_nosend: "P-NOSEND-01 · no automatic sending or dispensing",
   gate_h1: "A dispensing advice requires approval.",
   gate_p: "No valid pharmacist approval was found for {id}.",
   gate_back: "Back to review",
@@ -728,6 +752,15 @@ export const DICTIONARIES: Record<Lang, Record<DictKey, string>> = { nl, en };
 
 export function getDictionary(lang: Lang): Record<DictKey, string> {
   return DICTIONARIES[lang] ?? DICTIONARIES.nl;
+}
+
+export function langFromRequest(request: Request): Lang {
+  const url = new URL(request.url);
+  const queryLang = url.searchParams.get("lang");
+  if (isLang(queryLang)) return queryLang;
+  const cookieHeader = request.headers.get("cookie") || "";
+  const match = cookieHeader.match(new RegExp(`(?:^|;\\s*)${LANG_COOKIE}=([^;]+)`));
+  return isLang(match?.[1]) ? match[1] : "nl";
 }
 
 // Falsifier translations for display (the JSON file stays Dutch: it was

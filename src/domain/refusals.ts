@@ -1,3 +1,4 @@
+import { translateForm, translateProduct, translateStrength } from "@/i18n/translateData";
 import type { Case, ChainLink, PatientFlag } from "./types";
 
 const flagText: Record<PatientFlag, string> = {
@@ -55,12 +56,12 @@ const flagTextEn: Record<PatientFlag, string> = {
 };
 
 export function refusalSentenceEn(rule: string, c: Case, link?: ChainLink, flag?: PatientFlag): string {
-  const product = link?.product || "This product";
+  const product = link?.product ? translateProduct(link.product, "en") : "This product";
   switch (rule) {
     case "P-SUB-01":
       return "A different active substance is not a substitution but a change of therapy. The pharmacist decides this together with the prescriber.";
     case "P-STR-01":
-      return `${product} has a different dose interval than ${c.strength} ${c.form} according to the source — not interchangeable without a check.`;
+      return `${product} has a different dose interval than ${translateStrength(c.strength, "en")} ${translateForm(c.form, "en")} according to the source — not interchangeable without a check.`;
     case "P-STR-02":
       return "This chain contains two consecutive changes. Two changes require an explicit assessment by the pharmacist.";
     case "P-CI-01":
@@ -83,7 +84,7 @@ export function refusalSentenceEn(rule: string, c: Case, link?: ChainLink, flag?
 }
 
 export function notReimbursedSentenceEn(product: string, insurer: string): string {
-  return `${product} is listed as not reimbursed in the synthetic ${insurer} snapshot. The pharmacist must assess a reimbursed alternative or check the policy.`;
+  return `${translateProduct(product, "en")} is listed as not reimbursed in the synthetic ${insurer} snapshot. The pharmacist must assess a reimbursed alternative or check the policy.`;
 }
 
 export const EQUIVALENCE_NOTE_EN_GENERIC =
