@@ -3,6 +3,7 @@
 import { AlertTriangle, Check, CircleHelp, Clock3, X } from "lucide-react";
 import type { ReactNode } from "react";
 import { useLang } from "@/i18n/LanguageProvider";
+import { translateSourceDoc } from "@/i18n/translateData";
 import type { SourceRef, Verdict } from "@/domain/types";
 
 export function RuleChip({ children, tone = "neutral" }: { children: ReactNode; tone?: "neutral" | "valid" | "reject" | "unknown" }) {
@@ -21,9 +22,11 @@ export function FlagPill({ children }: { children: ReactNode }) {
 }
 
 export function SourceLine({ source, children, compact = false }: { source: SourceRef | { doc: string; date: string; sha256?: string }; children: ReactNode; compact?: boolean }) {
-  return <div className={`sourced-field ${compact ? "compact" : ""}`} data-field data-source={source.doc} data-date={source.date} data-sha256={source.sha256 || "n.v.t."}>
+  const { lang } = useLang();
+  const doc = translateSourceDoc(source.doc, lang);
+  return <div className={`sourced-field ${compact ? "compact" : ""}`} data-field data-source={doc} data-date={source.date} data-sha256={source.sha256 || "n.v.t."}>
     <div className="field-value">{children}</div>
-    <div className="source-line"><BookOpenIcon /> <span>{source.doc}</span><time>{source.date}</time></div>
+    <div className="source-line"><BookOpenIcon /> <span>{doc}</span><time>{source.date}</time></div>
   </div>;
 }
 

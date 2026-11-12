@@ -4,14 +4,32 @@ import { buildAdvice, withApproval } from "@/domain/engine";
 import { appendAudit, latestApproval, readAudit } from "@/domain/hashchain";
 import { createApproval, type Edit } from "@/domain/types";
 import { normalizeCase } from "@/domain/intake";
+import { langFromRequest } from "@/i18n/dictionary";
 
 export async function POST(request: Request) {
+  const lang = langFromRequest(request);
   const body = await request.json() as { case?: unknown; case_id?: string; chain_id?: string; by?: string; edits?: Edit[] };
   const c = normalizeCase(body.case) || (body.case_id ? getCase(body.case_id) : undefined);
-  if (!c || !body.chain_id || !body.by?.trim()) return NextResponse.json({ error: "E-APPROVAL-01", message: "Een afleveradvies vereist goedkeuring door de apotheker." }, { status: 409 });
+  if (!c || !body.chain_id || !body.by?.trim()) {
+    return NextResponse.json(
+      {
+        error: "E-APPROVAL-01",
+        message: lang === "en" ? "A dispensing advice requires pharmacist approval." : "Een afleveradvies vereist goedkeuring door de apotheker.",
+      },
+      { status: 409 },
+    );
+  }
   const base = buildAdvice(c);
   const chain = base.chains.find((item) => item.chain_id === body.chain_id && item.status === "geldig");
-  if (!chain) return NextResponse.json({ error: "E-APPROVAL-01", message: "Alleen een geldige keten kan door een apotheker worden goedgekeurd." }, { status: 409 });
+  if (!chain) {
+    return NextResponse.json(
+      {
+        error: "E-APPROVAL-01",
+        message: lang === "en" ? "Only a valid chain can be approved by a pharmacist." : "Alleen een geldige keten kan door een apotheker worden goedgekeurd.",
+      },
+      { status: 409 },
+    );
+  }
   const at = new Date().toISOString();
   const approval = createApproval(chain.chain_id, body.by, at);
   const previous = latestApproval(c.case_id);

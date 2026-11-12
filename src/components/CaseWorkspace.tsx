@@ -5,6 +5,15 @@ import { ArrowLeft, Check, ChevronRight, Download, FileText, LockKeyhole, Printe
 import { useState } from "react";
 import type { Edit, SubstitutionAdvice } from "@/domain/types";
 import { useLang } from "@/i18n/LanguageProvider";
+import {
+  translateAtc,
+  translateForm,
+  translateInsurer,
+  translateNoticeText,
+  translatePackage,
+  translateStrength,
+  translateSubstance,
+} from "@/i18n/translateData";
 import { ChainCard } from "./ChainCard";
 import { RefusalRow } from "./RefusalRow";
 import { FlagPill, RuleChip, SourceLine } from "./Primitives";
@@ -16,8 +25,12 @@ export function CaseWorkspace({ initialAdvice, noticeText }: { initialAdvice: Su
   const [by, setBy] = useState(initialAdvice.approved?.by || "");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-  const [gpText, setGpText] = useState(initialAdvice.gp_message_nl);
-  const [patientText, setPatientText] = useState(initialAdvice.patient_text_nl);
+  const [gpDraft, setGpDraft] = useState<string | null>(null);
+  const [patientDraft, setPatientDraft] = useState<string | null>(null);
+  const baseGp = lang === "en" ? (advice.gp_message_en || advice.gp_message_nl) : advice.gp_message_nl;
+  const basePatient = lang === "en" ? (advice.patient_text_en || advice.patient_text_nl) : advice.patient_text_nl;
+  const gpText = gpDraft ?? baseGp;
+  const patientText = patientDraft ?? basePatient;
   const valid = advice.chains.filter((chain) => chain.status === "geldig");
   const c = advice.case;
   const baseSource = advice.chains.flatMap((chain) => chain.sources)[0] || { doc: "Regeltabel Samenstelling · voorbeelddata", field: "casus", date: "2026-11-01", sha256: "n.v.t." };
@@ -27,14 +40,14 @@ export function CaseWorkspace({ initialAdvice, noticeText }: { initialAdvice: Su
     if (!selected || !by.trim()) return;
     setBusy(true); setError("");
     const edits: Edit[] = withEdits && advice.approved ? [
-      ...(gpText !== advice.gp_message_nl ? [{ field: "gp_message" as const, from: advice.gp_message_nl, to: gpText, by, at: new Date().toISOString(), note_nl: "Tekst aangepast door apotheker" }] : []),
-      ...(patientText !== advice.patient_text_nl ? [{ field: "patient_text" as const, from: advice.patient_text_nl, to: patientText, by, at: new Date().toISOString(), note_nl: "B1-tekst aangepast door apotheker" }] : []),
+      ...(gpText !== baseGp ? [{ field: "gp_message" as const, from: baseGp, to: gpText, by, at: new Date().toISOString(), note_nl: "Tekst aangepast door apotheker" }] : []),
+      ...(patientText !== basePatient ? [{ field: "patient_text" as const, from: basePatient, to: patientText, by, at: new Date().toISOString(), note_nl: "B1-tekst aangepast door apotheker" }] : []),
     ] : [];
     try {
-      const response = await fetch("/api/approve", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ case: c, case_id: c.case_id, chain_id: selected, by, edits }) });
+      const response = await fetch(`/api/approve?lang=${lang}`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ case: c, case_id: c.case_id, chain_id: selected, by, edits }) });
       const body = await response.json();
       if (!response.ok) throw new Error(body.message || body.error || t("approval_failed"));
-      setAdvice(body.advice); setGpText(body.advice.gp_message_nl); setPatientText(body.advice.patient_text_nl);
+      setAdvice(body.advice); setGpDraft(null); setPatientDraft(null);
     } catch (cause) { setError(cause instanceof Error ? cause.message : t("approval_failed")); }
     finally { setBusy(false); }
   }
@@ -43,11 +56,11 @@ export function CaseWorkspace({ initialAdvice, noticeText }: { initialAdvice: Su
     if (!advice.approved) return;
     setBusy(true); setError("");
     try {
-      const response = await fetch(`/api/export/${c.case_id}?format=${format}`, { method: "POST" });
+      const response = await fetch(`/api/export/${c.case_id}?format=${format}&lang=${lang}`, { method: "POST" });
       if (!response.ok) { const body = await response.json(); throw new Error(body.message || body.error); }
       const blob = await response.blob();
       const url = URL.createObjectURL(blob);
-      const anchor = document.createElement("a"); anchor.href = url; anchor.download = `${c.case_id}-afleveradvies.${format}`; anchor.click();
+      const anchor = document.createElement("a"); anchor.href = url; anchor.download = `${c.case_id}-${lang === "en" ? "dispensing-advice" : "afleveradvies"}.${format}`; anchor.click();
       URL.revokeObjectURL(url);
     } catch (cause) { setError(cause instanceof Error ? cause.message : t("export_failed")); }
     finally { setBusy(false); }
@@ -55,7 +68,7 @@ export function CaseWorkspace({ initialAdvice, noticeText }: { initialAdvice: Su
 
   return <div className="page case-page">
     <div className="case-breadcrumb"><Link href="/"><ArrowLeft size={13} />{t("breadcrumb_cases")}</Link><ChevronRight size={12} /><span>{c.case_id}</span><ChevronRight size={12} /><span>{t("breadcrumb_review")}</span></div>
-    <div className="case-heading"><div><h1>{c.case_id} <span>/ {c.substance}</span></h1><p>{t("case_sub")}</p></div><div className="case-heading-actions">
+    <div className="case-heading"><div><h1>{c.case_id} <span>/ {translateSubstance(c.substance, lang)}</span></h1><p>{t("case_sub")}</p></div><div className="case-heading-actions">
       {advice.approved ? <Link className="btn" href={`/case/${c.case_id}/print`}><Printer size={15} />{t("btn_a4")}</Link> : <button className="btn" disabled><Printer size={15} />{t("btn_a4_locked")}</button>}
       <button className="btn" disabled={!advice.approved || busy} onClick={() => download("pdf")}><Download size={15} />{t("btn_pdf")}</button>
     </div></div>
@@ -64,10 +77,10 @@ export function CaseWorkspace({ initialAdvice, noticeText }: { initialAdvice: Su
       <aside className="case-column prescription-column">
         <div className="column-heading"><h2><FileText size={15} />{t("prescription_title")}</h2><RuleChip>INPUT</RuleChip></div>
         <div className="prescription-body">
-          <section className="case-section"><h3>{t("prescribed")}</h3><SourceLine source={baseSource}><h3 className="prescription-name">{c.substance}</h3><div className="atc-line">ATC {c.atc}</div><div className="detail-list"><div><span className="fact-label">{t("fact_strength")}</span><strong className="mono">{c.strength}</strong></div><div><span className="fact-label">{t("fact_form")}</span><strong>{c.form}</strong></div><div><span className="fact-label">{t("fact_package")}</span><strong>{c.package}</strong></div></div></SourceLine></section>
+          <section className="case-section"><h3>{t("prescribed")}</h3><SourceLine source={baseSource}><h3 className="prescription-name">{translateSubstance(c.substance, lang)}</h3><div className="atc-line">ATC {translateAtc(c.atc, lang)}</div><div className="detail-list"><div><span className="fact-label">{t("fact_strength")}</span><strong className="mono">{translateStrength(c.strength, lang)}</strong></div><div><span className="fact-label">{t("fact_form")}</span><strong>{translateForm(c.form, lang)}</strong></div><div><span className="fact-label">{t("fact_package")}</span><strong>{translatePackage(c.package, lang)}</strong></div></div></SourceLine></section>
           <section className="case-section"><h3>{t("flags_title")}</h3><div className="patient-flags">{c.patient_flags.length ? c.patient_flags.map((flag) => <FlagPill key={flag}>{t(`flag_${flag}`)}</FlagPill>) : <span className="small muted">{t("no_extra_flags")}</span>}</div><div className="age-band"><span>{t("age_band")}</span><strong className="mono">{c.age_band}</strong></div></section>
-          <section className="case-section"><h3>{t("insurer_title")}</h3><div className="age-band"><span>{t("snapshot_label")}</span><strong>{c.insurer}</strong></div><p className="tiny muted">{t("snapshot_note")}</p></section>
-          <section className="case-section"><h3>{t("notice_title")}</h3>{noticeText ? <><div className="notice-text">{noticeText}</div>{lang === "en" && <p className="tiny muted">{t("notice_lang_note")}</p>}</> : <div className="notice-text">{t("notice_none")}</div>}</section>
+          <section className="case-section"><h3>{t("insurer_title")}</h3><div className="age-band"><span>{t("snapshot_label")}</span><strong>{translateInsurer(c.insurer, lang)}</strong></div><p className="tiny muted">{t("snapshot_note")}</p></section>
+          <section className="case-section"><h3>{t("notice_title")}</h3>{noticeText ? <div className="notice-text">{translateNoticeText(noticeText, lang)}</div> : <div className="notice-text">{t("notice_none")}</div>}</section>
           <div className="human-lock"><LockKeyhole size={17} /><div><strong>{t("human_lock_title")}</strong>{t("human_lock_text")}</div></div>
         </div>
       </aside>
@@ -82,8 +95,8 @@ export function CaseWorkspace({ initialAdvice, noticeText }: { initialAdvice: Su
           {error && <div className="error-text">{error}</div>}
         </div>}
         {advice.approved && <div className="letters">
-          <div className="letter-card"><div className="letter-heading"><h4>{t("gp_title")}</h4><span>{t("gp_sub")}</span></div><textarea aria-label={t("gp_title")} value={gpText} onChange={(event) => setGpText(event.target.value)} />{lang === "en" && <div className="letter-gloss"><div className="letter-gloss-head"><span>{t("gloss_label")}</span><span>{t("gloss_original")}</span></div>{gpText === advice.gp_message_nl && advice.gp_message_en ? advice.gp_message_en : t("gloss_edited")}</div>}</div>
-          <div className="letter-card patient"><div className="letter-heading"><h4>{t("patient_title")}</h4><span>{t("patient_sub")}</span></div><textarea aria-label={t("patient_title")} value={patientText} onChange={(event) => setPatientText(event.target.value)} />{lang === "en" && <div className="letter-gloss"><div className="letter-gloss-head"><span>{t("gloss_label")}</span><span>{t("gloss_original")}</span></div>{patientText === advice.patient_text_nl && advice.patient_text_en ? advice.patient_text_en : t("gloss_edited")}</div>}</div>
+          <div className="letter-card"><div className="letter-heading"><h4>{t("gp_title")}</h4><span>{t("gp_sub")}</span></div><textarea aria-label={t("gp_title")} value={gpText} onChange={(event) => setGpDraft(event.target.value)} /></div>
+          <div className="letter-card patient"><div className="letter-heading"><h4>{t("patient_title")}</h4><span>{t("patient_sub")}</span></div><textarea aria-label={t("patient_title")} value={patientText} onChange={(event) => setPatientDraft(event.target.value)} /></div>
           <div className="letter-actions"><button className="btn small" disabled={busy} onClick={() => approve(true)}>{t("log_edit")}</button><button className="btn small" disabled={busy} onClick={() => download("json")}><Download size={13} />{t("json_btn")}</button><span className="approval-footer-note"><SendHorizontal size={12} />{t("nosend_note")}</span></div>
         </div>}
       </section>

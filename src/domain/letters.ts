@@ -1,3 +1,4 @@
+import { translateForm, translatePackage, translateProduct, translateSubstance } from "@/i18n/translateData";
 import type { Approved, Case, ChainVerdict } from "./types";
 
 function selectedChain(approval: Approved, chains: ChainVerdict[]): ChainVerdict {
@@ -33,8 +34,8 @@ export function gpMessageEn(c: Case, chains: ChainVerdict[], approval: Approved)
   const link = selectedChain(approval, chains).chain[0];
   return [
     "Dear colleague,",
-    `For shortage case ${c.case_id}, after review by pharmacist ${approval.by}, a product with the same active substance was selected: ${link.product}, ${link.package}.`,
-    `The proposal concerns ${c.substance} (${c.atc}). The form is ${link.form}. Reimbursement was checked against the stated synthetic preference snapshot; this is no guarantee.`,
+    `For shortage case ${c.case_id}, after review by pharmacist ${approval.by}, a product with the same active substance was selected: ${translateProduct(link.product, "en")}, ${translatePackage(link.package, "en")}.`,
+    `The proposal concerns ${translateSubstance(c.substance, "en")} (${c.atc}). The form is ${translateForm(link.form, "en")}. Reimbursement was checked against the stated synthetic preference snapshot; this is no guarantee.`,
     "The rule identifiers, sources and any refusals are recorded in the audit trail. Nothing was sent or dispensed automatically.",
     "Kind regards,\nThe pharmacist",
   ].join("\n\n");
