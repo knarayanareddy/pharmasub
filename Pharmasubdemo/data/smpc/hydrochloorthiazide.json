@@ -1,0 +1,42 @@
+{
+  "substance": "hydrochloorthiazide",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "25 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Hydrochloorthiazide Demo 25 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "5be69de24ba9438caf6a6d2fabcb3acb27d483ccda4fa95325c10a09bbf98bb6",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "25 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Hydrochloorthiazide Pharmaplus 25 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "97b12c592e10755f1fde9bb60b04a7be9a81911c4626ed57689402d2b7d47375",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "12,5 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Hydrochloorthiazide Sandoz 12,5 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "5ca6222473e1f3ccd42d837c84e19c91e80414aa7bf89462ecbc935a60dd15c1",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

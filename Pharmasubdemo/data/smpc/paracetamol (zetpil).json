@@ -1,0 +1,42 @@
+{
+  "substance": "paracetamol (zetpil)",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "zetpil",
+        "adult_only": false
+      },
+      "doc": "SmPC Paracetamol Demo 500 mg zetpil §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "ad233423d924c96fd9584e29c21dfc7756a9586204c371a7c50048b318bcf345",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "zetpil",
+        "adult_only": false
+      },
+      "doc": "SmPC Paracetamol Pharmaplus 500 mg zetpil §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "20231ef4f57b480887a8771f9a357251f668ca7576798f7d5e059c1ab7473ad2",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "1000 mg",
+        "form": "zetpil",
+        "adult_only": false
+      },
+      "doc": "SmPC Paracetamol Sandoz 1000 mg zetpil §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "46870e57f95099a19ae12e8393c758261636e560335b4d32bcbd7f89e94f9a57",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

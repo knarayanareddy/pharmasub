@@ -1,0 +1,86 @@
+export const DIMENSIONS = [
+  {
+    id: "refuse",
+    label: "Weigeren is een functie",
+    label_en: "Refusal is a feature",
+    left: "beter een gok dan niets",
+    left_en: "better a guess than nothing",
+    right: "liever weigeren dan gokken",
+    right_en: "rather refuse than guess",
+    blurb: "Een zichtbare weigering is beter dan een ogenschijnlijk zekere gok.",
+    blurb_en: "A visible refusal is better than a seemingly confident guess.",
+  },
+  {
+    id: "hops",
+    label: "Maximaal één wijziging",
+    label_en: "At most one change",
+    left: "zoveel mogelijk ketens",
+    left_en: "as many chains as possible",
+    right: "maximaal één hop",
+    right_en: "at most one hop",
+    blurb: "Dekking versus veiligheid, als één aantastbare aanname.",
+    blurb_en: "Coverage versus safety, as one contestable assumption.",
+  },
+  {
+    id: "payer",
+    label: "De apotheek betaalt",
+    label_en: "The pharmacy pays",
+    left: "verzekeraar of groothandel betaalt",
+    left_en: "insurer or wholesaler pays",
+    right: "de apotheek betaalt",
+    right_en: "the pharmacy pays",
+    blurb: "Wie het legale en financiële redeneerwerk financiert.",
+    blurb_en: "Who funds the legal and financial reasoning work.",
+  },
+  {
+    id: "gp",
+    label: "Een bericht is genoeg",
+    label_en: "A message is enough",
+    left: "de huisarts wil bellen",
+    left_en: "the GP wants a phone call",
+    right: "een bericht is genoeg",
+    right_en: "a message is enough",
+    blurb: "De workflowbelofte tussen apotheker en voorschrijver.",
+    blurb_en: "The workflow promise between pharmacist and prescriber.",
+  },
+  {
+    id: "unknown",
+    label: "Onbekend mag",
+    label_en: "Unknown is allowed",
+    left: "onbekend is onacceptabel",
+    left_en: "unknown is unacceptable",
+    right: "onbekend is een eerlijk antwoord",
+    right_en: "unknown is an honest answer",
+    blurb: "Of professionals een eerlijk niet-weten accepteren.",
+    blurb_en: "Whether professionals accept an honest ‘don’t know’.",
+  },
+  {
+    id: "patient",
+    label: "Uitleg op B1 volstaat",
+    label_en: "A B1 explanation suffices",
+    left: "de patiënt wil hetzelfde product",
+    left_en: "the patient wants the same product",
+    right: "uitleg op B1 is genoeg",
+    right_en: "a B1 explanation is enough",
+    blurb: "De laatste stap van iedere substitutie.",
+    blurb_en: "The final step of every substitution.",
+  },
+] as const;
+
+export type Dimension = typeof DIMENSIONS[number]["id"];
+export type ArchetypeKey = keyof typeof ARCH;
+
+export const ARCH = {
+  pharm_ind: { label: "Openbare apothekers", label_en: "Community pharmacists (independent)", n: 46, priors: { refuse: .70, hops: .58, payer: .60, gp: .52, unknown: .62, patient: .56 }, behav: { voice: .74, susceptibility: .50, conviction: .55 } },
+  pharm_tech: { label: "Apothekersassistenten", label_en: "Pharmacy assistants", n: 34, priors: { refuse: .58, hops: .52, payer: .46, gp: .56, unknown: .55, patient: .58 }, behav: { voice: .52, susceptibility: .64, conviction: .45 } },
+  pharm_chain: { label: "Apothekers in ketens", label_en: "Chain pharmacists", n: 26, priors: { refuse: .64, hops: .70, payer: .54, gp: .50, unknown: .58, patient: .52 }, behav: { voice: .60, susceptibility: .44, conviction: .60 } },
+  pharm_hosp: { label: "Ziekenhuisapothekers", label_en: "Hospital pharmacists", n: 18, priors: { refuse: .78, hops: .74, payer: .52, gp: .48, unknown: .70, patient: .50 }, behav: { voice: .66, susceptibility: .40, conviction: .66 } },
+  gp: { label: "Huisartsen", label_en: "GPs", n: 30, priors: { refuse: .52, hops: .44, payer: .38, gp: .40, unknown: .46, patient: .52 }, behav: { voice: .62, susceptibility: .44, conviction: .62 } },
+  patient: { label: "Patiënten", label_en: "Patients", n: 34, priors: { refuse: .44, hops: .36, payer: .30, gp: .44, unknown: .30, patient: .66 }, behav: { voice: .46, susceptibility: .70, conviction: .48 } },
+  insurer: { label: "Zorgverzekeraars", label_en: "Health insurers", n: 16, priors: { refuse: .56, hops: .62, payer: .82, gp: .46, unknown: .52, patient: .48 }, behav: { voice: .58, susceptibility: .30, conviction: .74 } },
+  wholesaler: { label: "Groothandel / importeur", label_en: "Wholesaler / importer", n: 18, priors: { refuse: .34, hops: .88, payer: .22, gp: .46, unknown: .34, patient: .46 }, behav: { voice: .64, susceptibility: .34, conviction: .70 } },
+  regulator: { label: "IGJ / inspectie", label_en: "IGJ / inspectorate", n: 10, priors: { refuse: .90, hops: .66, payer: .40, gp: .52, unknown: .78, patient: .54 }, behav: { voice: .70, susceptibility: .22, conviction: .84 } },
+  import: { label: "Import- en bereidingsapotheken", label_en: "Import and compounding pharmacies", n: 8, priors: { refuse: .48, hops: .92, payer: .44, gp: .50, unknown: .50, patient: .50 }, behav: { voice: .56, susceptibility: .36, conviction: .64 } },
+} as const;
+
+export const PHARMACY_ARCHETYPES: ArchetypeKey[] = ["pharm_ind", "pharm_tech", "pharm_chain", "pharm_hosp"];

@@ -1,0 +1,54 @@
+{
+  "substance": "omeprazol",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "20 mg",
+        "form": "maagsapresistente capsule",
+        "adult_only": false
+      },
+      "doc": "SmPC Omeprazol Demo 20 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "8a8390db43d7e7e612a8f71bd4ed1969f4b7446f5247390d4bcc3f964de1e764",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "20 mg",
+        "form": "maagsapresistente capsule",
+        "adult_only": false
+      },
+      "doc": "SmPC Omeprazol Pharmaplus 20 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "5211e929928835b3f1a83360fac3475384b4e67119e01e1dfcef2e59766a9186",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "40 mg",
+        "form": "maagsapresistente capsule",
+        "adult_only": false
+      },
+      "doc": "SmPC Omeprazol Sandoz 40 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "2b68981c09f4e74522bd7e851db3d1dd57d5ab0ac7d63054a5704b1a60c6ae18",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "buitenlandse registratie",
+      "value": {
+        "strength": "20 mg",
+        "form": "maagsapresistente capsule",
+        "adult_only": false
+      },
+      "doc": "SmPC Omeprazol EU 20 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "c6bb30b30842bb0993e99fc8257d1ecdcad85cd5d7d19351f4e594bbbed723a3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "F1",
+    "claim": "Apothekers verkiezen een zichtbare weigering boven een ogenschijnlijk zekere gok.",
+    "test": "QREFUSE",
+    "expected": true,
+    "if_false": "De kernthese valt weg. Herbouw rond een verplichte menselijke controle zonder weigeringsclaim."
+  },
+  {
+    "id": "F2",
+    "claim": "De één-hopgrens overleeft een publieke afleverfout.",
+    "test": "QFOUT",
+    "expected": true,
+    "if_false": "Maak de grens een configureerbaar protocol in plaats van een vaste productregel."
+  },
+  {
+    "id": "F3",
+    "claim": "Apothekers tolereren ‘onbekend’.",
+    "test": "QUNKNOWN",
+    "expected": true,
+    "if_false": "Lost elke vergoedingsstatus op met gelicentieerde bronnen voordat het product wordt gebruikt."
+  },
+  {
+    "id": "F4",
+    "claim": "Huisartsen accepteren een bericht in plaats van een gesprek.",
+    "test": "QGP",
+    "expected": true,
+    "if_false": "Beperk de workflowbelofte tot de apotheek; het huisartsenbericht is dan geen propositie."
+  },
+  {
+    "id": "F5",
+    "claim": "Toelevering en inspectie verschillen meer over dekking dan apothekers.",
+    "test": "DIVERGE",
+    "expected": true,
+    "if_false": "Vertel het verhaal over de positie tussen groothandel en inspectie niet."
+  }
+]

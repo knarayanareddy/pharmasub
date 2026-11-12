@@ -1,0 +1,1925 @@
+{
+  "salbutamol": {
+    "substance": "salbutamol",
+    "atc": "R03AC02",
+    "products": [
+      {
+        "product": "Salbutamol Demo 100 mcg inhalatiepoeder",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "packages": [
+          "200 doses"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/salbutamol.json",
+        "source": {
+          "doc": "SmPC Salbutamol Demo 100 mcg inhalatiepoeder §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "f26fdfd7cc59421c04309eac2474bffc3d1ee63ccfe9ecc68459061aa6308ccd",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Salbutamol Pharmaplus 100 mcg aerosol",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "aerosol",
+        "packages": [
+          "200 doses"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/salbutamol.json",
+        "source": {
+          "doc": "SmPC Salbutamol Pharmaplus 100 mcg aerosol §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "15d322dbce81fd26b64bf1f0fb81456ef1d5e7127ab01a04c290b82fcdf5e229",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Salbutamol Sandoz 2 mg/5 ml drank",
+        "substance": "salbutamol",
+        "strength": "2 mg/5 ml",
+        "form": "drank",
+        "packages": [
+          "150 ml"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/salbutamol.json",
+        "source": {
+          "doc": "SmPC Salbutamol Sandoz 2 mg/5 ml drank §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "70b1048c27a130de3cda547eaffaf6231d4c1b0176e7e75122a1e9e5d71d72c6",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Salbutamol EU 100 mcg inhalatiepoeder",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "packages": [
+          "200 doses"
+        ],
+        "nl_registered": false,
+        "eu_registered": true,
+        "foreign_registration": "EU/1/26/DEMO/004",
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/salbutamol.json",
+        "source": {
+          "doc": "SmPC Salbutamol EU 100 mcg inhalatiepoeder §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "buitenlandse registratie",
+          "date": "2026-09-01",
+          "sha256": "369a23c86b0bfb2544fbd1f7bb9a7c9ad79a3562b2f1842c165ddce097a05ceb",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Salbutamol Parallel 100 mcg inhalatiepoeder",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "packages": [
+          "200 doses"
+        ],
+        "nl_registered": false,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/salbutamol.json",
+        "source": {
+          "doc": "SmPC Salbutamol Parallel 100 mcg inhalatiepoeder §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "buitenlandse registratie ontbreekt",
+          "date": "2026-09-01",
+          "sha256": "454c7b537cb105034058c1cd50d9d9c8d50dd8af06099d004228e9bd491d4dda",
+          "quote_nl": "Synthetisch extract: parallelimport zonder citeerbaar registratienummer."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "inhalatiepoeder|inhalatiepoeder": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      },
+      "inhalatiepoeder|aerosol": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      },
+      "inhalatiepoeder|drank": {
+        "equivalent": false,
+        "rule": "P-STR-02",
+        "note_nl": "Salbutamol Sandoz 2 mg/5 ml drank heeft een ander dosisinterval dan 100 mcg inhalatiepoeder — niet uitwisselbaar zonder controle"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Salbutamol §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "a27d55e455d4815f5e63a8bc6b32eaa128888aa49d959da69be3176245176ab1",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "metformine": {
+    "substance": "metformine",
+    "atc": "A10BA02",
+    "products": [
+      {
+        "product": "Metformine Demo 500 mg tablet",
+        "substance": "metformine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "90 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/metformine.json",
+        "source": {
+          "doc": "SmPC Metformine Demo 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "8e58103b2d97d71ff00bd2a1a50218550c9ee0ffd782185816f8fa5e8cb0e30e",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Metformine Pharmaplus 500 mg tablet",
+        "substance": "metformine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "90 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/metformine.json",
+        "source": {
+          "doc": "SmPC Metformine Pharmaplus 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "966af598c83f2db9c955328179d4fcd387576df34de4403c3c45a6010df206bf",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Metformine Sandoz 850 mg tablet",
+        "substance": "metformine",
+        "strength": "850 mg",
+        "form": "tablet",
+        "packages": [
+          "60 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/metformine.json",
+        "source": {
+          "doc": "SmPC Metformine Sandoz 850 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "f6da3b0deb5732d1f939a72c5e0ccbafdb47d64baca024180d16b9729f4ed8e1",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Metformine EU 500 mg tablet",
+        "substance": "metformine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "90 tabletten"
+        ],
+        "nl_registered": false,
+        "eu_registered": true,
+        "foreign_registration": "EU/1/26/DEMO/004",
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/metformine.json",
+        "source": {
+          "doc": "SmPC Metformine EU 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "buitenlandse registratie",
+          "date": "2026-09-01",
+          "sha256": "3b98868ffc6b4c86acfe97bc84746bdc1e8a6b1e9fb649cea36fe1fa5aa83da4",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Metformine §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "929e56ee8f841598ca7f0e59dae28cd3deb46f50bb8ab3c777759f2c4f0257df",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "atorvastatine": {
+    "substance": "atorvastatine",
+    "atc": "C10AA05",
+    "products": [
+      {
+        "product": "Atorvastatine Demo 20 mg tablet",
+        "substance": "atorvastatine",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/atorvastatine.json",
+        "source": {
+          "doc": "SmPC Atorvastatine Demo 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "acbc710366b59cfcd38bb5fe9d806354c511e4e2f1c2342d4e407a24b895b2a3",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Atorvastatine Pharmaplus 20 mg tablet",
+        "substance": "atorvastatine",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/atorvastatine.json",
+        "source": {
+          "doc": "SmPC Atorvastatine Pharmaplus 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "74b255266ce360b10a4580853fb3235f400f5987bfb8966c2f93d6a7a7d99090",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Atorvastatine Sandoz 40 mg tablet",
+        "substance": "atorvastatine",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/atorvastatine.json",
+        "source": {
+          "doc": "SmPC Atorvastatine Sandoz 40 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "fefac04859c0530bc801cce22ab1c0625efda7a2613fb3896182b94ad3474ed6",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Atorvastatine EU 20 mg tablet",
+        "substance": "atorvastatine",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": false,
+        "eu_registered": true,
+        "foreign_registration": "EU/1/26/DEMO/004",
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/atorvastatine.json",
+        "source": {
+          "doc": "SmPC Atorvastatine EU 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "buitenlandse registratie",
+          "date": "2026-09-01",
+          "sha256": "36c6590eee0d6b8ccd043334238cad3880fa0306a5d9bbabcca750b2b450fc20",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Atorvastatine §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "bec5bef102b785dba60b98fc436e297d77d8e88487df16f6ff19f04601f12008",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "omeprazol": {
+    "substance": "omeprazol",
+    "atc": "A02BC01",
+    "products": [
+      {
+        "product": "Omeprazol Demo 20 mg maagsapresistente capsule",
+        "substance": "omeprazol",
+        "strength": "20 mg",
+        "form": "maagsapresistente capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/omeprazol.json",
+        "source": {
+          "doc": "SmPC Omeprazol Demo 20 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "8a8390db43d7e7e612a8f71bd4ed1969f4b7446f5247390d4bcc3f964de1e764",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Omeprazol Pharmaplus 20 mg maagsapresistente capsule",
+        "substance": "omeprazol",
+        "strength": "20 mg",
+        "form": "maagsapresistente capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/omeprazol.json",
+        "source": {
+          "doc": "SmPC Omeprazol Pharmaplus 20 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "5211e929928835b3f1a83360fac3475384b4e67119e01e1dfcef2e59766a9186",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Omeprazol Sandoz 40 mg maagsapresistente capsule",
+        "substance": "omeprazol",
+        "strength": "40 mg",
+        "form": "maagsapresistente capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/omeprazol.json",
+        "source": {
+          "doc": "SmPC Omeprazol Sandoz 40 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "2b68981c09f4e74522bd7e851db3d1dd57d5ab0ac7d63054a5704b1a60c6ae18",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Omeprazol EU 20 mg maagsapresistente capsule",
+        "substance": "omeprazol",
+        "strength": "20 mg",
+        "form": "maagsapresistente capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": false,
+        "eu_registered": true,
+        "foreign_registration": "EU/1/26/DEMO/004",
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/omeprazol.json",
+        "source": {
+          "doc": "SmPC Omeprazol EU 20 mg maagsapresistente capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "buitenlandse registratie",
+          "date": "2026-09-01",
+          "sha256": "c6bb30b30842bb0993e99fc8257d1ecdcad85cd5d7d19351f4e594bbbed723a3",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "maagsapresistente capsule|maagsapresistente capsule": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Omeprazol §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "2bc387da0bb14ff453be268158c569955e3bcdba098ef62483000314b99c9da3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "amoxicilline": {
+    "substance": "amoxicilline",
+    "atc": "J01CA04",
+    "products": [
+      {
+        "product": "Amoxicilline Demo 500 mg capsule",
+        "substance": "amoxicilline",
+        "strength": "500 mg",
+        "form": "capsule",
+        "packages": [
+          "21 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_penicilline": true
+        },
+        "smpc_ref": "smpc/amoxicilline.json",
+        "source": {
+          "doc": "SmPC Amoxicilline Demo 500 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "1c3cc8cc26c668875948d5c726e0d85dbb32a2c7d8a74d5a77d3cc98651e43c3",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Amoxicilline Pharmaplus 500 mg capsule",
+        "substance": "amoxicilline",
+        "strength": "500 mg",
+        "form": "capsule",
+        "packages": [
+          "21 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_penicilline": true
+        },
+        "smpc_ref": "smpc/amoxicilline.json",
+        "source": {
+          "doc": "SmPC Amoxicilline Pharmaplus 500 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "f941c3873abe44f96e39e094d40e8c037d30f6ebca64d4d3108aded22ec36453",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Amoxicilline Sandoz 250 mg/5 ml drank",
+        "substance": "amoxicilline",
+        "strength": "250 mg/5 ml",
+        "form": "drank",
+        "packages": [
+          "100 ml"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_penicilline": true
+        },
+        "smpc_ref": "smpc/amoxicilline.json",
+        "source": {
+          "doc": "SmPC Amoxicilline Sandoz 250 mg/5 ml drank §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "74136b9b5212637edbac4904318db46e32393d779d4ce5916dae56a4b7721f6e",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "capsule|capsule": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      },
+      "capsule|drank": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {
+      "allergie_penicilline": true
+    },
+    "source": {
+      "doc": "SmPC Amoxicilline §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "90857f04189eb835b041d212c1becd596d162a1eed0de8ea0c876b8070c765e2",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "levothyroxine": {
+    "substance": "levothyroxine",
+    "atc": "H03AA01",
+    "products": [
+      {
+        "product": "Levothyroxine Demo 50 mcg tablet",
+        "substance": "levothyroxine",
+        "strength": "50 mcg",
+        "form": "tablet",
+        "packages": [
+          "90 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/levothyroxine.json",
+        "source": {
+          "doc": "SmPC Levothyroxine Demo 50 mcg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "540a7c4d1eacd06077cefde953c489fbc56cb44fe68795b7d6a9016e98b13ed0",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Levothyroxine Pharmaplus 50 mcg tablet",
+        "substance": "levothyroxine",
+        "strength": "50 mcg",
+        "form": "tablet",
+        "packages": [
+          "90 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/levothyroxine.json",
+        "source": {
+          "doc": "SmPC Levothyroxine Pharmaplus 50 mcg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "2eaccf563ac2d60d9b22007fee1c12aaf3c886fb52374972adc774178cb8d697",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Levothyroxine Sandoz 25 mcg tablet",
+        "substance": "levothyroxine",
+        "strength": "25 mcg",
+        "form": "tablet",
+        "packages": [
+          "90 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/levothyroxine.json",
+        "source": {
+          "doc": "SmPC Levothyroxine Sandoz 25 mcg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "3a10b9af70ed30d8815e49c0d71b91f1dc753b1919bc5521c0191463806b267e",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Levothyroxine §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "30e5d923502835d32985f8876cbaee0c09ec20425636c2781f72aa2cd3221c8f",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "sertraline": {
+    "substance": "sertraline",
+    "atc": "N06AB06",
+    "products": [
+      {
+        "product": "Sertraline Demo 50 mg tablet",
+        "substance": "sertraline",
+        "strength": "50 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/sertraline.json",
+        "source": {
+          "doc": "SmPC Sertraline Demo 50 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "734ca6b756a8e9fee1d399a405e82f40da074750e4b2dd3ab77a5546a1e86ffa",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Sertraline Pharmaplus 50 mg tablet",
+        "substance": "sertraline",
+        "strength": "50 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/sertraline.json",
+        "source": {
+          "doc": "SmPC Sertraline Pharmaplus 50 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "2b2cc2d4536a17a9de8a57f397b1e3f02a1a69e6f4471a32d0af6824e23276a3",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Sertraline Sandoz 25 mg tablet",
+        "substance": "sertraline",
+        "strength": "25 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "renaal": true
+        },
+        "smpc_ref": "smpc/sertraline.json",
+        "source": {
+          "doc": "SmPC Sertraline Sandoz 25 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "312f64c29186b8cb616c265501236fee225c6472ceed2deec7bd87bf3382782f",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Sertraline §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "657c9cb0517b6e8b5361756023680e41200747a6ec94d01c39a25b65fbd08378",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "oxycodon": {
+    "substance": "oxycodon",
+    "atc": "N02AA05",
+    "products": [
+      {
+        "product": "Oxycodon Demo 5 mg capsule",
+        "substance": "oxycodon",
+        "strength": "5 mg",
+        "form": "capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": true,
+        "contra_indications": {},
+        "smpc_ref": "smpc/oxycodon.json",
+        "source": {
+          "doc": "SmPC Oxycodon Demo 5 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "4dc799ab17692f99b3cc20a8066d5f16c63452e270f3edf43bcc6257b3aa0e91",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Oxycodon Pharmaplus 5 mg capsule",
+        "substance": "oxycodon",
+        "strength": "5 mg",
+        "form": "capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": true,
+        "contra_indications": {},
+        "smpc_ref": "smpc/oxycodon.json",
+        "source": {
+          "doc": "SmPC Oxycodon Pharmaplus 5 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "40dae49809d35ed93ab62af2897e3c8a40cf318f3e642e73fb83fe65edc14264",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Oxycodon Sandoz 10 mg capsule",
+        "substance": "oxycodon",
+        "strength": "10 mg",
+        "form": "capsule",
+        "packages": [
+          "28 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": true,
+        "contra_indications": {},
+        "smpc_ref": "smpc/oxycodon.json",
+        "source": {
+          "doc": "SmPC Oxycodon Sandoz 10 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "fdd544f4efc7842779fbf614cf1f0ee17d546bca902c4910e2328dce7deace09",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "capsule|capsule": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Oxycodon §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "917cdaac4c66b71b89ecab48523a3799074b847ab0d0bdc554d68c4bee7474e1",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "furosemide": {
+    "substance": "furosemide",
+    "atc": "C03CA01",
+    "products": [
+      {
+        "product": "Furosemide Demo 40 mg tablet",
+        "substance": "furosemide",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/furosemide.json",
+        "source": {
+          "doc": "SmPC Furosemide Demo 40 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "5874920130a17560deef04e89238e68eabeec424d4beb4225140183028271b0a",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Furosemide Pharmaplus 40 mg tablet",
+        "substance": "furosemide",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/furosemide.json",
+        "source": {
+          "doc": "SmPC Furosemide Pharmaplus 40 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "23b78d1d713bdf84ccc5780843169202f19e05054a9bf3fc8d973f6543aeb7cd",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Furosemide Sandoz 20 mg tablet",
+        "substance": "furosemide",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/furosemide.json",
+        "source": {
+          "doc": "SmPC Furosemide Sandoz 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "bc63b35c02ec6ee68cf1dbe3c57e8db923e2131ecd71d877d74e26ea42ee2f82",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Furosemide §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "2bb9442bb66a5fb253857d1f8d82583eb7caddf21e962875e40061656f23fe8c",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "prednison": {
+    "substance": "prednison",
+    "atc": "H02AB07",
+    "products": [
+      {
+        "product": "Prednison Demo 5 mg tablet",
+        "substance": "prednison",
+        "strength": "5 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/prednison.json",
+        "source": {
+          "doc": "SmPC Prednison Demo 5 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "cb1543eb02dd541c2a4fb8f671c3185a7b19d2bec7c15156f8eff609e6115307",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Prednison Pharmaplus 5 mg tablet",
+        "substance": "prednison",
+        "strength": "5 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/prednison.json",
+        "source": {
+          "doc": "SmPC Prednison Pharmaplus 5 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "a8893ead04ef59d014818be4701e087eeee1176f2144e19eee337c90ce98e675",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Prednison Sandoz 1 mg tablet",
+        "substance": "prednison",
+        "strength": "1 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/prednison.json",
+        "source": {
+          "doc": "SmPC Prednison Sandoz 1 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "eacef336e3c8802a0fcf5685858d30ba4083511800dd642d45b4850709d5de4b",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Prednison §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "5d5fda5a9708c812cbc943611a4a4668fd8a6794016f8226df7473c92a3462d8",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "insuline glargine": {
+    "substance": "insuline glargine",
+    "atc": "A10AE04",
+    "products": [
+      {
+        "product": "Insuline glargine Demo 100 E/ml injectievloeistof",
+        "substance": "insuline glargine",
+        "strength": "100 E/ml",
+        "form": "injectievloeistof",
+        "packages": [
+          "5 pennen"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/insuline glargine.json",
+        "source": {
+          "doc": "SmPC Insuline glargine Demo 100 E/ml injectievloeistof §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "b7cb3e7fc33f02d30864973b1087e4f748ba530d7de937a438c1225b58006658",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Insuline glargine Pharmaplus 100 E/ml injectievloeistof",
+        "substance": "insuline glargine",
+        "strength": "100 E/ml",
+        "form": "injectievloeistof",
+        "packages": [
+          "5 pennen"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/insuline glargine.json",
+        "source": {
+          "doc": "SmPC Insuline glargine Pharmaplus 100 E/ml injectievloeistof §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "81e33240cc69663430ea9303db2ed469f00fe42dac8a37417b78275722c74b19",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Insuline glargine Sandoz 300 E/ml injectievloeistof",
+        "substance": "insuline glargine",
+        "strength": "300 E/ml",
+        "form": "injectievloeistof",
+        "packages": [
+          "5 pennen"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/insuline glargine.json",
+        "source": {
+          "doc": "SmPC Insuline glargine Sandoz 300 E/ml injectievloeistof §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "2b44816a32140af2c088ab60f688070d115b71eeb9b53acfb657ddcbd76dcf64",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "injectievloeistof|injectievloeistof": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Insuline glargine §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "315020d20dbb72902b95fa91653ffa18365b0f39304f357d300da90a9db7c11e",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "methylfenidaat": {
+    "substance": "methylfenidaat",
+    "atc": "N06BA04",
+    "products": [
+      {
+        "product": "Methylfenidaat Demo 10 mg tablet",
+        "substance": "methylfenidaat",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/methylfenidaat.json",
+        "source": {
+          "doc": "SmPC Methylfenidaat Demo 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "941cc5ce0797d6a40a9511046f2900797b90ecd4c7c26965c7a1cacfb3666f08",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Methylfenidaat Pharmaplus 10 mg tablet",
+        "substance": "methylfenidaat",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/methylfenidaat.json",
+        "source": {
+          "doc": "SmPC Methylfenidaat Pharmaplus 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "ea871a8e7e3fa215257fd2880452224c331409b43fd062a94bbe5e778d3f556d",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Methylfenidaat Sandoz 18 mg tablet met gereguleerde afgifte",
+        "substance": "methylfenidaat",
+        "strength": "18 mg",
+        "form": "tablet met gereguleerde afgifte",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/methylfenidaat.json",
+        "source": {
+          "doc": "SmPC Methylfenidaat Sandoz 18 mg tablet met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "5c0bf978d2b55d1fb0cbb4abc50701b356c7c5a92871ed25f2d91e54c06ecc6c",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      },
+      "tablet|tablet met gereguleerde afgifte": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Methylfenidaat §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "c9f9a0492548f1fb03bc303a7384caf42604b6e66b9496485f26839ce4dbd369",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "tamsulosine": {
+    "substance": "tamsulosine",
+    "atc": "G04CA02",
+    "products": [
+      {
+        "product": "Tamsulosine Demo 0,4 mg capsule met gereguleerde afgifte",
+        "substance": "tamsulosine",
+        "strength": "0,4 mg",
+        "form": "capsule met gereguleerde afgifte",
+        "packages": [
+          "30 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/tamsulosine.json",
+        "source": {
+          "doc": "SmPC Tamsulosine Demo 0,4 mg capsule met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "dd4e697f82596ee2ed8e82e72c5d21a45b0111a9880946b8f8daaa2e10dd189d",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Tamsulosine Pharmaplus 0,4 mg capsule met gereguleerde afgifte",
+        "substance": "tamsulosine",
+        "strength": "0,4 mg",
+        "form": "capsule met gereguleerde afgifte",
+        "packages": [
+          "30 capsules"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/tamsulosine.json",
+        "source": {
+          "doc": "SmPC Tamsulosine Pharmaplus 0,4 mg capsule met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "062d479cab9120506cfe432667d1279e4d6a820330a8909619bf66ab224ab7d3",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Tamsulosine Sandoz 0,4 mg tablet met gereguleerde afgifte",
+        "substance": "tamsulosine",
+        "strength": "0,4 mg",
+        "form": "tablet met gereguleerde afgifte",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/tamsulosine.json",
+        "source": {
+          "doc": "SmPC Tamsulosine Sandoz 0,4 mg tablet met gereguleerde afgifte §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "c916bcc4e9b199cf57d3f530cba42dd5ec583a405cc89b5836f4602f32822e97",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "capsule met gereguleerde afgifte|capsule met gereguleerde afgifte": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      },
+      "capsule met gereguleerde afgifte|tablet met gereguleerde afgifte": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Tamsulosine §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "a498e08413bee971a17af4b75de0114ebe77e809178f0a7b7fae0bc77b676e9a",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "escitalopram": {
+    "substance": "escitalopram",
+    "atc": "N06AB10",
+    "products": [
+      {
+        "product": "Escitalopram Demo 10 mg tablet",
+        "substance": "escitalopram",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/escitalopram.json",
+        "source": {
+          "doc": "SmPC Escitalopram Demo 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "1c7ddd922e7d065ad4b9262cdf2337f2a8bbdea72c2c391f3d4f511c301b7526",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Escitalopram Pharmaplus 10 mg tablet",
+        "substance": "escitalopram",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/escitalopram.json",
+        "source": {
+          "doc": "SmPC Escitalopram Pharmaplus 10 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "c37d300fba74d34e532391088033643ea53fa518cad5a24aedfc078fe438ee44",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Escitalopram Sandoz 20 mg tablet",
+        "substance": "escitalopram",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/escitalopram.json",
+        "source": {
+          "doc": "SmPC Escitalopram Sandoz 20 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "a48d1be1f7f273e10a345774c28d82f75e8fca960c288d0cfb53c356db8f9bbd",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Escitalopram §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "fdbce53086809e3c4241f783eab31c41e94aec1a77c82790ad0363c4bd845cad",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "naproxen": {
+    "substance": "naproxen",
+    "atc": "M01AE02",
+    "products": [
+      {
+        "product": "Naproxen Demo 250 mg tablet",
+        "substance": "naproxen",
+        "strength": "250 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_nsaid": true
+        },
+        "smpc_ref": "smpc/naproxen.json",
+        "source": {
+          "doc": "SmPC Naproxen Demo 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "94a1df8d0cc4d3e89628a2e9edb84be268e637a7b9b1b2c515395fe647c8c356",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Naproxen Pharmaplus 250 mg tablet",
+        "substance": "naproxen",
+        "strength": "250 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_nsaid": true
+        },
+        "smpc_ref": "smpc/naproxen.json",
+        "source": {
+          "doc": "SmPC Naproxen Pharmaplus 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "f047556b7503ecb16b22125a0929fce96973dee85031e5802e6ab684011f29a5",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Naproxen Sandoz 500 mg tablet",
+        "substance": "naproxen",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_nsaid": true
+        },
+        "smpc_ref": "smpc/naproxen.json",
+        "source": {
+          "doc": "SmPC Naproxen Sandoz 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "52b0ed216ecc63f07a619a20b5b623f0e677b3272cf7bf9ca0b7f749c17e61d6",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {
+      "allergie_nsaid": true
+    },
+    "source": {
+      "doc": "SmPC Naproxen §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "b1110c045e70e4e62a19780ffa9a617883cd0ac57b9635667ff024c7b875da36",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "paracetamol (zetpil)": {
+    "substance": "paracetamol (zetpil)",
+    "atc": "N02BE01",
+    "products": [
+      {
+        "product": "Paracetamol Demo 500 mg zetpil",
+        "substance": "paracetamol (zetpil)",
+        "strength": "500 mg",
+        "form": "zetpil",
+        "packages": [
+          "10 zetpillen"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/paracetamol (zetpil).json",
+        "source": {
+          "doc": "SmPC Paracetamol Demo 500 mg zetpil §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "ad233423d924c96fd9584e29c21dfc7756a9586204c371a7c50048b318bcf345",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Paracetamol Pharmaplus 500 mg zetpil",
+        "substance": "paracetamol (zetpil)",
+        "strength": "500 mg",
+        "form": "zetpil",
+        "packages": [
+          "10 zetpillen"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/paracetamol (zetpil).json",
+        "source": {
+          "doc": "SmPC Paracetamol Pharmaplus 500 mg zetpil §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "20231ef4f57b480887a8771f9a357251f668ca7576798f7d5e059c1ab7473ad2",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Paracetamol Sandoz 1000 mg zetpil",
+        "substance": "paracetamol (zetpil)",
+        "strength": "1000 mg",
+        "form": "zetpil",
+        "packages": [
+          "10 zetpillen"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/paracetamol (zetpil).json",
+        "source": {
+          "doc": "SmPC Paracetamol Sandoz 1000 mg zetpil §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "46870e57f95099a19ae12e8393c758261636e560335b4d32bcbd7f89e94f9a57",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "zetpil|zetpil": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Paracetamol §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "516e2cb54be7783cdb227bde422c1755efb9799112785a5af6864037f28a495c",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "amoxicilline/clavulaanzuur": {
+    "substance": "amoxicilline/clavulaanzuur",
+    "atc": "J01CR02",
+    "products": [
+      {
+        "product": "Amoxicilline/clavulaanzuur Demo 500/125 mg tablet",
+        "substance": "amoxicilline/clavulaanzuur",
+        "strength": "500/125 mg",
+        "form": "tablet",
+        "packages": [
+          "21 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_penicilline": true
+        },
+        "smpc_ref": "smpc/amoxicilline-clavulaanzuur.json",
+        "source": {
+          "doc": "SmPC Amoxicilline/clavulaanzuur Demo 500/125 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "eac610b3b033f132f3d35027317ba9a97df0865e1b903ea114ee7049585a131c",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Amoxicilline/clavulaanzuur Pharmaplus 500/125 mg tablet",
+        "substance": "amoxicilline/clavulaanzuur",
+        "strength": "500/125 mg",
+        "form": "tablet",
+        "packages": [
+          "21 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_penicilline": true
+        },
+        "smpc_ref": "smpc/amoxicilline-clavulaanzuur.json",
+        "source": {
+          "doc": "SmPC Amoxicilline/clavulaanzuur Pharmaplus 500/125 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "6162517e8ed298f3e04378e62600ca167eb5cb1e14a9bb108e9acee48dbd7403",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Amoxicilline/clavulaanzuur Sandoz 875/125 mg tablet",
+        "substance": "amoxicilline/clavulaanzuur",
+        "strength": "875/125 mg",
+        "form": "tablet",
+        "packages": [
+          "21 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {
+          "allergie_penicilline": true
+        },
+        "smpc_ref": "smpc/amoxicilline-clavulaanzuur.json",
+        "source": {
+          "doc": "SmPC Amoxicilline/clavulaanzuur Sandoz 875/125 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "bfdc7452b85cd4eedc1d522910409aca00f1a97a7fd310ca135dc634fb1b1d38",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {
+      "allergie_penicilline": true
+    },
+    "source": {
+      "doc": "SmPC Amoxicilline/clavulaanzuur §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "be02515204f215421cbc2c989c76849b624dc9b4285e937fbbedf6b2011e12c2",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "hydrochloorthiazide": {
+    "substance": "hydrochloorthiazide",
+    "atc": "C03AA03",
+    "products": [
+      {
+        "product": "Hydrochloorthiazide Demo 25 mg tablet",
+        "substance": "hydrochloorthiazide",
+        "strength": "25 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/hydrochloorthiazide.json",
+        "source": {
+          "doc": "SmPC Hydrochloorthiazide Demo 25 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "5be69de24ba9438caf6a6d2fabcb3acb27d483ccda4fa95325c10a09bbf98bb6",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Hydrochloorthiazide Pharmaplus 25 mg tablet",
+        "substance": "hydrochloorthiazide",
+        "strength": "25 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/hydrochloorthiazide.json",
+        "source": {
+          "doc": "SmPC Hydrochloorthiazide Pharmaplus 25 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "97b12c592e10755f1fde9bb60b04a7be9a81911c4626ed57689402d2b7d47375",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Hydrochloorthiazide Sandoz 12,5 mg tablet",
+        "substance": "hydrochloorthiazide",
+        "strength": "12,5 mg",
+        "form": "tablet",
+        "packages": [
+          "30 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/hydrochloorthiazide.json",
+        "source": {
+          "doc": "SmPC Hydrochloorthiazide Sandoz 12,5 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "5ca6222473e1f3ccd42d837c84e19c91e80414aa7bf89462ecbc935a60dd15c1",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Hydrochloorthiazide §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "5378b4afd537b619704975d4334a9630609afac967a5a374e46a1df92c0ea3ad",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "pantoprazol": {
+    "substance": "pantoprazol",
+    "atc": "A02BC02",
+    "products": [
+      {
+        "product": "Pantoprazol Demo 20 mg maagsapresistente tablet",
+        "substance": "pantoprazol",
+        "strength": "20 mg",
+        "form": "maagsapresistente tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/pantoprazol.json",
+        "source": {
+          "doc": "SmPC Pantoprazol Demo 20 mg maagsapresistente tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "6c752407994eb51950212433248759e9b2f5d3563b6c370872299a3ab4160b3d",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Pantoprazol Pharmaplus 20 mg maagsapresistente tablet",
+        "substance": "pantoprazol",
+        "strength": "20 mg",
+        "form": "maagsapresistente tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/pantoprazol.json",
+        "source": {
+          "doc": "SmPC Pantoprazol Pharmaplus 20 mg maagsapresistente tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "d31a407a893ffc8ccad8d568d95149f6d77eddcafb2df253964ded624e00416d",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Pantoprazol Sandoz 40 mg maagsapresistente tablet",
+        "substance": "pantoprazol",
+        "strength": "40 mg",
+        "form": "maagsapresistente tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/pantoprazol.json",
+        "source": {
+          "doc": "SmPC Pantoprazol Sandoz 40 mg maagsapresistente tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "339ac116fcd8c383882d793dfdca1040ed30591a85cb0e61357f10291b3702d7",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Pantoprazol EU 20 mg maagsapresistente tablet",
+        "substance": "pantoprazol",
+        "strength": "20 mg",
+        "form": "maagsapresistente tablet",
+        "packages": [
+          "28 tabletten"
+        ],
+        "nl_registered": false,
+        "eu_registered": true,
+        "foreign_registration": "EU/1/26/DEMO/004",
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/pantoprazol.json",
+        "source": {
+          "doc": "SmPC Pantoprazol EU 20 mg maagsapresistente tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "buitenlandse registratie",
+          "date": "2026-09-01",
+          "sha256": "4c3ebce6c0772bc87b398c9381be008f1412460d69fc16bcd52555a84c158802",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "maagsapresistente tablet|maagsapresistente tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Pantoprazol §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "449a0ce2d54595486e52fe8475f6b96c5b3196501ddf6e9758fde119bddf3463",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  },
+  "azitromycine": {
+    "substance": "azitromycine",
+    "atc": "J01FA10",
+    "products": [
+      {
+        "product": "Azitromycine Demo 250 mg tablet",
+        "substance": "azitromycine",
+        "strength": "250 mg",
+        "form": "tablet",
+        "packages": [
+          "6 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/azitromycine.json",
+        "source": {
+          "doc": "SmPC Azitromycine Demo 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "b7fcfdd6b7085487bf44023a0c95271bc949fb378c474812229336fbae8a98e5",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Azitromycine Pharmaplus 250 mg tablet",
+        "substance": "azitromycine",
+        "strength": "250 mg",
+        "form": "tablet",
+        "packages": [
+          "6 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/azitromycine.json",
+        "source": {
+          "doc": "SmPC Azitromycine Pharmaplus 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "93f172d8ba11e36e6ad116e739aa42788eab0588462a25d79105af1a3b800733",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      },
+      {
+        "product": "Azitromycine Sandoz 500 mg tablet",
+        "substance": "azitromycine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "3 tabletten"
+        ],
+        "nl_registered": true,
+        "eu_registered": true,
+        "foreign_registration": null,
+        "adult_only": false,
+        "contra_indications": {},
+        "smpc_ref": "smpc/azitromycine.json",
+        "source": {
+          "doc": "SmPC Azitromycine Sandoz 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+          "field": "product en toedieningsvorm",
+          "date": "2026-09-01",
+          "sha256": "8e6f425055176daba0deeb03ff21338f1079add4d5f632a506e3ae0d0dc95fa3",
+          "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+        }
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|tablet": {
+        "equivalent": true,
+        "rule": "P-STR-01",
+        "note_nl": "zelfde dosisinterval volgens het synthetische SmPC-extract — apotheker controleert sterkte en toedieningsvorm"
+      }
+    },
+    "contra_indications": {},
+    "source": {
+      "doc": "SmPC Azitromycine §4.2 · voorbeelddata — geen officiële lijst",
+      "field": "INN en ATC",
+      "date": "2026-09-01",
+      "sha256": "4c25139cbd678e9132eba1c96a992acdd7d25e04302665f07a2c2ed23914a0f3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  }
+}

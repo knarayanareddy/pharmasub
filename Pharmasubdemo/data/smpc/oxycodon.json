@@ -1,0 +1,42 @@
+{
+  "substance": "oxycodon",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "5 mg",
+        "form": "capsule",
+        "adult_only": true
+      },
+      "doc": "SmPC Oxycodon Demo 5 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "4dc799ab17692f99b3cc20a8066d5f16c63452e270f3edf43bcc6257b3aa0e91",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "5 mg",
+        "form": "capsule",
+        "adult_only": true
+      },
+      "doc": "SmPC Oxycodon Pharmaplus 5 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "40dae49809d35ed93ab62af2897e3c8a40cf318f3e642e73fb83fe65edc14264",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "10 mg",
+        "form": "capsule",
+        "adult_only": true
+      },
+      "doc": "SmPC Oxycodon Sandoz 10 mg capsule §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "fdd544f4efc7842779fbf614cf1f0ee17d546bca902c4910e2328dce7deace09",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

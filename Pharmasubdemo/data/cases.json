@@ -1,0 +1,560 @@
+[
+  {
+    "case_id": "C-001",
+    "substance": "salbutamol",
+    "atc": "R03AC02",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "200 doses",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-001.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-002",
+    "substance": "metformine",
+    "atc": "A10BA02",
+    "strength": "500 mg",
+    "form": "tablet",
+    "package": "90 tabletten",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-002.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-REIMB-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-003",
+    "substance": "atorvastatine",
+    "atc": "C10AA05",
+    "strength": "20 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-003.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-004",
+    "substance": "salbutamol",
+    "atc": "R03AC02",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "200 doses",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-004.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-STR-01",
+        "P-IMPORT-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-005",
+    "substance": "omeprazol",
+    "atc": "A02BC01",
+    "strength": "20 mg",
+    "form": "maagsapresistente capsule",
+    "package": "28 capsules",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-005.txt",
+    "age_band": "65+",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-006",
+    "substance": "amoxicilline",
+    "atc": "J01CA04",
+    "strength": "500 mg",
+    "form": "capsule",
+    "package": "21 capsules",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-006.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-STR-02"
+      ]
+    }
+  },
+  {
+    "case_id": "C-007",
+    "substance": "levothyroxine",
+    "atc": "H03AA01",
+    "strength": "50 mcg",
+    "form": "tablet",
+    "package": "90 tabletten",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-007.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-STR-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-008",
+    "substance": "sertraline",
+    "atc": "N06AB06",
+    "strength": "50 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [
+      "renaal"
+    ],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-008.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-009",
+    "substance": "oxycodon",
+    "atc": "N02AA05",
+    "strength": "5 mg",
+    "form": "capsule",
+    "package": "28 capsules",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-009.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-010",
+    "substance": "furosemide",
+    "atc": "C03CA01",
+    "strength": "40 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-010.txt",
+    "age_band": "65+",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-011",
+    "substance": "prednison",
+    "atc": "H02AB07",
+    "strength": "5 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-011.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-012",
+    "substance": "methylfenidaat",
+    "atc": "N06BA04",
+    "strength": "10 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-012.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-STR-02"
+      ]
+    }
+  },
+  {
+    "case_id": "C-013",
+    "substance": "tamsulosine",
+    "atc": "G04CA02",
+    "strength": "0,4 mg",
+    "form": "capsule met gereguleerde afgifte",
+    "package": "30 capsules",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-013.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-014",
+    "substance": "escitalopram",
+    "atc": "N06AB10",
+    "strength": "10 mg",
+    "form": "tablet",
+    "package": "28 tabletten",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-014.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-015",
+    "substance": "naproxen",
+    "atc": "M01AE02",
+    "strength": "250 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-015.txt",
+    "age_band": "65+",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-016",
+    "substance": "paracetamol (zetpil)",
+    "atc": "N02BE01",
+    "strength": "500 mg",
+    "form": "zetpil",
+    "package": "10 zetpillen",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-016.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-017",
+    "substance": "salbutamol",
+    "atc": "R03AC02",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "200 doses",
+    "patient_flags": [],
+    "insurer": "onbekend",
+    "notice_ref": "notices/c-017.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-STR-01",
+        "P-REIMB-01",
+        "P-IMPORT-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-018",
+    "substance": "amoxicilline/clavulaanzuur",
+    "atc": "J01CR02",
+    "strength": "500/125 mg",
+    "form": "tablet",
+    "package": "21 tabletten",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-018.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-019",
+    "substance": "hydrochloorthiazide",
+    "atc": "C03AA03",
+    "strength": "25 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-019.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-020",
+    "substance": "pantoprazol",
+    "atc": "A02BC02",
+    "strength": "20 mg",
+    "form": "maagsapresistente tablet",
+    "package": "28 tabletten",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-020.txt",
+    "age_band": "65+",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-021",
+    "substance": "azitromycine",
+    "atc": "J01FA10",
+    "strength": "250 mg",
+    "form": "tablet",
+    "package": "6 tabletten",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-021.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-022",
+    "substance": "onbekende stof",
+    "atc": "ONBEKEND",
+    "strength": "onbekend",
+    "form": "onbekend",
+    "package": "onbekend",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-022.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-UNKNOWN-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-023",
+    "substance": "amoxicilline",
+    "atc": "J01CA04",
+    "strength": "500 mg",
+    "form": "capsule",
+    "package": "21 capsules",
+    "patient_flags": [
+      "allergie_penicilline"
+    ],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-023.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-024",
+    "substance": "naproxen",
+    "atc": "M01AE02",
+    "strength": "250 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [
+      "allergie_nsaid"
+    ],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-024.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-025",
+    "substance": "oxycodon",
+    "atc": "N02AA05",
+    "strength": "5 mg",
+    "form": "capsule",
+    "package": "28 capsules",
+    "patient_flags": [
+      "pediatrisch"
+    ],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-025.txt",
+    "age_band": "0-11",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-PAEDI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-026",
+    "substance": "atorvastatine",
+    "atc": "C10AA05",
+    "strength": "20 mg",
+    "form": "tablet",
+    "package": "30 tabletten",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-026.txt",
+    "age_band": "18-64",
+    "therapeutic_need": true,
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-SUB-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-027",
+    "substance": "omeprazol",
+    "atc": "A02BC01",
+    "strength": "20 mg",
+    "form": "maagsapresistente capsule",
+    "package": "28 capsules",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-027.txt",
+    "age_band": "18-64",
+    "therapeutic_need": true,
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-SUB-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-028",
+    "substance": "niet-geregistreerde stof",
+    "atc": "ONBEKEND",
+    "strength": "onbekend",
+    "form": "onbekend",
+    "package": "onbekend",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "notices/c-028.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-UNKNOWN-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-029",
+    "substance": "amoxicilline/clavulaanzuur",
+    "atc": "J01CR02",
+    "strength": "500/125 mg",
+    "form": "tablet",
+    "package": "21 tabletten",
+    "patient_flags": [
+      "allergie_penicilline"
+    ],
+    "insurer": "Menzis",
+    "notice_ref": "notices/c-029.txt",
+    "age_band": "18-64",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-030",
+    "substance": "insuline glargine",
+    "atc": "A10AE04",
+    "strength": "100 E/ml",
+    "form": "injectievloeistof",
+    "package": "5 pennen",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "notices/c-030.txt",
+    "age_band": "65+",
+    "therapeutic_need": true,
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-SUB-01"
+      ]
+    }
+  }
+]

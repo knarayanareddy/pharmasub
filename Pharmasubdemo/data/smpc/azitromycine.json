@@ -1,0 +1,42 @@
+{
+  "substance": "azitromycine",
+  "label": "voorbeelddata — geen officiële lijst",
+  "fields": [
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Azitromycine Demo 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "b7fcfdd6b7085487bf44023a0c95271bc949fb378c474812229336fbae8a98e5",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Azitromycine Pharmaplus 250 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "93f172d8ba11e36e6ad116e739aa42788eab0588462a25d79105af1a3b800733",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    },
+    {
+      "field": "product en toedieningsvorm",
+      "value": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "adult_only": false
+      },
+      "doc": "SmPC Azitromycine Sandoz 500 mg tablet §4.2 · voorbeelddata — geen officiële lijst",
+      "date": "2026-09-01",
+      "sha256": "8e6f425055176daba0deeb03ff21338f1079add4d5f632a506e3ae0d0dc95fa3",
+      "quote_nl": "Synthetisch SmPC-extract voor demonstratie van de regellogica."
+    }
+  ]
+}

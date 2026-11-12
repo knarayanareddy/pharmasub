@@ -1,0 +1,19 @@
+import type { Metadata } from "next";
+import { VerifyView } from "@/components/VerifyView";
+import { readAudit, verifyRows } from "@/domain/hashchain";
+import { getDictionary } from "@/i18n/dictionary";
+import { getLang } from "@/i18n/server";
+import "./verify.css";
+
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const lang = await getLang();
+  return { title: getDictionary(lang).meta_verify };
+}
+
+export default async function VerifyPage() {
+  const rows = await readAudit();
+  const initial = { ...verifyRows(rows), rows };
+  return <VerifyView initial={initial} />;
+}
