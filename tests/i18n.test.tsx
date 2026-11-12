@@ -13,6 +13,7 @@ import { ChainCard } from "@/components/ChainCard";
 import { HomeView } from "@/components/HomeView";
 import { InstrumentView } from "@/components/InstrumentView";
 import { NotFoundView } from "@/components/NotFoundView";
+import { PitchDeck } from "@/components/PitchDeck";
 import { PrintView } from "@/components/PrintView";
 import { RefusalRow } from "@/components/RefusalRow";
 import { VerifyView } from "@/components/VerifyView";
@@ -298,5 +299,18 @@ describe("Tweetalig (NL/EN) volledige vertaling", () => {
     ]) {
       expect(html).not.toContain(dutchPhrase);
     }
+
+    const deckEn = renderToStaticMarkup(
+      <LanguageProvider initialLang="en">
+        <PitchDeck step={0} onStepChange={() => {}} />
+        <PitchDeck step={1} onStepChange={() => {}} />
+      </LanguageProvider>,
+    );
+    expect(deckEn).toContain("99% have an alternative.");
+    expect(deckEn).toContain("Interactive counter timeline");
+    expect(deckEn).toContain("Interactive rule gate · live simulation");
+    expect(deckEn).toContain("2 valid");
+    expect(deckEn).not.toContain("Interactieve balie-tijdlijn");
+    expect(deckEn).not.toContain("Interactieve regelgate · live simulatie");
   });
 });
